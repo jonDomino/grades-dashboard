@@ -126,6 +126,9 @@ def extract_line(text):
     if text in ["Cit Position", "Closing Line"]:
         return None
     
+    # Replace " ev" (case insensitive) with "+100"
+    text = re.sub(r'\s+ev\s*', ' +100', text, flags=re.IGNORECASE)
+    
     # Remove o/u prefix if present
     text_clean = re.sub(r'^[ou]', '', text, flags=re.IGNORECASE)
     
@@ -149,6 +152,9 @@ def extract_juice(text):
     # Skip header rows
     if text in ["Cit Position", "Closing Line"]:
         return None
+    
+    # Replace " ev" (case insensitive) with "+100"
+    text = re.sub(r'\s+ev\s*', ' +100', text, flags=re.IGNORECASE)
     
     # Find the juice pattern: +105, -110, -125, etc.
     # Look for +/- followed by digits (could be at end or before space)
@@ -239,36 +245,73 @@ for idx in range(len(df)):
     
     close_line = extract_line(col_e_val)
     
-    # Determine type - check for over/under in Column C or Column D
+    # Determine type by analyzing Column C description
+    # - If contains "over" or "under" → total
+    # - If has two numbers after team name → side
+    # - If has one number after team name → moneyline
     type_val = "side"
     col_c_str_lower = col_c_str.lower()
     bet_text_lower = bet_text.lower()
     
+    # Check for totals first
     if 'over' in col_c_str_lower or 'under' in col_c_str_lower:
         type_val = "total"
     elif bet_text_lower.startswith('o') or bet_text_lower.startswith('u'):
         type_val = "total"
+    else:
+        # Check if it's a moneyline (only one number) vs side (two numbers)
+        # Parse Column C: find all numbers after the roto
+        words = col_c_str.split()
+        numbers_found = []
+        
+        # Find roto and count numbers after it
+        for i, word in enumerate(words):
+            if re.match(r'^\d{3,6}$', word):  # Found roto
+                # Count numbers in remaining words (before "for LIVE" or similar)
+                for j in range(i + 1, len(words)):
+                    next_word = words[j]
+                    # Stop at "for" or "LIVE"
+                    if next_word.lower() in ['for', 'live']:
+                        break
+                    # Check if it's a number (spread like +24.5 or odds like -140)
+                    if re.match(r'^[+-]?\d+\.?\d*$', next_word):
+                        numbers_found.append(next_word)
+                break
+        
+        # Determine type based on number count
+        if len(numbers_found) == 1:
+            type_val = "moneyline"  # Only one number = moneyline (e.g., "UConn -140")
+        elif len(numbers_found) >= 2:
+            type_val = "side"  # Two numbers = side (e.g., "Rice +24.5 -120")
     
     # Extract juice from bet and close
     bet_juice = extract_juice(col_d_val)
     close_juice = extract_juice(col_e_val)
     
-    # Calculate grade (only for totals for now)
+    # Calculate grade for totals and sides (skip moneylines)
     grade = None
-    if type_val == "total" and bet_line is not None and close_line is not None:
-        # Determine if over or under from bet text
-        is_over = bet_text_lower.startswith('o') or 'over' in col_c_str_lower
-        
-        # Calculate line difference
-        if is_over:
-            line_diff = close_line - bet_line
+    if bet_line is not None and close_line is not None and type_val != "moneyline":
+        if type_val == "total":
+            # Totals: Determine if over or under from bet text
+            is_over = bet_text_lower.startswith('o') or 'over' in col_c_str_lower
+            
+            # Calculate line difference
+            if is_over:
+                line_diff = close_line - bet_line
+            else:
+                line_diff = bet_line - close_line
+            
+            # Multiply by 15 for line value (totals)
+            line_value = line_diff * 15
         else:
-            line_diff = bet_line - close_line
+            # Sides: Calculate line difference (close - bet)
+            # For sides, positive line_diff means we got a better line
+            line_diff = close_line - bet_line
+            
+            # Multiply by 20 for line value (sides)
+            line_value = line_diff * 20
         
-        # Multiply by 15 for line value
-        line_value = line_diff * 15
-        
-        # Calculate juice adjustment
+        # Calculate juice adjustment (same logic for both totals and sides)
         juice_adjustment = calculate_juice_difference(bet_juice, close_juice)
         
         # Final grade = line value + juice adjustment

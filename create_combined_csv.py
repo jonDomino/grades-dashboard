@@ -24,17 +24,19 @@ results_df = pd.read_csv('results.csv')
 print(f"  Grades: {len(grades_df)} rows")
 print(f"  Results: {len(results_df)} rows")
 
-# Filter grades for type = 'total' only
-print("\n[2] Filtering grades for type = 'total'...")
-grades_total = grades_df[grades_df['type'] == 'total'].copy()
-print(f"  Total bets in grades: {len(grades_total)} rows")
+# Include both totals and sides
+print("\n[2] Processing all bet types...")
+grades_all = grades_df.copy()
+print(f"  Total bets in grades: {len(grades_all)} rows")
+print(f"    - Totals: {len(grades_all[grades_all['type'] == 'total'])} rows")
+print(f"    - Sides: {len(grades_all[grades_all['type'] == 'side'])} rows")
 
 # Convert date columns to same type for joining
-grades_total['date'] = pd.to_datetime(grades_total['date']).dt.date
+grades_all['date'] = pd.to_datetime(grades_all['date']).dt.date
 results_df['date'] = pd.to_datetime(results_df['date']).dt.date
 
 # Convert roto to int for matching
-grades_total['roto'] = grades_total['roto'].astype(str).str.strip()
+grades_all['roto'] = grades_all['roto'].astype(str).str.strip()
 results_df['roto'] = results_df['roto'].astype(str).str.strip()
 
 def roto_match(roto1, roto2):
@@ -71,7 +73,7 @@ print("\n[3] Joining grades and results with special roto matching...")
 # Perform the join with special roto matching logic
 combined_data = []
 
-for _, grade_row in grades_total.iterrows():
+for _, grade_row in grades_all.iterrows():
     grade_date = grade_row['date']
     grade_roto = str(grade_row['roto'])
     

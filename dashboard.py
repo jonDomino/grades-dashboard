@@ -68,6 +68,10 @@ def load_data_dataframe(file_source):
         # Filter grades to [-30, 100]
         df = df[(df['grade'] >= -30) & (df['grade'] <= 100)]
     
+    # Remove moneylines
+    if 'type' in df.columns:
+        df = df[df['type'] != 'moneyline']
+    
     return df
 
 # Try to load data from file first, with file uploader as fallback
@@ -112,6 +116,20 @@ if df is None or len(df) == 0:
     st.stop()
 
 st.sidebar.header("Filters")
+
+# Filter: Type
+if 'type' in df.columns:
+    type_options = sorted(df['type'].dropna().unique().tolist())
+    selected_types = st.sidebar.multiselect(
+        "Select Types",
+        options=type_options,
+        default=type_options,  # Select all by default
+        key="type_filter"
+    )
+    
+    # Filter by selected types
+    if selected_types:
+        df = df[df['type'].isin(selected_types)]
 
 # Filter: Dynamic (multiple selection with checkboxes)
 if 'dynamic' in df.columns:
@@ -450,6 +468,70 @@ if len(df) > 0 and 'dynamic' in df.columns:
     )
 else:
     st.warning("Missing required columns for dynamic analysis.")
+
+st.markdown("---")
+
+# Table: Statistics by Type (Side vs Total)
+st.markdown("### Statistics by Type")
+
+if len(df) > 0 and 'type' in df.columns:
+    # Calculate statistics by type
+    type_stats = df.groupby('type').agg({
+        'grade': 'mean',
+        'risk': 'sum',
+        'result': 'sum' if 'result' in df.columns else 'sum'
+    })
+    
+    # Add count
+    type_stats['Count'] = df.groupby('type').size()
+    
+    # Reset index
+    type_stats = type_stats.reset_index()
+    type_stats = type_stats.rename(columns={
+        'type': 'Type',
+        'grade': 'Avg Grade',
+        'risk': 'Total Risk',
+        'result': 'Total Result'
+    })
+    
+    # Round columns: avg grade to 1 decimal, risk and result to 0 decimals
+    type_stats['Avg Grade'] = type_stats['Avg Grade'].round(1)
+    type_stats['Total Risk'] = type_stats['Total Risk'].round(0).astype(int)
+    type_stats['Total Result'] = type_stats['Total Result'].round(0).astype(int)
+    
+    # Calculate ROI (result/risk) as percentage, rounded to 1 decimal
+    type_stats['ROI'] = (type_stats['Total Result'] / type_stats['Total Risk'] * 100).round(1)
+    
+    # Format ROI as percentage with % sign
+    type_stats['ROI'] = type_stats['ROI'].apply(lambda x: f"{x:.1f}%")
+    
+    # Reorder columns: type, count, avg grade, total risk, total result, roi
+    type_stats = type_stats[['Type', 'Count', 'Avg Grade', 'Total Risk', 'Total Result', 'ROI']]
+    
+    # Sort by type
+    type_stats = type_stats.sort_values('Type')
+    
+    # Display table with color shading for Avg Grade
+    styled_type_stats = type_stats.style.applymap(
+        style_grades,
+        subset=['Avg Grade']
+    )
+    st.dataframe(
+        styled_type_stats,
+        use_container_width=True,
+        hide_index=True
+    )
+    
+    # Download button
+    csv = type_stats.to_csv(index=False)
+    st.download_button(
+        label="Download Type Statistics as CSV",
+        data=csv,
+        file_name="type_stats.csv",
+        mime="text/csv"
+    )
+else:
+    st.warning("Missing required columns for type analysis.")
 
 # Show raw data option
 st.markdown("---")
