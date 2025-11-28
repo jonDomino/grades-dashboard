@@ -15,6 +15,31 @@ from scipy import stats
 import warnings
 warnings.filterwarnings('ignore')
 
+def style_grades(value):
+    """Style function for grade columns - green for positive, red for negative"""
+    if pd.isna(value):
+        return ''
+    
+    try:
+        grade = float(value)
+        if grade > 0:
+            # Positive: green, darker for higher values
+            # Scale intensity based on grade (max intensity at grade=100)
+            intensity = min(abs(grade) / 100, 1.0)
+            green_intensity = int(200 + (55 * intensity))  # 200-255 range
+            return f'background-color: rgb(0, {green_intensity}, 0); color: white;'
+        elif grade < 0:
+            # Negative: red, darker for more negative values
+            # Scale intensity based on grade (max intensity at grade=-30)
+            intensity = min(abs(grade) / 30, 1.0)
+            red_intensity = int(200 + (55 * intensity))  # 200-255 range
+            return f'background-color: rgb({red_intensity}, 0, 0); color: white;'
+        else:
+            # Zero: white/neutral
+            return 'background-color: white;'
+    except:
+        return ''
+
 st.set_page_config(page_title="Bet Analysis Dashboard", layout="wide")
 
 st.title("Bet Correlation Analysis Dashboard")
@@ -197,10 +222,31 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
         st.plotly_chart(fig, use_container_width=True)
         
         # Display statistics
-        col1, col2, col3 = st.columns(3)
+        col1, col2, col3, col4 = st.columns(4)
         col1.metric("R²", f"{r_squared:.4f}")
         col2.metric("Slope", f"{slope:.6f}")
         col3.metric("P-value", f"{p_value:.4f}" if p_value < 0.0001 else f"{p_value:.6f}")
+        
+        # Risk of Adverse Selection: Strong if p-value is significant, Low if not
+        is_significant = p_value < 0.05
+        adverse_risk = "Strong" if is_significant else "Low"
+        adverse_color = "inverse" if is_significant else "normal"  # inverse = red, normal = green
+        
+        col4.metric("Risk of Adverse Selection", adverse_risk, delta=None)
+        
+        # Apply custom styling to the Risk of Adverse Selection metric
+        if is_significant:
+            st.markdown(
+                f'<div style="background-color: #ff4444; color: white; padding: 10px; border-radius: 5px; margin-top: -20px;">'
+                f'<strong>Risk of Adverse Selection: Strong</strong> (p < 0.05) - Significant correlation suggests potential adverse selection</div>',
+                unsafe_allow_html=True
+            )
+        else:
+            st.markdown(
+                f'<div style="background-color: #44ff44; color: black; padding: 10px; border-radius: 5px; margin-top: -20px;">'
+                f'<strong>Risk of Adverse Selection: Low</strong> (p ≥ 0.05) - No significant correlation</div>',
+                unsafe_allow_html=True
+            )
     else:
         st.warning("Not enough data points for regression analysis.")
 else:
@@ -250,9 +296,13 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
     bucket_stats['_sort_key'] = bucket_stats['Bucket'].str.extract(r'\$(\d+)').astype(int)
     bucket_stats = bucket_stats.sort_values('_sort_key').drop('_sort_key', axis=1).reset_index(drop=True)
     
-    # Display table
+    # Display table with color shading for Avg Grade
+    styled_bucket_stats = bucket_stats.style.applymap(
+        style_grades,
+        subset=['Avg Grade']
+    )
     st.dataframe(
-        bucket_stats,
+        styled_bucket_stats,
         use_container_width=True,
         hide_index=True
     )
@@ -343,9 +393,13 @@ if len(df) > 0 and 'dynamic' in df.columns:
     # Sort by total risk
     dynamic_stats = dynamic_stats.sort_values('Total Risk', ascending=False)
     
-    # Display table
+    # Display table with color shading for Avg Grade
+    styled_dynamic_stats = dynamic_stats.style.applymap(
+        style_grades,
+        subset=['Avg Grade']
+    )
     st.dataframe(
-        dynamic_stats,
+        styled_dynamic_stats,
         use_container_width=True,
         hide_index=True
     )
@@ -364,7 +418,15 @@ else:
 # Show raw data option
 st.markdown("---")
 with st.expander("View Filtered Raw Data"):
-    st.dataframe(df, use_container_width=True)
+    # Apply color shading to grade column if it exists
+    if 'grade' in df.columns:
+        styled_df = df.style.applymap(
+            style_grades,
+            subset=['grade']
+        )
+        st.dataframe(styled_df, use_container_width=True)
+    else:
+        st.dataframe(df, use_container_width=True)
     
     # Download filtered data
     csv = df.to_csv(index=False)

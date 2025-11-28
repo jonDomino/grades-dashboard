@@ -1,0 +1,2 @@
+$env:GIT_TERMINAL_PROMPT = "0"; $env:GIT_ASKPASS = ""; $env:GIT_CREDENTIAL_HELPER = ""; git add dashboard.py; git commit -m "Add color shading to grades - green for positive, red for negative"; git push
+
