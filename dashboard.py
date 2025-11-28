@@ -279,7 +279,7 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
     df_buckets = df.copy()
     
     # Define buckets (you can customize these)
-    bucket_size = st.sidebar.slider("Risk Bucket Size ($)", min_value=50, max_value=500, value=500, step=50)
+    bucket_size = st.sidebar.slider("Risk Bucket Size ($)", min_value=50, max_value=5000, value=500, step=50)
     
     # Create buckets
     df_buckets['risk_bucket'] = (df_buckets['risk'] // bucket_size) * bucket_size
