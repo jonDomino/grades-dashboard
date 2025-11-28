@@ -1,6 +1,7 @@
 # Data files
 *.xlsx
 *.csv
+!combined.csv
 !requirements.txt
 
 # Python
