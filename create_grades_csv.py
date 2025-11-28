@@ -304,9 +304,8 @@ for idx in range(len(df)):
             # Multiply by 15 for line value (totals)
             line_value = line_diff * 15
         else:
-            # Sides: Calculate line difference (close - bet)
-            # For sides, positive line_diff means we got a better line
-            line_diff = close_line - bet_line
+            # Sides: Calculate line difference (bet - close)
+            line_diff = bet_line - close_line
             
             # Multiply by 20 for line value (sides)
             line_value = line_diff * 20
