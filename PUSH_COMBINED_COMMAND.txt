@@ -1,0 +1,2 @@
+$env:GIT_TERMINAL_PROMPT = "0"; $env:GIT_ASKPASS = ""; $env:GIT_CREDENTIAL_HELPER = ""; git add combined.csv create_combined_csv.py .gitignore; git commit -m "Add combined.csv with cleaned columns"; git push
+

@@ -21,23 +21,63 @@ st.title("Bet Correlation Analysis Dashboard")
 st.markdown("Analyzing relationship between Risk, Grades, and Results")
 
 # Load data
-@st.cache_data
-def load_data():
-    """Load and clean combined.csv"""
-    df = pd.read_csv('combined.csv')
+def load_data_dataframe(file_source):
+    """Load and clean data from file source (path or file-like object)"""
+    df = pd.read_csv(file_source)
     
     # Convert date to datetime
-    df['date'] = pd.to_datetime(df['date'])
+    if 'date' in df.columns:
+        df['date'] = pd.to_datetime(df['date'])
     
     # Remove rows where risk or grade is null
-    df = df.dropna(subset=['risk', 'grade'])
-    
-    # Filter grades to [-30, 100]
-    df = df[(df['grade'] >= -30) & (df['grade'] <= 100)]
+    if 'risk' in df.columns and 'grade' in df.columns:
+        df = df.dropna(subset=['risk', 'grade'])
+        
+        # Filter grades to [-30, 100]
+        df = df[(df['grade'] >= -30) & (df['grade'] <= 100)]
     
     return df
 
-df = load_data()
+# Try to load data from file first, with file uploader as fallback
+df = None
+
+# Check if file exists locally
+import os
+if os.path.exists('combined.csv'):
+    try:
+        df = load_data_dataframe('combined.csv')
+    except Exception as e:
+        st.error(f"Error loading combined.csv: {e}")
+        df = None
+
+# If no data loaded, show file uploader
+if df is None:
+    st.error("### ⚠️ Data file not found")
+    st.markdown("""
+    The `combined.csv` file was not found. Please upload the file using the file uploader below.
+    """)
+    
+    uploaded_file = st.file_uploader(
+        "Upload combined.csv",
+        type=['csv'],
+        help="Upload your combined.csv file to analyze"
+    )
+    
+    if uploaded_file is not None:
+        try:
+            df = load_data_dataframe(uploaded_file)
+            st.success("✅ File loaded successfully!")
+        except Exception as e:
+            st.error(f"Error loading uploaded file: {e}")
+            st.stop()
+    else:
+        st.info("Please upload a CSV file to continue.")
+        st.stop()
+
+# Ensure df is not None for rest of app
+if df is None or len(df) == 0:
+    st.warning("No data available. Please upload combined.csv file.")
+    st.stop()
 
 st.sidebar.header("Filters")
 
@@ -205,8 +245,10 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
     # Reorder columns: bucket, count, avg grade, total risk, total result, roi
     bucket_stats = bucket_stats[['Bucket', 'Count', 'Avg Grade', 'Total Risk', 'Total Result', 'ROI']]
     
-    # Sort by bucket (risk amount)
-    bucket_stats = bucket_stats.sort_values('Bucket')
+    # Sort by numeric bucket value (extract the first number from bucket label like "$0 - $499")
+    bucket_stats = bucket_stats.copy()
+    bucket_stats['_sort_key'] = bucket_stats['Bucket'].str.extract(r'\$(\d+)').astype(int)
+    bucket_stats = bucket_stats.sort_values('_sort_key').drop('_sort_key', axis=1).reset_index(drop=True)
     
     # Display table
     st.dataframe(
@@ -223,6 +265,47 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
         file_name="risk_bucket_stats.csv",
         mime="text/csv"
     )
+    
+    # Histogram of grades by bucket
+    st.markdown("### Grade Distribution by Risk Bucket")
+    
+    # Prepare data for histogram
+    hist_df_list = []
+    for bucket_label in bucket_stats['Bucket'].values:
+        bucket_data = df_buckets[df_buckets['risk_bucket_label'] == bucket_label]
+        if len(bucket_data) > 0:
+            temp_df = pd.DataFrame({
+                'Bucket': bucket_label,
+                'Grade': bucket_data['grade']
+            })
+            hist_df_list.append(temp_df)
+    
+    if hist_df_list:
+        hist_df = pd.concat(hist_df_list, ignore_index=True)
+        
+        # Create grouped histogram
+        fig_hist = px.histogram(
+            hist_df,
+            x='Grade',
+            color='Bucket',
+            nbins=30,
+            title='Grade Distribution by Risk Bucket',
+            labels={'Grade': 'Grade', 'count': 'Frequency'},
+            height=500
+        )
+        
+        fig_hist.update_layout(
+            barmode='group',
+            legend=dict(
+                orientation="h",
+                yanchor="bottom",
+                y=1.02,
+                xanchor="right",
+                x=1
+            )
+        )
+        
+        st.plotly_chart(fig_hist, use_container_width=True)
 else:
     st.warning("Missing required columns for bucket analysis.")
 

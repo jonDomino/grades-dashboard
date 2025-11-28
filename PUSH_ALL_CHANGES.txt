@@ -1,0 +1,2 @@
+$env:GIT_TERMINAL_PROMPT = "0"; $env:GIT_ASKPASS = ""; $env:GIT_CREDENTIAL_HELPER = ""; git add -A; git commit -m "Add histogram of grades by bucket and fix bucket sorting"; git push
+
