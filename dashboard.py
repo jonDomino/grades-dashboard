@@ -231,24 +231,14 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
         is_significant = p_value < 0.05
         adverse_risk = "Strong" if is_significant else "Low"
         
-        # Display with colored background
+        # Display with colored text only (matching other metrics style)
         with col4:
-            if is_significant:
-                st.markdown(
-                    '<div style="background-color: #ff4444; color: white; padding: 15px; border-radius: 5px; text-align: center;">'
-                    f'<div style="font-size: 0.8rem; opacity: 0.9;">Risk of Adverse Selection</div>'
-                    f'<div style="font-size: 1.5rem; font-weight: bold;">{adverse_risk}</div>'
-                    '</div>',
-                    unsafe_allow_html=True
-                )
-            else:
-                st.markdown(
-                    '<div style="background-color: #44ff44; color: black; padding: 15px; border-radius: 5px; text-align: center;">'
-                    f'<div style="font-size: 0.8rem; opacity: 0.9;">Risk of Adverse Selection</div>'
-                    f'<div style="font-size: 1.5rem; font-weight: bold;">{adverse_risk}</div>'
-                    '</div>',
-                    unsafe_allow_html=True
-                )
+            risk_color = "#ff4444" if is_significant else "#44ff44"  # Red for Strong, Green for Low
+            st.markdown(
+                f'<div style="font-size: 0.8rem; color: #888; margin-bottom: 0.25rem;">Risk of Adverse Selection</div>'
+                f'<div style="font-size: 1.75rem; font-weight: 600; color: {risk_color};">{adverse_risk}</div>',
+                unsafe_allow_html=True
+            )
     else:
         st.warning("Not enough data points for regression analysis.")
 else:
