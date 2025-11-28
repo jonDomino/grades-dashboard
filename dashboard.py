@@ -230,23 +230,25 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
         # Risk of Adverse Selection: Strong if p-value is significant, Low if not
         is_significant = p_value < 0.05
         adverse_risk = "Strong" if is_significant else "Low"
-        adverse_color = "inverse" if is_significant else "normal"  # inverse = red, normal = green
         
-        col4.metric("Risk of Adverse Selection", adverse_risk, delta=None)
-        
-        # Apply custom styling to the Risk of Adverse Selection metric
-        if is_significant:
-            st.markdown(
-                f'<div style="background-color: #ff4444; color: white; padding: 10px; border-radius: 5px; margin-top: -20px;">'
-                f'<strong>Risk of Adverse Selection: Strong</strong> (p < 0.05) - Significant correlation suggests potential adverse selection</div>',
-                unsafe_allow_html=True
-            )
-        else:
-            st.markdown(
-                f'<div style="background-color: #44ff44; color: black; padding: 10px; border-radius: 5px; margin-top: -20px;">'
-                f'<strong>Risk of Adverse Selection: Low</strong> (p ≥ 0.05) - No significant correlation</div>',
-                unsafe_allow_html=True
-            )
+        # Display with colored background
+        with col4:
+            if is_significant:
+                st.markdown(
+                    '<div style="background-color: #ff4444; color: white; padding: 15px; border-radius: 5px; text-align: center;">'
+                    f'<div style="font-size: 0.8rem; opacity: 0.9;">Risk of Adverse Selection</div>'
+                    f'<div style="font-size: 1.5rem; font-weight: bold;">{adverse_risk}</div>'
+                    '</div>',
+                    unsafe_allow_html=True
+                )
+            else:
+                st.markdown(
+                    '<div style="background-color: #44ff44; color: black; padding: 15px; border-radius: 5px; text-align: center;">'
+                    f'<div style="font-size: 0.8rem; opacity: 0.9;">Risk of Adverse Selection</div>'
+                    f'<div style="font-size: 1.5rem; font-weight: bold;">{adverse_risk}</div>'
+                    '</div>',
+                    unsafe_allow_html=True
+                )
     else:
         st.warning("Not enough data points for regression analysis.")
 else:
@@ -278,9 +280,6 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
         'result': 'sum' if 'result' in df.columns else 'sum'
     }).round(2)
     
-    # Add count
-    bucket_stats['Count'] = df_buckets.groupby('risk_bucket_label').size()
-    
     # Reset index and rename
     bucket_stats = bucket_stats.reset_index()
     bucket_stats = bucket_stats.rename(columns={'risk_bucket_label': 'Bucket', 'grade': 'Avg Grade', 'risk': 'Total Risk', 'result': 'Total Result'})
@@ -288,8 +287,8 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
     # Calculate ROI (result/risk) as percentage
     bucket_stats['ROI'] = (bucket_stats['Total Result'] / bucket_stats['Total Risk'] * 100).round(2)
     
-    # Reorder columns: bucket, count, avg grade, total risk, total result, roi
-    bucket_stats = bucket_stats[['Bucket', 'Count', 'Avg Grade', 'Total Risk', 'Total Result', 'ROI']]
+    # Reorder columns: bucket, avg grade, total risk, total result, roi (Count removed)
+    bucket_stats = bucket_stats[['Bucket', 'Avg Grade', 'Total Risk', 'Total Result', 'ROI']]
     
     # Sort by numeric bucket value (extract the first number from bucket label like "$0 - $499")
     bucket_stats = bucket_stats.copy()
@@ -316,46 +315,33 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
         mime="text/csv"
     )
     
-    # Histogram of grades by bucket
-    st.markdown("### Grade Distribution by Risk Bucket")
+    # Bar chart of average grade by bucket
+    st.markdown("### Average Grade by Risk Bucket")
     
-    # Prepare data for histogram
-    hist_df_list = []
-    for bucket_label in bucket_stats['Bucket'].values:
-        bucket_data = df_buckets[df_buckets['risk_bucket_label'] == bucket_label]
-        if len(bucket_data) > 0:
-            temp_df = pd.DataFrame({
-                'Bucket': bucket_label,
-                'Grade': bucket_data['grade']
-            })
-            hist_df_list.append(temp_df)
+    # Create bar chart with average grades
+    fig_bar = px.bar(
+        bucket_stats,
+        x='Bucket',
+        y='Avg Grade',
+        title='Average Grade by Risk Bucket',
+        labels={'Bucket': 'Risk Bucket', 'Avg Grade': 'Average Grade'},
+        height=500,
+        color='Avg Grade',
+        color_continuous_scale=['red', 'yellow', 'green']  # Red to green scale
+    )
     
-    if hist_df_list:
-        hist_df = pd.concat(hist_df_list, ignore_index=True)
-        
-        # Create grouped histogram
-        fig_hist = px.histogram(
-            hist_df,
-            x='Grade',
-            color='Bucket',
-            nbins=30,
-            title='Grade Distribution by Risk Bucket',
-            labels={'Grade': 'Grade', 'count': 'Frequency'},
-            height=500
-        )
-        
-        fig_hist.update_layout(
-            barmode='group',
-            legend=dict(
-                orientation="h",
-                yanchor="bottom",
-                y=1.02,
-                xanchor="right",
-                x=1
-            )
-        )
-        
-        st.plotly_chart(fig_hist, use_container_width=True)
+    fig_bar.update_layout(
+        xaxis_title='Risk Bucket',
+        yaxis_title='Average Grade',
+        showlegend=False,
+        coloraxis_colorbar=dict(title="Avg Grade")
+    )
+    
+    # Update bar colors based on positive/negative
+    colors = ['red' if x < 0 else 'green' for x in bucket_stats['Avg Grade']]
+    fig_bar.update_traces(marker_color=colors)
+    
+    st.plotly_chart(fig_bar, use_container_width=True)
 else:
     st.warning("Missing required columns for bucket analysis.")
 
