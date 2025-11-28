@@ -16,27 +16,34 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def style_grades(value):
-    """Style function for grade columns - green for positive, red for negative"""
+    """Style function for grade columns - gradient green for positive, gradient red for negative"""
     if pd.isna(value):
         return ''
     
     try:
         grade = float(value)
         if grade > 0:
-            # Positive: green, darker for higher values
-            # Scale intensity based on grade (max intensity at grade=100)
-            intensity = min(abs(grade) / 100, 1.0)
-            green_intensity = int(200 + (55 * intensity))  # 200-255 range
-            return f'background-color: rgb(0, {green_intensity}, 0); color: white;'
+            # Positive: green gradient from light to dark green
+            # Scale from 0 to 100, creating a smooth gradient
+            intensity = min(grade / 100.0, 1.0)
+            # Green gradient: 180 (light green) to 50 (dark green)
+            # Higher values = darker green
+            green_value = int(180 - (130 * intensity))
+            # Ensure minimum visibility
+            green_value = max(50, green_value)
+            return f'background-color: rgb(0, {green_value}, 0); color: white; font-weight: 600;'
         elif grade < 0:
-            # Negative: red, darker for more negative values
-            # Scale intensity based on grade (max intensity at grade=-30)
-            intensity = min(abs(grade) / 30, 1.0)
-            red_intensity = int(200 + (55 * intensity))  # 200-255 range
-            return f'background-color: rgb({red_intensity}, 0, 0); color: white;'
+            # Negative: red gradient from light to dark red
+            # Scale from -30 to 0, creating a smooth gradient
+            intensity = min(abs(grade) / 30.0, 1.0)
+            # Red gradient: 180 (light red) to 100 (dark red)
+            # More negative = darker red
+            red_value = int(180 - (80 * intensity))
+            red_value = max(100, red_value)
+            return f'background-color: rgb({red_value}, 0, 0); color: white; font-weight: 600;'
         else:
-            # Zero: white/neutral
-            return 'background-color: white;'
+            # Zero: light gray/neutral
+            return 'background-color: rgb(240, 240, 240); color: black; font-weight: 600;'
     except:
         return ''
 
@@ -254,7 +261,7 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
     df_buckets = df.copy()
     
     # Define buckets (you can customize these)
-    bucket_size = st.sidebar.slider("Risk Bucket Size ($)", min_value=50, max_value=500, value=100, step=50)
+    bucket_size = st.sidebar.slider("Risk Bucket Size ($)", min_value=50, max_value=500, value=500, step=50)
     
     # Create buckets
     df_buckets['risk_bucket'] = (df_buckets['risk'] // bucket_size) * bucket_size
