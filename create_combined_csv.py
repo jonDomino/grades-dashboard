@@ -24,20 +24,33 @@ results_df = pd.read_csv('results.csv')
 print(f"  Grades: {len(grades_df)} rows")
 print(f"  Results: {len(results_df)} rows")
 
+# Convert date columns to datetime first (needed for grouping)
+print("\n[2] Converting dates and preparing for aggregation...")
+results_df['date'] = pd.to_datetime(results_df['date']).dt.date
+
+# Aggregate results by date and roto (sum risk and result)
+print("\n[3] Aggregating results by date and roto...")
+results_aggregated = results_df.groupby(['date', 'roto']).agg({
+    'risk': 'sum',
+    'result': 'sum',
+    'dynamic': 'first'  # Keep first dynamic value for each group
+}).reset_index()
+print(f"  Results after aggregation: {len(results_aggregated)} rows")
+print(f"    (Reduced from {len(results_df)} rows)")
+
 # Include both totals and sides
-print("\n[2] Processing all bet types...")
+print("\n[4] Processing all bet types...")
 grades_all = grades_df.copy()
 print(f"  Total bets in grades: {len(grades_all)} rows")
 print(f"    - Totals: {len(grades_all[grades_all['type'] == 'total'])} rows")
 print(f"    - Sides: {len(grades_all[grades_all['type'] == 'side'])} rows")
 
-# Convert date columns to same type for joining
+# Convert date columns for grades
 grades_all['date'] = pd.to_datetime(grades_all['date']).dt.date
-results_df['date'] = pd.to_datetime(results_df['date']).dt.date
 
-# Convert roto to int for matching
+# Convert roto to string for matching
 grades_all['roto'] = grades_all['roto'].astype(str).str.strip()
-results_df['roto'] = results_df['roto'].astype(str).str.strip()
+results_aggregated['roto'] = results_aggregated['roto'].astype(str).str.strip()
 
 def roto_match(roto1, roto2):
     """
@@ -68,7 +81,7 @@ def roto_match(roto1, roto2):
     except:
         return False
 
-print("\n[3] Joining grades and results with special roto matching...")
+print("\n[5] Joining grades and aggregated results with special roto matching...")
 
 # Perform the join with special roto matching logic
 combined_data = []
@@ -78,8 +91,8 @@ for _, grade_row in grades_all.iterrows():
     grade_roto = str(grade_row['roto'])
     
     # Find matching results
-    matching_results = results_df[
-        (results_df['date'] == grade_date)
+    matching_results = results_aggregated[
+        (results_aggregated['date'] == grade_date)
     ]
     
     for _, result_row in matching_results.iterrows():
@@ -112,7 +125,7 @@ combined_df = combined_df[final_columns]
 # Save to CSV
 output_file = 'combined.csv'
 combined_df.to_csv(output_file, index=False)
-print(f"\n[4] Saved to {output_file}")
+print(f"\n[6] Saved to {output_file}")
 
 # Show sample
 print("\nSample of combined.csv (first 10 rows):")
