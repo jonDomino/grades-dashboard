@@ -287,18 +287,27 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
     bucket_stats['Total Result'] = bucket_stats['Total Result'].round(0).astype(int)
     
     # Calculate ROI (result/risk) as percentage, rounded to 1 decimal
-    bucket_stats['ROI_numeric'] = (bucket_stats['Total Result'] / bucket_stats['Total Risk'] * 100).round(1)
+    roi_numeric = (bucket_stats['Total Result'] / bucket_stats['Total Risk'] * 100).round(1)
     
     # Format ROI as percentage with % sign for display
-    bucket_stats['ROI'] = bucket_stats['ROI_numeric'].apply(lambda x: f"{x:.1f}%")
+    bucket_stats['ROI'] = roi_numeric.apply(lambda x: f"{x:.1f}%")
+    
+    # Add ROI_numeric to bucket_stats temporarily for sorting
+    bucket_stats['ROI_numeric'] = roi_numeric
     
     # Reorder columns: bucket, avg grade, total risk, total result, roi (Count removed)
-    bucket_stats = bucket_stats[['Bucket', 'Avg Grade', 'Total Risk', 'Total Result', 'ROI']]
+    bucket_stats = bucket_stats[['Bucket', 'Avg Grade', 'Total Risk', 'Total Result', 'ROI', 'ROI_numeric']]
     
     # Sort by numeric bucket value (extract the first number from bucket label like "$0 - $499")
     bucket_stats = bucket_stats.copy()
     bucket_stats['_sort_key'] = bucket_stats['Bucket'].str.extract(r'\$(\d+)').astype(int)
     bucket_stats = bucket_stats.sort_values('_sort_key').drop('_sort_key', axis=1).reset_index(drop=True)
+    
+    # Extract sorted roi_numeric before removing the column
+    roi_numeric_sorted = bucket_stats['ROI_numeric'].copy()
+    
+    # Now remove ROI_numeric from display
+    bucket_stats = bucket_stats[['Bucket', 'Avg Grade', 'Total Risk', 'Total Result', 'ROI']]
     
     # Display table with color shading for Avg Grade
     styled_bucket_stats = bucket_stats.style.applymap(
@@ -332,11 +341,12 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
     counts = [count_by_bucket.get(label, 0) for label in bucket_stats['Bucket']]
     
     # Prepare custom data for hover: [Count, Total Risk, Total Result, ROI]
+    # Use the roi_numeric_sorted we saved earlier (sorted to match bucket_stats order)
     hover_data = list(zip(
         counts,
         bucket_stats['Total Risk'].astype(int),
         bucket_stats['Total Result'].astype(int),
-        bucket_stats['ROI_numeric']
+        roi_numeric_sorted.values
     ))
     
     # Create bar chart with average grades
