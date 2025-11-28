@@ -268,14 +268,22 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
         'grade': 'mean',
         'risk': 'sum',
         'result': 'sum' if 'result' in df.columns else 'sum'
-    }).round(2)
+    })
     
     # Reset index and rename
     bucket_stats = bucket_stats.reset_index()
     bucket_stats = bucket_stats.rename(columns={'risk_bucket_label': 'Bucket', 'grade': 'Avg Grade', 'risk': 'Total Risk', 'result': 'Total Result'})
     
-    # Calculate ROI (result/risk) as percentage
-    bucket_stats['ROI'] = (bucket_stats['Total Result'] / bucket_stats['Total Risk'] * 100).round(2)
+    # Round columns: avg grade to 1 decimal, risk and result to 0 decimals
+    bucket_stats['Avg Grade'] = bucket_stats['Avg Grade'].round(1)
+    bucket_stats['Total Risk'] = bucket_stats['Total Risk'].round(0).astype(int)
+    bucket_stats['Total Result'] = bucket_stats['Total Result'].round(0).astype(int)
+    
+    # Calculate ROI (result/risk) as percentage, rounded to 1 decimal
+    bucket_stats['ROI'] = (bucket_stats['Total Result'] / bucket_stats['Total Risk'] * 100).round(1)
+    
+    # Format ROI as percentage with % sign
+    bucket_stats['ROI'] = bucket_stats['ROI'].apply(lambda x: f"{x:.1f}%")
     
     # Reorder columns: bucket, avg grade, total risk, total result, roi (Count removed)
     bucket_stats = bucket_stats[['Bucket', 'Avg Grade', 'Total Risk', 'Total Result', 'ROI']]
@@ -346,7 +354,7 @@ if len(df) > 0 and 'dynamic' in df.columns:
         'grade': 'mean',
         'risk': 'sum',
         'result': 'sum' if 'result' in df.columns else 'sum'
-    }).round(2)
+    })
     
     # Add count
     dynamic_stats['Count'] = df.groupby('dynamic').size()
@@ -360,8 +368,16 @@ if len(df) > 0 and 'dynamic' in df.columns:
         'result': 'Total Result'
     })
     
-    # Calculate ROI (result/risk) as percentage
-    dynamic_stats['ROI'] = (dynamic_stats['Total Result'] / dynamic_stats['Total Risk'] * 100).round(2)
+    # Round columns: avg grade to 1 decimal, risk and result to 0 decimals
+    dynamic_stats['Avg Grade'] = dynamic_stats['Avg Grade'].round(1)
+    dynamic_stats['Total Risk'] = dynamic_stats['Total Risk'].round(0).astype(int)
+    dynamic_stats['Total Result'] = dynamic_stats['Total Result'].round(0).astype(int)
+    
+    # Calculate ROI (result/risk) as percentage, rounded to 1 decimal
+    dynamic_stats['ROI'] = (dynamic_stats['Total Result'] / dynamic_stats['Total Risk'] * 100).round(1)
+    
+    # Format ROI as percentage with % sign
+    dynamic_stats['ROI'] = dynamic_stats['ROI'].apply(lambda x: f"{x:.1f}%")
     
     # Reorder columns: dynamic, count, avg grade, total risk, total result, roi
     dynamic_stats = dynamic_stats[['Dynamic', 'Count', 'Avg Grade', 'Total Risk', 'Total Result', 'ROI']]
