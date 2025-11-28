@@ -287,10 +287,10 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
     bucket_stats['Total Result'] = bucket_stats['Total Result'].round(0).astype(int)
     
     # Calculate ROI (result/risk) as percentage, rounded to 1 decimal
-    bucket_stats['ROI'] = (bucket_stats['Total Result'] / bucket_stats['Total Risk'] * 100).round(1)
+    bucket_stats['ROI_numeric'] = (bucket_stats['Total Result'] / bucket_stats['Total Risk'] * 100).round(1)
     
-    # Format ROI as percentage with % sign
-    bucket_stats['ROI'] = bucket_stats['ROI'].apply(lambda x: f"{x:.1f}%")
+    # Format ROI as percentage with % sign for display
+    bucket_stats['ROI'] = bucket_stats['ROI_numeric'].apply(lambda x: f"{x:.1f}%")
     
     # Reorder columns: bucket, avg grade, total risk, total result, roi (Count removed)
     bucket_stats = bucket_stats[['Bucket', 'Avg Grade', 'Total Risk', 'Total Result', 'ROI']]
@@ -323,6 +323,22 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
     # Bar chart of average grade by bucket
     st.markdown("### Average Grade by Risk Bucket")
     
+    # Prepare hover data - get count and numeric values
+    # Calculate count for hover info
+    count_by_bucket = df_buckets.groupby('risk_bucket_label').size()
+    bucket_stats_with_hover = bucket_stats.copy()
+    
+    # Get count for each bucket (match by bucket label)
+    counts = [count_by_bucket.get(label, 0) for label in bucket_stats['Bucket']]
+    
+    # Prepare custom data for hover: [Count, Total Risk, Total Result, ROI]
+    hover_data = list(zip(
+        counts,
+        bucket_stats['Total Risk'].astype(int),
+        bucket_stats['Total Result'].astype(int),
+        bucket_stats['ROI_numeric']
+    ))
+    
     # Create bar chart with average grades
     fig_bar = px.bar(
         bucket_stats,
@@ -333,6 +349,17 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
         height=500,
         color='Avg Grade',
         color_continuous_scale=['red', 'yellow', 'green']  # Red to green scale
+    )
+    
+    # Update hover template with count, total risk, total result, ROI
+    fig_bar.update_traces(
+        hovertemplate='<b>%{x}</b><br>' +
+                      'Avg Grade: %{y:.1f}<br>' +
+                      'Count: %{customdata[0]}<br>' +
+                      'Total Risk: $%{customdata[1]:,}<br>' +
+                      'Total Result: $%{customdata[2]:,}<br>' +
+                      'ROI: %{customdata[3]:.1f}%<extra></extra>',
+        customdata=hover_data
     )
     
     fig_bar.update_layout(
