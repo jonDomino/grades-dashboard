@@ -112,15 +112,19 @@ print(f"  Matched {len(combined_df)} rows")
 
 # Select the columns we want in the final output
 # Include all grade columns plus risk and result from results
-# Excluded: roto, col_c_original
+# Excluded: roto
 output_columns = [
     'date', 'dynamic', 'type', 'game', 'bet', 'close', 
-    'grade', 'risk', 'result'
+    'grade', 'risk', 'result', 'col_c_original'
 ]
 
 # Only include columns that exist
 final_columns = [col for col in output_columns if col in combined_df.columns]
 combined_df = combined_df[final_columns]
+
+# Rename col_c_original to turn_in
+if 'col_c_original' in combined_df.columns:
+    combined_df = combined_df.rename(columns={'col_c_original': 'turn_in'})
 
 # Save to CSV
 output_file = 'combined.csv'

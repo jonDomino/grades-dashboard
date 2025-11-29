@@ -211,11 +211,11 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
         # Create scatter plot with Plotly
         fig = go.Figure()
         
-        # Prepare hover data with game information
+        # Prepare hover data with turn_in information
         hover_texts = []
         for idx in range(len(df_clean)):
-            game_info = df_clean.iloc[idx].get('game', 'N/A') if 'game' in df_clean.columns else 'N/A'
-            hover_text = f"Risk: ${x_clean[idx]:.2f}<br>Grade: {y_clean[idx]:.2f}<br>Game: {game_info}"
+            turn_in_info = df_clean.iloc[idx].get('turn_in', 'N/A') if 'turn_in' in df_clean.columns else 'N/A'
+            hover_text = f"Risk: ${x_clean[idx]:.2f}<br>Grade: {y_clean[idx]:.2f}<br>Turn In: {turn_in_info}"
             hover_texts.append(hover_text)
         
         # Add scatter points with game info in hover
