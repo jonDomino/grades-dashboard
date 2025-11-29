@@ -700,40 +700,44 @@ if len(df) > 0 and 'grade' in df.columns and 'date' in df.columns:
             customdata=date_df[['count', 'total']].values
         ))
         
-        # Build layout configuration
-        layout_config = {
-            'title': 'Percentage of Games with Grade > 20 (3-Period Rolling Average)' + (' & Total Risk' if has_risk_data else ''),
-            'xaxis_title': 'Date',
-            'hovermode': 'x unified',
-            'height': 500,
-            'xaxis': dict(type='date'),
-            'legend': dict(x=1.02, y=1)
-        }
-        
-        # Configure y-axes based on whether we have risk data
+        # Build layout configuration based on whether we have risk data
         if has_risk_data:
             # Dual y-axes: risk on left, percentage on right
-            layout_config['yaxis'] = dict(
-                title='Total Risk ($)',
-                side='left',
-                titlefont=dict(color='gray'),
-                tickfont=dict(color='gray')
-            )
-            layout_config['yaxis2'] = dict(
-                title='Percentage (%)',
-                side='right',
-                overlaying='y',
-                titlefont=dict(color='blue'),
-                tickfont=dict(color='blue')
+            fig_line.update_layout(
+                title='Percentage of Games with Grade > 20 (3-Period Rolling Average) & Total Risk',
+                xaxis_title='Date',
+                hovermode='x unified',
+                height=500,
+                xaxis=dict(type='date'),
+                legend=dict(x=1.02, y=1),
+                yaxis=dict(
+                    title='Total Risk ($)',
+                    side='left',
+                    titlefont=dict(color='gray'),
+                    tickfont=dict(color='gray')
+                ),
+                yaxis2=dict(
+                    title='Percentage (%)',
+                    side='right',
+                    overlaying='y',
+                    titlefont=dict(color='blue'),
+                    tickfont=dict(color='blue')
+                )
             )
         else:
             # Single y-axis: percentage only
-            layout_config['yaxis'] = dict(
-                title='Percentage (%)',
-                side='left'
+            fig_line.update_layout(
+                title='Percentage of Games with Grade > 20 (3-Period Rolling Average)',
+                xaxis_title='Date',
+                hovermode='x unified',
+                height=500,
+                xaxis=dict(type='date'),
+                legend=dict(x=1.02, y=1),
+                yaxis=dict(
+                    title='Percentage (%)',
+                    side='left'
+                )
             )
-        
-        fig_line.update_layout(**layout_config)
         
         st.plotly_chart(fig_line, use_container_width=True)
     else:
