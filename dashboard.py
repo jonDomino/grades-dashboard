@@ -197,6 +197,7 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
     mask = ~(np.isnan(x) | np.isnan(y))
     x_clean = x[mask]
     y_clean = y[mask]
+    df_clean = df[mask].reset_index(drop=True)
     
     if len(x_clean) > 1:
         # Linear regression
@@ -210,7 +211,14 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
         # Create scatter plot with Plotly
         fig = go.Figure()
         
-        # Add scatter points
+        # Prepare hover data with game information
+        hover_texts = []
+        for idx in range(len(df_clean)):
+            game_info = df_clean.iloc[idx].get('game', 'N/A') if 'game' in df_clean.columns else 'N/A'
+            hover_text = f"Risk: ${x_clean[idx]:.2f}<br>Grade: {y_clean[idx]:.2f}<br>Game: {game_info}"
+            hover_texts.append(hover_text)
+        
+        # Add scatter points with game info in hover
         fig.add_trace(go.Scatter(
             x=x_clean,
             y=y_clean,
@@ -224,7 +232,8 @@ if len(df) > 0 and 'risk' in df.columns and 'grade' in df.columns:
                 colorbar=dict(title="Grade")
             ),
             name='Data Points',
-            hovertemplate='Risk: $%{x:.2f}<br>Grade: %{y:.2f}<extra></extra>'
+            text=hover_texts,
+            hovertemplate='%{text}<extra></extra>'
         ))
         
         # Add line of best fit

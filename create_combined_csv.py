@@ -112,9 +112,9 @@ print(f"  Matched {len(combined_df)} rows")
 
 # Select the columns we want in the final output
 # Include all grade columns plus risk and result from results
-# Excluded: roto, game, col_c_original
+# Excluded: roto, col_c_original
 output_columns = [
-    'date', 'dynamic', 'type', 'bet', 'close', 
+    'date', 'dynamic', 'type', 'game', 'bet', 'close', 
     'grade', 'risk', 'result'
 ]
 
