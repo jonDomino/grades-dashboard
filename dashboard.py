@@ -644,10 +644,32 @@ if len(df) > 0 and 'grade' in df.columns and 'date' in df.columns:
         # Calculate rolling average of prior 3 periods (including current)
         date_df['rolling_avg'] = date_df['percentage'].rolling(window=3, min_periods=1).mean()
         
-        # Create line graph
+        # Calculate sum of risk by date for bar chart
+        if 'risk' in df_grade_date.columns:
+            risk_by_date = df_grade_date.groupby('date')['risk'].sum().reset_index()
+            risk_by_date.columns = ['date', 'total_risk']
+            
+            # Merge risk data with date stats
+            date_df = date_df.merge(risk_by_date, on='date', how='left')
+            date_df['total_risk'] = date_df['total_risk'].fillna(0)
+        else:
+            date_df['total_risk'] = 0
+        
+        # Create combined figure with dual y-axes
         fig_line = go.Figure()
         
-        # Add line for rolling average
+        # Add bar chart for risk (slightly transparent) on primary y-axis (only if we have risk data)
+        if 'risk' in df_grade_date.columns and date_df['total_risk'].sum() > 0:
+            fig_line.add_trace(go.Bar(
+                x=date_df['date'],
+                y=date_df['total_risk'],
+                name='Total Risk',
+                marker=dict(color='rgba(200, 200, 200, 0.5)', line=dict(color='rgba(150, 150, 150, 0.8)', width=1)),
+                yaxis='y',
+                hovertemplate='Date: %{x|%Y-%m-%d}<br>Total Risk: $%{y:,.0f}<extra></extra>'
+            ))
+        
+        # Add line for rolling average on secondary y-axis
         fig_line.add_trace(go.Scatter(
             x=date_df['date'],
             y=date_df['rolling_avg'],
@@ -655,10 +677,11 @@ if len(df) > 0 and 'grade' in df.columns and 'date' in df.columns:
             name='3-Period Rolling Average',
             line=dict(color='blue', width=2),
             marker=dict(size=6),
+            yaxis='y2',
             hovertemplate='Date: %{x|%Y-%m-%d}<br>Rolling Avg: %{y:.1f}%<extra></extra>'
         ))
         
-        # Optionally add actual percentage line (lighter color)
+        # Optionally add actual percentage line (lighter color) on secondary y-axis
         fig_line.add_trace(go.Scatter(
             x=date_df['date'],
             y=date_df['percentage'],
@@ -666,17 +689,31 @@ if len(df) > 0 and 'grade' in df.columns and 'date' in df.columns:
             name='Actual %',
             line=dict(color='lightblue', width=1, dash='dot'),
             marker=dict(size=4),
+            yaxis='y2',
             hovertemplate='Date: %{x|%Y-%m-%d}<br>Actual: %{y:.1f}%<br>Count: %{customdata[0]}/%{customdata[1]}<extra></extra>',
             customdata=date_df[['count', 'total']].values
         ))
         
         fig_line.update_layout(
-            title='Percentage of Games with Grade > 20 (3-Period Rolling Average)',
+            title='Percentage of Games with Grade > 20 (3-Period Rolling Average) & Total Risk',
             xaxis_title='Date',
-            yaxis_title='Percentage (%)',
+            yaxis=dict(
+                title='Total Risk ($)',
+                side='left',
+                titlefont=dict(color='gray'),
+                tickfont=dict(color='gray')
+            ),
+            yaxis2=dict(
+                title='Percentage (%)',
+                side='right',
+                overlaying='y',
+                titlefont=dict(color='blue'),
+                tickfont=dict(color='blue')
+            ),
             hovermode='x unified',
             height=500,
-            xaxis=dict(type='date')
+            xaxis=dict(type='date'),
+            legend=dict(x=1.02, y=1)
         )
         
         st.plotly_chart(fig_line, use_container_width=True)
