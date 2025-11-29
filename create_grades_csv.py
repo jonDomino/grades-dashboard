@@ -305,6 +305,7 @@ for idx in range(len(df)):
             line_value = line_diff * 15
         else:
             # Sides: Calculate line difference (bet - close)
+            # If bet_line has no explicit sign, it's already extracted as positive, which is correct
             line_diff = bet_line - close_line
             
             # Multiply by 20 for line value (sides)
