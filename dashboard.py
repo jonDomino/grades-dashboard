@@ -610,6 +610,81 @@ if len(df) > 0 and 'grade' in df.columns:
 else:
     st.warning("Missing required columns for grade bucket analysis.")
 
+st.markdown("---")
+
+# Line graph: % of games above 20 grade (rolling 3-period average)
+st.markdown("### Percentage of Games with Grade > 20 (3-Period Rolling Average)")
+
+if len(df) > 0 and 'grade' in df.columns and 'date' in df.columns:
+    # Filter out rows with null grades
+    df_grade_date = df[df['grade'].notna()].copy()
+    
+    if len(df_grade_date) > 0:
+        # Sort by date to ensure proper order
+        df_grade_date = df_grade_date.sort_values('date')
+        
+        # Group by date and calculate % with grade > 20
+        date_stats = []
+        for date in df_grade_date['date'].unique():
+            date_df = df_grade_date[df_grade_date['date'] == date]
+            total_count = len(date_df)
+            above_20_count = len(date_df[date_df['grade'] > 20])
+            percentage = (above_20_count / total_count * 100) if total_count > 0 else 0
+            
+            date_stats.append({
+                'date': date,
+                'percentage': percentage,
+                'count': above_20_count,
+                'total': total_count
+            })
+        
+        date_df = pd.DataFrame(date_stats)
+        date_df = date_df.sort_values('date')
+        
+        # Calculate rolling average of prior 3 periods (including current)
+        date_df['rolling_avg'] = date_df['percentage'].rolling(window=3, min_periods=1).mean()
+        
+        # Create line graph
+        fig_line = go.Figure()
+        
+        # Add line for rolling average
+        fig_line.add_trace(go.Scatter(
+            x=date_df['date'],
+            y=date_df['rolling_avg'],
+            mode='lines+markers',
+            name='3-Period Rolling Average',
+            line=dict(color='blue', width=2),
+            marker=dict(size=6),
+            hovertemplate='Date: %{x|%Y-%m-%d}<br>Rolling Avg: %{y:.1f}%<extra></extra>'
+        ))
+        
+        # Optionally add actual percentage line (lighter color)
+        fig_line.add_trace(go.Scatter(
+            x=date_df['date'],
+            y=date_df['percentage'],
+            mode='lines+markers',
+            name='Actual %',
+            line=dict(color='lightblue', width=1, dash='dot'),
+            marker=dict(size=4),
+            hovertemplate='Date: %{x|%Y-%m-%d}<br>Actual: %{y:.1f}%<br>Count: %{customdata[0]}/%{customdata[1]}<extra></extra>',
+            customdata=date_df[['count', 'total']].values
+        ))
+        
+        fig_line.update_layout(
+            title='Percentage of Games with Grade > 20 (3-Period Rolling Average)',
+            xaxis_title='Date',
+            yaxis_title='Percentage (%)',
+            hovermode='x unified',
+            height=500,
+            xaxis=dict(type='date')
+        )
+        
+        st.plotly_chart(fig_line, use_container_width=True)
+    else:
+        st.warning("No data with valid grades and dates available.")
+else:
+    st.warning("Missing required columns (grade and date) for rolling average analysis.")
+
 # Show raw data option
 st.markdown("---")
 with st.expander("View Filtered Raw Data"):
