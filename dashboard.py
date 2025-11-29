@@ -542,6 +542,74 @@ if len(df) > 0 and 'type' in df.columns:
 else:
     st.warning("Missing required columns for type analysis.")
 
+st.markdown("---")
+
+# Table: Grade Bucket Distribution
+st.markdown("### Grade Distribution by Bucket")
+
+if len(df) > 0 and 'grade' in df.columns:
+    # Create grade buckets: <0, 0-10, 10-20, 20-30, 30+
+    def assign_grade_bucket(grade):
+        if pd.isna(grade):
+            return None
+        grade = float(grade)
+        if grade < 0:
+            return '<0'
+        elif grade < 10:
+            return '0-10'
+        elif grade < 20:
+            return '10-20'
+        elif grade < 30:
+            return '20-30'
+        else:
+            return '30+'
+    
+    df_grade_buckets = df.copy()
+    df_grade_buckets['grade_bucket'] = df_grade_buckets['grade'].apply(assign_grade_bucket)
+    
+    # Filter out null buckets
+    df_grade_buckets = df_grade_buckets[df_grade_buckets['grade_bucket'].notna()]
+    
+    # Count by bucket
+    bucket_counts = df_grade_buckets['grade_bucket'].value_counts().sort_index()
+    
+    # Calculate total count
+    total_count = len(df_grade_buckets)
+    
+    # Create bucket order for sorting
+    bucket_order = ['<0', '0-10', '10-20', '20-30', '30+']
+    
+    # Build the table
+    grade_bucket_stats = []
+    for bucket in bucket_order:
+        count = bucket_counts.get(bucket, 0)
+        percentage = (count / total_count * 100) if total_count > 0 else 0
+        grade_bucket_stats.append({
+            'Grade Bucket': bucket,
+            'Count': count,
+            'Percentage': f"{percentage:.1f}%"
+        })
+    
+    grade_bucket_df = pd.DataFrame(grade_bucket_stats)
+    
+    # Display table
+    st.dataframe(
+        grade_bucket_df,
+        use_container_width=True,
+        hide_index=True
+    )
+    
+    # Download button
+    csv = grade_bucket_df.to_csv(index=False)
+    st.download_button(
+        label="Download Grade Bucket Distribution as CSV",
+        data=csv,
+        file_name="grade_bucket_distribution.csv",
+        mime="text/csv"
+    )
+else:
+    st.warning("Missing required columns for grade bucket analysis.")
+
 # Show raw data option
 st.markdown("---")
 with st.expander("View Filtered Raw Data"):
