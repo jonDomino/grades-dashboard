@@ -658,8 +658,11 @@ if len(df) > 0 and 'grade' in df.columns and 'date' in df.columns:
         # Create combined figure with dual y-axes
         fig_line = go.Figure()
         
+        # Check if we have risk data to display
+        has_risk_data = 'risk' in df_grade_date.columns and date_df['total_risk'].sum() > 0
+        
         # Add bar chart for risk (slightly transparent) on primary y-axis (only if we have risk data)
-        if 'risk' in df_grade_date.columns and date_df['total_risk'].sum() > 0:
+        if has_risk_data:
             fig_line.add_trace(go.Bar(
                 x=date_df['date'],
                 y=date_df['total_risk'],
@@ -669,7 +672,10 @@ if len(df) > 0 and 'grade' in df.columns and 'date' in df.columns:
                 hovertemplate='Date: %{x|%Y-%m-%d}<br>Total Risk: $%{y:,.0f}<extra></extra>'
             ))
         
-        # Add line for rolling average on secondary y-axis
+        # Determine which y-axis to use for lines (y2 if we have risk bars, y otherwise)
+        line_yaxis = 'y2' if has_risk_data else 'y'
+        
+        # Add line for rolling average
         fig_line.add_trace(go.Scatter(
             x=date_df['date'],
             y=date_df['rolling_avg'],
@@ -677,11 +683,11 @@ if len(df) > 0 and 'grade' in df.columns and 'date' in df.columns:
             name='3-Period Rolling Average',
             line=dict(color='blue', width=2),
             marker=dict(size=6),
-            yaxis='y2',
+            yaxis=line_yaxis,
             hovertemplate='Date: %{x|%Y-%m-%d}<br>Rolling Avg: %{y:.1f}%<extra></extra>'
         ))
         
-        # Optionally add actual percentage line (lighter color) on secondary y-axis
+        # Optionally add actual percentage line (lighter color)
         fig_line.add_trace(go.Scatter(
             x=date_df['date'],
             y=date_df['percentage'],
@@ -689,32 +695,45 @@ if len(df) > 0 and 'grade' in df.columns and 'date' in df.columns:
             name='Actual %',
             line=dict(color='lightblue', width=1, dash='dot'),
             marker=dict(size=4),
-            yaxis='y2',
+            yaxis=line_yaxis,
             hovertemplate='Date: %{x|%Y-%m-%d}<br>Actual: %{y:.1f}%<br>Count: %{customdata[0]}/%{customdata[1]}<extra></extra>',
             customdata=date_df[['count', 'total']].values
         ))
         
-        fig_line.update_layout(
-            title='Percentage of Games with Grade > 20 (3-Period Rolling Average) & Total Risk',
-            xaxis_title='Date',
-            yaxis=dict(
+        # Build layout configuration
+        layout_config = {
+            'title': 'Percentage of Games with Grade > 20 (3-Period Rolling Average)' + (' & Total Risk' if has_risk_data else ''),
+            'xaxis_title': 'Date',
+            'hovermode': 'x unified',
+            'height': 500,
+            'xaxis': dict(type='date'),
+            'legend': dict(x=1.02, y=1)
+        }
+        
+        # Configure y-axes based on whether we have risk data
+        if has_risk_data:
+            # Dual y-axes: risk on left, percentage on right
+            layout_config['yaxis'] = dict(
                 title='Total Risk ($)',
                 side='left',
                 titlefont=dict(color='gray'),
                 tickfont=dict(color='gray')
-            ),
-            yaxis2=dict(
+            )
+            layout_config['yaxis2'] = dict(
                 title='Percentage (%)',
                 side='right',
                 overlaying='y',
                 titlefont=dict(color='blue'),
                 tickfont=dict(color='blue')
-            ),
-            hovermode='x unified',
-            height=500,
-            xaxis=dict(type='date'),
-            legend=dict(x=1.02, y=1)
-        )
+            )
+        else:
+            # Single y-axis: percentage only
+            layout_config['yaxis'] = dict(
+                title='Percentage (%)',
+                side='left'
+            )
+        
+        fig_line.update_layout(**layout_config)
         
         st.plotly_chart(fig_line, use_container_width=True)
     else:
