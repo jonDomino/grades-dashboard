@@ -122,9 +122,11 @@ output_columns = [
 final_columns = [col for col in output_columns if col in combined_df.columns]
 combined_df = combined_df[final_columns]
 
-# Rename col_c_original to turn_in
+# Rename col_c_original to turn_in and remove "Rampage" from the string
 if 'col_c_original' in combined_df.columns:
     combined_df = combined_df.rename(columns={'col_c_original': 'turn_in'})
+    # Remove "Rampage" (case insensitive) from turn_in column
+    combined_df['turn_in'] = combined_df['turn_in'].astype(str).str.replace(r'\bRampage\b', '', case=False, regex=True).str.strip()
 
 # Save to CSV
 output_file = 'combined.csv'

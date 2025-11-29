@@ -1,676 +1,676 @@
 date,dynamic,type,game,bet,close,grade,risk,result,turn_in
-2025-08-28,CFB,total,Ohio/Rutgers,o24 -115,o27 -115,45.0,1200.0,-1200.0,CFB 149 Ohio/Rutgers over 72 -115 
+2025-08-28,CFB,total,Ohio/Rutgers,o24 -115,o27 -115,45.0,1200.0,-1200.0,CFB 149 Ohio/Rutgers over 72 -115
 2025-08-28,CFB,side,ECU +16.5,+6.5 -105,5 -110,35.0,3860.0,3576.09,CFB 141 ECU +16.5 -105
 2025-08-28,CFB,total,Buffalo/Minnesota,o17.5 -112,u20.5 -130,63.0,2910.0,2525.73,CFB 153 Buffalo/Minnesota over 30.5 -112
-2025-08-28,CFB,total,Jacksonville State/UCF,u23.5 -120,u21 -110,27.5,2550.0,-2550.0,CFB 145 Jacksonville State/UCF under 23.5 -120 
+2025-08-28,CFB,total,Jacksonville State/UCF,u23.5 -120,u21 -110,27.5,2550.0,-2550.0,CFB 145 Jacksonville State/UCF under 23.5 -120
 2025-08-28,CFB,side,Nebraska,-3 -118,-3.5 -120,127.0,2616.0,-1566.0,CFB 151 Nebraska -13 -118 for LIVE
-2025-08-28,CFB,total,Nebraska/Cinci,u23.5 -110,u23 -120,17.5,2616.0,-1566.0,CFB 151 Nebraska/Cinci under 23.5 -110 
-2025-08-29,CFBExtra,side,Army,-3.5 -120,-6.5 -110,50.0,4179.0,-4179.0,CFBExtra 308952 Army -10.5 -120 
-2025-08-29,CFB,total,App State/Charlotte,o20.5 -130,o23 -115,22.5,19386.99,16975.58,CFB 159 App State/Charlotte over 40.5 -125 
-2025-08-29,CFB,side,App State,-.5 -115,-3 -125,-62.0,19386.99,16975.58,CFB 159 App State -14.5 -115 
-2025-08-29,CFB,side,Kansas,-20.5 -125,-21.5 -110,5.0,1825.0,-1825.0,CFB 308954 Kansas -42.5 -125 
+2025-08-28,CFB,total,Nebraska/Cinci,u23.5 -110,u23 -120,17.5,2616.0,-1566.0,CFB 151 Nebraska/Cinci under 23.5 -110
+2025-08-29,CFBExtra,side,Army,-3.5 -120,-6.5 -110,50.0,4179.0,-4179.0,CFBExtra 308952 Army -10.5 -120
+2025-08-29,CFB,total,App State/Charlotte,o20.5 -130,o23 -115,22.5,19386.99,16975.58,CFB 159 App State/Charlotte over 40.5 -125
+2025-08-29,CFB,side,App State,-.5 -115,-3 -125,-62.0,19386.99,16975.58,CFB 159 App State -14.5 -115
+2025-08-29,CFB,side,Kansas,-20.5 -125,-21.5 -110,5.0,1825.0,-1825.0,CFB 308954 Kansas -42.5 -125
 2025-08-29,CFB,total,Bethune Cookman/FIU,o28.5 -100,30.5 -110,40.0,10010.46,-10010.46,CFB 308955 Bethune Cookman/FIU over 62.5
 2025-08-30,CFB,total,Ball State/Purdue,u21.5 -115,u21 -115,7.5,8056.24,7019.79,CFB 169 Ball State/Purdue under 42.5 -115
 2025-08-30,CFB,total,Northwestern/Tulane,u21.5 -115,u20.5 EV,0.0,1870.0,1625.72,CFB 203 Northwestern/Tulane under 44.5 -115
-2025-08-30,CFB,side,Tulane,-2.5 -110,-3 -130,-97.0,1870.0,1625.72,CFB 204 Tulane -19.5 -110 
+2025-08-30,CFB,side,Tulane,-2.5 -110,-3 -130,-97.0,1870.0,1625.72,CFB 204 Tulane -19.5 -110
 2025-08-30,CFB,total,FAU/Maryland,u27.5 -110,u27 -120,17.5,2490.1,2298.35,CFB 183 FAU/Maryland under 67.5 -110
 2025-08-30,CFB,total,Toledo/Kentucky,o18.5 -115,o20.5 -110,25.0,400.0,338.98,CFB 191 Toledo/Kentucky over 30.5 -115
 2025-08-30,CFB,side,Louisville,-14.5 +104,-17 -110,-29.0,12161.77,-12161.77,CFB 308982 Louisville -48.5 +104
-2025-08-30,CFB,side,Nevada +44.5,20.5 -115,17 -110,65.0,1847.0,-725.26,CFB 173 Nevada +44.5 -115 
-2025-08-30,CFB,total,Nevada/Penn State,u24.5 -115,u23 -120,27.5,1847.0,-725.26,CFB 173 Nevada/Penn State under 54.5 -115 
-2025-08-30,CFB,side,Temple,3.5 -118,-1 -110,-27.0,18926.39,-7015.33,CFB 179 Temple -14.5 -118 
+2025-08-30,CFB,side,Nevada +44.5,20.5 -115,17 -110,65.0,1847.0,-725.26,CFB 173 Nevada +44.5 -115
+2025-08-30,CFB,total,Nevada/Penn State,u24.5 -115,u23 -120,27.5,1847.0,-725.26,CFB 173 Nevada/Penn State under 54.5 -115
+2025-08-30,CFB,side,Temple,3.5 -118,-1 -110,-27.0,18926.39,-7015.33,CFB 179 Temple -14.5 -118
 2025-08-30,CFB,total,Temple/Mass,o23.5 -125,24.5 -110,0.0,18926.39,-7015.33,CFB 179 Temple/Mass over 61.5 -125
 2025-08-30,CFB,total,Maine/Liberty,o21.5 -120,24 -110,27.5,4891.99,-4891.99,CFB 308989 Maine/Liberty over 35.5 -120
 2025-08-30,CFB,total,Alabama/Florida State,o21.5 -110,23 -110,22.5,9621.35,8937.18,CFB 211 Alabama/Florida State over 45.5 -110
-2025-08-30,CFB,side,Temple,3.5 -118,-1 -110,-27.0,18926.39,-7015.33,CFB 179 Temple -14.5 -118 
-2025-08-30,CFB,total,Temple/Mass,o23.5 -125,24.5 -110,0.0,18926.39,-7015.33,CFB 179 Temple/Mass over 61.5 -125 
-2025-08-30,CFB,total,Maine/Liberty,o21.5 -120,24 -110,27.5,4891.99,-4891.99,CFB 308989 Maine/Liberty over 35.5 -120 
-2025-08-30,CFB,total,UTSA/Texas AnM,u30.5 -125,28 -110,22.5,600.0,-600.0,CFB 213 UTSA/Texas AnM under 61.5 -125 
-2025-08-30,CFB,side,Utah State,.5 -125,-1 -100,-94.0,915.0,730.0,CFB 194 Utah State -9.5 -125 
-2025-08-30,CFB,total,LSU/Clemson,u26.5 -115,u24 -115,37.5,737.0,640.87,CFB 219 LSU/Clemson under 39.5 -115 
-2025-08-30,CFB,total,Eastern Mich/Texas State,o24.5 -132,27 -120,25.5,14018.99,12145.06,CFB 209 Eastern Mich/Texas State over 65.5 -132 
+2025-08-30,CFB,side,Temple,3.5 -118,-1 -110,-27.0,18926.39,-7015.33,CFB 179 Temple -14.5 -118
+2025-08-30,CFB,total,Temple/Mass,o23.5 -125,24.5 -110,0.0,18926.39,-7015.33,CFB 179 Temple/Mass over 61.5 -125
+2025-08-30,CFB,total,Maine/Liberty,o21.5 -120,24 -110,27.5,4891.99,-4891.99,CFB 308989 Maine/Liberty over 35.5 -120
+2025-08-30,CFB,total,UTSA/Texas AnM,u30.5 -125,28 -110,22.5,600.0,-600.0,CFB 213 UTSA/Texas AnM under 61.5 -125
+2025-08-30,CFB,side,Utah State,.5 -125,-1 -100,-94.0,915.0,730.0,CFB 194 Utah State -9.5 -125
+2025-08-30,CFB,total,LSU/Clemson,u26.5 -115,u24 -115,37.5,737.0,640.87,CFB 219 LSU/Clemson under 39.5 -115
+2025-08-30,CFB,total,Eastern Mich/Texas State,o24.5 -132,27 -120,25.5,14018.99,12145.06,CFB 209 Eastern Mich/Texas State over 65.5 -132
 2025-08-30,CFB,side,SMU,-19.5 -110,-21.5 -110,40.0,2300.0,-2300.0,CFB 309032 SMU -37.5 -110
 2025-08-30,CFB,total,GS/Fresno State,o23.5 -115,o26 -110,32.5,1962.0,1666.24,CFB 199 GS/Fresno State over 50.5 -115
-2025-09-06,CFB,side,Virginia,6.5 -120,3.5 -120,60.0,5222.48,-5222.48,CFB 321 Virginia -3.5 -120 
+2025-09-06,CFB,side,Virginia,6.5 -120,3.5 -120,60.0,5222.48,-5222.48,CFB 321 Virginia -3.5 -120
 2025-09-06,CFB,total,FIU/Penn State,u26.5 -110,u24.5 -115,35.0,2907.48,2643.16,CFB 317 FIU/Penn State under 36.5 -110
-2025-09-06,CFB,total,Baylor/SMU,o31.5 -120,o34.5 -110,35.0,1927.24,1673.83,CFB 333 Baylor/SMU over 76.5 -120 
-2025-09-06,CFB,total,Uconn/syracuse,o26.5 -115,o27 -115,7.5,6517.48,5749.25,CFB 331 Uconn/syracuse over 46.5 -115 
-2025-09-06,CFB,total,Kent State/Texas Tech,u23.5 -100,u23 -110,17.5,6819.99,-6819.99,CFB 319 Kent State/Texas Tech under 71.5 -100 
-2025-09-06,CFB,side,Central Mich +27.5,13.5 -115,11 -100,35.0,18119.98,-18119.98,CFB 327 Central Mich +27.5 -115 
+2025-09-06,CFB,total,Baylor/SMU,o31.5 -120,o34.5 -110,35.0,1927.24,1673.83,CFB 333 Baylor/SMU over 76.5 -120
+2025-09-06,CFB,total,Uconn/syracuse,o26.5 -115,o27 -115,7.5,6517.48,5749.25,CFB 331 Uconn/syracuse over 46.5 -115
+2025-09-06,CFB,total,Kent State/Texas Tech,u23.5 -100,u23 -110,17.5,6819.99,-6819.99,CFB 319 Kent State/Texas Tech under 71.5 -100
+2025-09-06,CFB,side,Central Mich +27.5,13.5 -115,11 -100,35.0,18119.98,-18119.98,CFB 327 Central Mich +27.5 -115
 2025-09-06,CFB,total,San Jose State/Texas o56.5,o21.5 -115,o23.5 -110,25.0,3447.12,-3447.12,CFB 323 San Jose State/Texas o56.5 -115
-2025-09-06,CFB,side,Texas AnM,-13.5 -115,-14.5 -115,20.0,4792.12,-4792.12,CFB 340 Texas AnM -37.5 -115 
-2025-09-06,CFB,total,Utah State/Texas AnM,u24.5 -120,u23 -115,17.5,4792.12,-4792.12,CFB 339 Utah State/Texas AnM under 60.5 -120 
-2025-09-06,CFB,side,Delaware +23.5,13.5 -111,10.5 -110,59.0,6550.0,-6550.0,CFB 361 Delaware +23.5 -111 
-2025-09-06,CFB,moneyline,Texas State +115,115,-110,,3934.77,4524.99,CFB 359 Texas State +115 
-2025-09-06,CFB,total,Kansas/Missouri,u27.5 -122,u26.5 -110,3.0,7180.0,-7180.0,CFB 343 Kansas/Missouri under 69.5 -122 
-2025-09-06,CFB,total,Oklahoma State/Oregon,u27.5 -115,u24 -100,37.5,3350.0,-1200.0,CFB 357 Oklahoma State/Oregon under 71.5 -115 
-2025-09-06,CFB,total,Fresno State/Oregon State,o19.5 -125,o23.5 -115,50.0,9350.05,7614.63,CFB 349 Fresno State/Oregon State over 54.5 -125 
-2025-09-06,CFB,total,MTS/Wisconsin,o17.5 -110,o20.5 -105,40.0,12558.58,294.86999999999983,CFB 363 MTS/Wisconsin over 41.5 -110 
-2025-09-06,CFB,side,MTS +17.5 +110,13.5 +110,12 -110,50.0,12558.58,294.86999999999983,CFB 363 MTS +17.5 +110 
-2025-09-06,CFB,total,UAB/Navy,o27.5 -105,o28 -120,22.5,7827.74,-7827.74,CFB 345 UAB/Navy over 75.5 -105 
-2025-09-06,CFB,side,Marshall,-.5 -120,-3 -105,-67.0,1675.0,-1675.0,CFB 374 Marshall -10.5 -120 
-2025-09-06,CFB,side,Houston,-4.5 -115,-6 -115,-79.0,800.0,695.65,CFB 385 Houston -8.5 -115 
+2025-09-06,CFB,side,Texas AnM,-13.5 -115,-14.5 -115,20.0,4792.12,-4792.12,CFB 340 Texas AnM -37.5 -115
+2025-09-06,CFB,total,Utah State/Texas AnM,u24.5 -120,u23 -115,17.5,4792.12,-4792.12,CFB 339 Utah State/Texas AnM under 60.5 -120
+2025-09-06,CFB,side,Delaware +23.5,13.5 -111,10.5 -110,59.0,6550.0,-6550.0,CFB 361 Delaware +23.5 -111
+2025-09-06,CFB,moneyline,Texas State +115,115,-110,,3934.77,4524.99,CFB 359 Texas State +115
+2025-09-06,CFB,total,Kansas/Missouri,u27.5 -122,u26.5 -110,3.0,7180.0,-7180.0,CFB 343 Kansas/Missouri under 69.5 -122
+2025-09-06,CFB,total,Oklahoma State/Oregon,u27.5 -115,u24 -100,37.5,3350.0,-1200.0,CFB 357 Oklahoma State/Oregon under 71.5 -115
+2025-09-06,CFB,total,Fresno State/Oregon State,o19.5 -125,o23.5 -115,50.0,9350.05,7614.63,CFB 349 Fresno State/Oregon State over 54.5 -125
+2025-09-06,CFB,total,MTS/Wisconsin,o17.5 -110,o20.5 -105,40.0,12558.58,294.86999999999983,CFB 363 MTS/Wisconsin over 41.5 -110
+2025-09-06,CFB,side,MTS +17.5 +110,13.5 +110,12 -110,50.0,12558.58,294.86999999999983,CFB 363 MTS +17.5 +110
+2025-09-06,CFB,total,UAB/Navy,o27.5 -105,o28 -120,22.5,7827.74,-7827.74,CFB 345 UAB/Navy over 75.5 -105
+2025-09-06,CFB,side,Marshall,-.5 -120,-3 -105,-67.0,1675.0,-1675.0,CFB 374 Marshall -10.5 -120
+2025-09-06,CFB,side,Houston,-4.5 -115,-6 -115,-79.0,800.0,695.65,CFB 385 Houston -8.5 -115
 2025-09-06,CFB,total,Tulane/South Alabama,o21.5 -115,o24 -110,32.5,12854.0,11078.6,CFB 381 Tulane/South Alabama over 59.5 -115
 2025-09-06,CFB,total,Vanderbilt/VTech,o21.5 -115,o24 -105,27.5,8552.0,7770.5599999999995,CFB 387 Vanderbilt/VTech over 51.5 -115
-2025-09-13,CFB,side,Alabama,-9.5 -117,-10 -130,-97.0,1761.0,1459.92,CFB 126 Alabama -30.5 -117 
-2025-09-13,CFB,total,Wisconsin/Bama,o19.5 -130,20.5 -110,-5.0,1761.0,1459.92,CFB 125 Wisconsin/Bama over 40.5 -130 
+2025-09-13,CFB,side,Alabama,-9.5 -117,-10 -130,-97.0,1761.0,1459.92,CFB 126 Alabama -30.5 -117
+2025-09-13,CFB,total,Wisconsin/Bama,o19.5 -130,20.5 -110,-5.0,1761.0,1459.92,CFB 125 Wisconsin/Bama over 40.5 -130
 2025-09-13,CFB,total,Oregon/Northwestern,u38.5 -110,u38.5 -110,0.0,7209.99,-7209.99,CFB 117 Oregon/Northwestern under 38.5 -110
-2025-09-13,CFB,total,Buffalo/Kent State,o21.5 -115,o24 -125,47.5,11798.3,10704.08,CFB 119 Buffalo/Kent State over 45.5 -115 
-2025-09-13,CFB,side,Memphis,-1.5 -115,-3.5 -110,35.0,5036.23,4379.33,CFB 113 Memphis -15.5 -115 
+2025-09-13,CFB,total,Buffalo/Kent State,o21.5 -115,o24 -125,47.5,11798.3,10704.08,CFB 119 Buffalo/Kent State over 45.5 -115
+2025-09-13,CFB,side,Memphis,-1.5 -115,-3.5 -110,35.0,5036.23,4379.33,CFB 113 Memphis -15.5 -115
 2025-09-13,CFB,side,Georgia Tech,3.5 -115,2.5 +105,0.0,6874.99,6026.62,CFB 124 Georgia Tech -2.5 -115
 2025-09-13,CFB,total,South Bama/Auburn,u27.5 -115,u27 -110,2.5,16027.02,7225.91,CFB 127 South Bama/Auburn under 64.5 -115
-2025-09-13,CFB,side,Missouri,-8.5 -114,-11.5 -115,61.0,3100.0,-1215.04,CFB 144 Missouri -36.5 -114 
-2025-09-13,CFB,total,Uconn/Delaware,o24.5 -115,u28 -115,52.5,10376.03,6505.57,CFB 129 Uconn/Delaware over 76.5 -115 
+2025-09-13,CFB,side,Missouri,-8.5 -114,-11.5 -115,61.0,3100.0,-1215.04,CFB 144 Missouri -36.5 -114
+2025-09-13,CFB,total,Uconn/Delaware,o24.5 -115,u28 -115,52.5,10376.03,6505.57,CFB 129 Uconn/Delaware over 76.5 -115
 2025-09-13,CFB,total,Iowa State/Ark State,o25.5 -110,o27 -110,22.5,950.0,-950.0,CFB 145 Iowa State/Ark State over 52.5 -110
-2025-09-13,CFB,side,Georgia +1.5,-2.5 -115,-3 -120,-102.0,3400.0,2945.2200000000003,CFB 131 Georgia +1.5 -115 
-2025-09-13,CFB,side,UTEP +30.5,19.5 -118,16.5 -115,57.0,12302.98,-10336.31,CFB 147 UTEP +30.5 -118 
+2025-09-13,CFB,side,Georgia +1.5,-2.5 -115,-3 -120,-102.0,3400.0,2945.2200000000003,CFB 131 Georgia +1.5 -115
+2025-09-13,CFB,side,UTEP +30.5,19.5 -118,16.5 -115,57.0,12302.98,-10336.31,CFB 147 UTEP +30.5 -118
 2025-09-13,CFB,total,UTEP/Texas,o21.5 -110,23.5 -110,30.0,12302.98,-10336.31,CFB 147 UTEP/Texas over 38.5 -110
 2025-09-13,CFB,total,Washington State/North Texas,u26.5 -115,u24 -120,42.5,13193.42,11550.84,CFB 135 Washington State/North Texas under 71.5 -115
-2025-09-13,CFB,total,Liberty/Bowling Green,u24.5 -115,u23.5 -110,10.0,7957.88,-7957.88,CFB 151 Liberty/Bowling Green under 34.5 -115 
-2025-09-13,CFB,side,USC,-7.5 -115,-10 -110,-55.0,3700.0,-3700.0,CFB 139 USC -21.5 -115 
-2025-09-13,CFB,side,Coastal Carolina +13.5,3.5 -120,3 -100,-10.0,13064.99,10356.66,CFB 176 Coastal Carolina +13.5 -120 
-2025-09-13,CFB,side,ECU,-2.5 -115,-3 -120,-102.0,13064.99,10356.66,CFB 175 ECU -12.5 -115 
-2025-09-13,CFB,total,Mass/Iowa,u21.5 -122,u20.5 -110,3.0,979.98,844.5500000000001,CFB 179 Mass/Iowa under 58.5 -120 
+2025-09-13,CFB,total,Liberty/Bowling Green,u24.5 -115,u23.5 -110,10.0,7957.88,-7957.88,CFB 151 Liberty/Bowling Green under 34.5 -115
+2025-09-13,CFB,side,USC,-7.5 -115,-10 -110,-55.0,3700.0,-3700.0,CFB 139 USC -21.5 -115
+2025-09-13,CFB,side,Coastal Carolina +13.5,3.5 -120,3 -100,-10.0,13064.99,10356.66,CFB 176 Coastal Carolina +13.5 -120
+2025-09-13,CFB,side,ECU,-2.5 -115,-3 -120,-102.0,13064.99,10356.66,CFB 175 ECU -12.5 -115
+2025-09-13,CFB,total,Mass/Iowa,u21.5 -122,u20.5 -110,3.0,979.98,844.5500000000001,CFB 179 Mass/Iowa under 58.5 -120
 2025-09-13,CFB,side,Mass +43.5,20.5 -120,14 -115,125.0,979.98,844.5500000000001,CFB 179 Mass +43.5 -120
-2025-09-13,CFB,side,Ole Miss,-.5 -110,-2.5 -110,40.0,1650.0,1500.0,CFB 166 Ole Miss -3.5 -110 
-2025-09-13,CFB,total,NMS/Louisiana Tech,o21.5 -115,o24 -115,37.5,5100.0,4787.389999999999,CFB 177 NMS/Louisiana Tech over 62.5 -115 
-2025-09-13,CFB,total,Ohio/Ohio State,o20.5 -120,o22.5 -110,20.0,3610.0,2983.0,CFB 157 Ohio/Ohio State over 36.5 -120 
-2025-09-13,CFB,total,Jacksonville State/Georgia Southern,o27.5 -115,o30 -100,22.5,4556.49,-4556.49,CFB 163 Jacksonville State/Georgia Southern over 82.5 -115 
+2025-09-13,CFB,side,Ole Miss,-.5 -110,-2.5 -110,40.0,1650.0,1500.0,CFB 166 Ole Miss -3.5 -110
+2025-09-13,CFB,total,NMS/Louisiana Tech,o21.5 -115,o24 -115,37.5,5100.0,4787.389999999999,CFB 177 NMS/Louisiana Tech over 62.5 -115
+2025-09-13,CFB,total,Ohio/Ohio State,o20.5 -120,o22.5 -110,20.0,3610.0,2983.0,CFB 157 Ohio/Ohio State over 36.5 -120
+2025-09-13,CFB,total,Jacksonville State/Georgia Southern,o27.5 -115,o30 -100,22.5,4556.49,-4556.49,CFB 163 Jacksonville State/Georgia Southern over 82.5 -115
 2025-09-13,CFB,total,Old D/Virginia Tech,o21.5 -111,o23.5 -110,29.0,3550.0,-1586.96,CFB 159 Old D/Virginia Tech over 49.5 -111
-2025-09-13,CFB,total,Florida/LSU,o21.5 -120,o23 -110,12.5,7620.34,-7620.34,CFB 171 Florida/LSU over 41.5 -120 
-2025-09-13,CFB,total,Navy/Tulsa,o21.5 -120,o24 -120,37.5,9683.99,8786.44,CFB 181 Navy/Tulsa over 59.5 -120 
-2025-09-13,CFB,total,ECU/Coastal Carolina,u30.5 -120,u27 -120,52.5,13064.99,10356.66,CFB 175 ECU/Coastal Carolina under 40.5 -120 
+2025-09-13,CFB,total,Florida/LSU,o21.5 -120,o23 -110,12.5,7620.34,-7620.34,CFB 171 Florida/LSU over 41.5 -120
+2025-09-13,CFB,total,Navy/Tulsa,o21.5 -120,o24 -120,37.5,9683.99,8786.44,CFB 181 Navy/Tulsa over 59.5 -120
+2025-09-13,CFB,total,ECU/Coastal Carolina,u30.5 -120,u27 -120,52.5,13064.99,10356.66,CFB 175 ECU/Coastal Carolina under 40.5 -120
 2025-09-13,CFB,total,App State/So Miss,u29.5 -115,u27.5 -105,20.0,2527.58,-2527.58,CFB 155 App State/So Miss under 53.5 -115
-2025-09-13,CFB,side,Old D,7.5 -125,3.5 -105,60.0,3550.0,-1586.96,CFB 159 Old D -20.5 -125 
-2025-09-20,CFB,side,Army +15,1 -112,Pk -110,2218.0,707.0,584.3,CFB 310 Army +15 -112 
+2025-09-13,CFB,side,Old D,7.5 -125,3.5 -105,60.0,3550.0,-1586.96,CFB 159 Old D -20.5 -125
+2025-09-20,CFB,side,Army +15,1 -112,Pk -110,2218.0,707.0,584.3,CFB 310 Army +15 -112
 2025-09-20,CFB,total,Bowling Green/Louisville,o21.5 -130,o23 -120,12.5,4527.0,3870.81,CFB 325 Bowling Green/Louisville over 45.5 -130
-2025-09-20,CFB,side,Wisconsin +19.5,-.5 -106,-2.5 -115,49.0,7595.0,6032.73,CFB 340 Wisconsin +19.5 -106 
-2025-09-20,CFB,total,Arkansas/Memphis,o29.5 -115,o30.5 -110,10.0,8559.5,-8559.5,CFB 365 Arkansas/Memphis over 74.5 -115 
-2025-09-20,CFB,total,UNLV/Miami Ohio,o23.5 -115,o24 -115,7.5,1150.0,1000.0,CFB 319 UNLV/Miami Ohio over 57.5 -115 
-2025-09-20,CFB,total,UAB/Tennessee,o27 -110,o27.5 -130,27.5,5688.96,560.13,CFB 343 UAB/Tennessee over 76 -110 
+2025-09-20,CFB,side,Wisconsin +19.5,-.5 -106,-2.5 -115,49.0,7595.0,6032.73,CFB 340 Wisconsin +19.5 -106
+2025-09-20,CFB,total,Arkansas/Memphis,o29.5 -115,o30.5 -110,10.0,8559.5,-8559.5,CFB 365 Arkansas/Memphis over 74.5 -115
+2025-09-20,CFB,total,UNLV/Miami Ohio,o23.5 -115,o24 -115,7.5,1150.0,1000.0,CFB 319 UNLV/Miami Ohio over 57.5 -115
+2025-09-20,CFB,total,UAB/Tennessee,o27 -110,o27.5 -130,27.5,5688.96,560.13,CFB 343 UAB/Tennessee over 76 -110
 2025-09-20,CFB,total,UAB/Tennessee,u31.5 -110,u27.5 +110,40.0,5688.96,560.13,CFB 343 UAB/Tennessee under 80.5 -110
 2025-09-20,CFB,total,North Texas/Army,o24 -121,o24.5 -115,1.5,707.0,584.3,CFB 309 North Texas/Army over 66 -121
-2025-09-20,CFB,side,Tennessee,-14.5 -115,-17 -110,-48.0,5688.96,560.13,CFB 343 Tennessee -49.5 -115 
-2025-09-20,CFB,total,SMU/TCU,u31.5 -120,30 -110,12.5,5491.0,-5491.0,CFB 311 SMU/TCU under 55.5 -120 
-2025-09-20,CFB,side,Oregon,-10.5 -120,-14 -110,-36.0,3361.56,2712.23,CFB 352 Oregon -24.5 -120 
+2025-09-20,CFB,side,Tennessee,-14.5 -115,-17 -110,-48.0,5688.96,560.13,CFB 343 Tennessee -49.5 -115
+2025-09-20,CFB,total,SMU/TCU,u31.5 -120,30 -110,12.5,5491.0,-5491.0,CFB 311 SMU/TCU under 55.5 -120
+2025-09-20,CFB,side,Oregon,-10.5 -120,-14 -110,-36.0,3361.56,2712.23,CFB 352 Oregon -24.5 -120
 2025-09-20,CFB,total,UL Lafayette/East Mich o61,o23 -115,o24 -120,20.0,7840.64,6609.91,CFB 313 UL Lafayette/East Mich o61 -115
-2025-09-20,CFB,total,NC State/Duke,o26.5 -122,o29 -110,25.5,4630.0,3945.65,CFB 331 NC State/Duke over 67.5 -122 
-2025-09-20,CFB,side,Buffalo,-2.5 -110,-3 -115,-97.0,1116.0,1000.0,CFB 338 Buffalo -9.5 -110 
-2025-09-20,CFB,total,Temple/Georgia Tech,o24.5 -115,o24.5 -120,5.0,9520.0,-5270.0,CFB 315 Temple/Georgia Tech over 52.5 -115 
-2025-09-20,CFB,total,Temple/Georgia Tech,u27.5 -100,u24.5 -100,45.0,9520.0,-5270.0,CFB 315 Temple/Georgia Tech under 55.5 -100 
-2025-09-20,CFB,side,West Virginia +24.5,7.5 -125,6.5 -100,-5.0,9875.0,-9875.0,CFB 357 West Virginia +24.5 -125 
+2025-09-20,CFB,total,NC State/Duke,o26.5 -122,o29 -110,25.5,4630.0,3945.65,CFB 331 NC State/Duke over 67.5 -122
+2025-09-20,CFB,side,Buffalo,-2.5 -110,-3 -115,-97.0,1116.0,1000.0,CFB 338 Buffalo -9.5 -110
+2025-09-20,CFB,total,Temple/Georgia Tech,o24.5 -115,o24.5 -120,5.0,9520.0,-5270.0,CFB 315 Temple/Georgia Tech over 52.5 -115
+2025-09-20,CFB,total,Temple/Georgia Tech,u27.5 -100,u24.5 -100,45.0,9520.0,-5270.0,CFB 315 Temple/Georgia Tech under 55.5 -100
+2025-09-20,CFB,side,West Virginia +24.5,7.5 -125,6.5 -100,-5.0,9875.0,-9875.0,CFB 357 West Virginia +24.5 -125
 2025-09-20,CFB,side,Arkansas State +10.5,-3.5 -115,-4 -110,-101.0,5327.0,-2709.61,CFB 381 Arkansas State +10.5 -115
-2025-09-20,CFB,total,Arkansas State/Kennesaw State,o27 -115,o28 -110,10.0,5327.0,-2709.61,CFB 381 Arkansas State/Kennesaw State over 55 -115 
-2025-09-20,CFB,side,Kennesaw State,6.5 -105,4 -110,55.0,5327.0,-2709.61,CFB 382 Kennesaw State -7.5 -105 
-2025-09-20,CFB,total,Boise State/Air Force,o24.5 +106,o24.5 -120,26.0,8467.28,8137.08,CFB 387 Boise State/Air Force over 59.5 +106 
-2025-09-20,CFB,total,Stanford/Virginia,o22.5 -120,o24 -120,22.5,12406.19,10388.1,CFB 371 Stanford/Virginia over 64.5 -120 
-2025-09-20,CFB,side,ECU +14,4 -115,3.5 -115,10.0,700.0,608.7,CFB 322 ECU +14 -115 
+2025-09-20,CFB,total,Arkansas State/Kennesaw State,o27 -115,o28 -110,10.0,5327.0,-2709.61,CFB 381 Arkansas State/Kennesaw State over 55 -115
+2025-09-20,CFB,side,Kennesaw State,6.5 -105,4 -110,55.0,5327.0,-2709.61,CFB 382 Kennesaw State -7.5 -105
+2025-09-20,CFB,total,Boise State/Air Force,o24.5 +106,o24.5 -120,26.0,8467.28,8137.08,CFB 387 Boise State/Air Force over 59.5 +106
+2025-09-20,CFB,total,Stanford/Virginia,o22.5 -120,o24 -120,22.5,12406.19,10388.1,CFB 371 Stanford/Virginia over 64.5 -120
+2025-09-20,CFB,side,ECU +14,4 -115,3.5 -115,10.0,700.0,608.7,CFB 322 ECU +14 -115
 2025-09-20,CFB,side,BYU,-2.5 -110,-3.5 -110,20.0,700.0,608.7,CFB 321 BYU -12.5 -110
-2025-09-20,CFB,side,Washington,-9.5 -120,-10.5 -110,10.0,11135.67,9474.66,CFB 393 Washington -23.5 -120 
+2025-09-20,CFB,side,Washington,-9.5 -120,-10.5 -110,10.0,11135.67,9474.66,CFB 393 Washington -23.5 -120
 2025-09-20,CFB,side,Illinois +31.5,6.5 -130,4 -120,40.0,7440.0,-7440.0,CFB 329 Illinois +31.5 -130
 2025-09-20,CFB,side,Sam Houston +57.5,26.5 -130,17 -105,165.0,1029.03,893.39,CFB 397 Sam Houston +57.5 -130
 2025-09-20,CFB,side,Texas,-13.5 -125,-17 -115,-38.0,1029.03,893.39,CFB 398 Texas -44.5 -125
 2025-09-20,CFB,side,Vanderbilt,-7.5 -120,-14 -110,24.0,2825.0,2445.65,CFB 396 Vanderbilt -40.5 -120
-2025-09-21,NFL,total,Texans/Jaguars,u21.5 -124,20 -110,8.5,4624.4400000000005,1360.71,NFL 467 Texans/Jaguars under 31.5 -124 
-2025-09-21,NFL,side,Texans +3.5 +102,-.5 +102,-.5 -110,12.0,4624.4400000000005,1360.71,NFL 467 Texans +3.5 +102 
-2025-09-21,NFL,side,Raiders +9.5,-.5 -115,-.5 -110,-5.0,10252.99,-10252.99,NFL 455 Raiders +9.5 -115 
-2025-09-21,NFL,total,Raiders/Commanders,o20.5 -112,o21.5 -115,18.0,10252.99,-10252.99,NFL 455 Raiders/Commanders over 50.5 -112 
-2025-09-21,NFL,total,Falcons/Panthers,u21.5 -115,20.5 -110,10.0,4595.32,4087.67,NFL 453 Falcons/Panthers under 31.5 -115 
-2025-09-27,CFB,total,Cinci/Kansas,o27.5 -120,o31 -105,37.5,1482.0,1390.82,CFB 159 Cinci/Kansas over 60.5 -120 
-2025-09-27,CFB,side,UCF/Kansas State +13,3 -115,3 -100,-15.0,2500.0,-2500.0,CFB 173 UCF/Kansas State +13 -115 
-2025-09-27,CFB,side,Kansas State,-1.5 -120,3 -120,-90.0,2500.0,-2500.0,CFB 174 Kansas State -11.5 -120 
+2025-09-21,NFL,total,Texans/Jaguars,u21.5 -124,20 -110,8.5,4624.4400000000005,1360.71,NFL 467 Texans/Jaguars under 31.5 -124
+2025-09-21,NFL,side,Texans +3.5 +102,-.5 +102,-.5 -110,12.0,4624.4400000000005,1360.71,NFL 467 Texans +3.5 +102
+2025-09-21,NFL,side,Raiders +9.5,-.5 -115,-.5 -110,-5.0,10252.99,-10252.99,NFL 455 Raiders +9.5 -115
+2025-09-21,NFL,total,Raiders/Commanders,o20.5 -112,o21.5 -115,18.0,10252.99,-10252.99,NFL 455 Raiders/Commanders over 50.5 -112
+2025-09-21,NFL,total,Falcons/Panthers,u21.5 -115,20.5 -110,10.0,4595.32,4087.67,NFL 453 Falcons/Panthers under 31.5 -115
+2025-09-27,CFB,total,Cinci/Kansas,o27.5 -120,o31 -105,37.5,1482.0,1390.82,CFB 159 Cinci/Kansas over 60.5 -120
+2025-09-27,CFB,side,UCF/Kansas State +13,3 -115,3 -100,-15.0,2500.0,-2500.0,CFB 173 UCF/Kansas State +13 -115
+2025-09-27,CFB,side,Kansas State,-1.5 -120,3 -120,-90.0,2500.0,-2500.0,CFB 174 Kansas State -11.5 -120
 2025-09-27,CFB,total,So Bama/North Texas,u30.5 -118,u29.5 -115,12.0,9504.8,-9504.8,CFB 171 So Bama/North Texas under 51.5 -118
-2025-09-27,CFB,total,Bowling Green/Ohio,u26.5 -115,u27 -115,-7.5,3123.16,2732.66,CFB 111 Bowling Green/Ohio under 60.5 -115 
+2025-09-27,CFB,total,Bowling Green/Ohio,u26.5 -115,u27 -115,-7.5,3123.16,2732.66,CFB 111 Bowling Green/Ohio under 60.5 -115
 2025-09-27,CFB,total,Georgia Tech/Wake Forest,o23.5 -130,o26 -110,17.5,7311.46,5942.58,CFB 139 Georgia Tech/Wake Forest over 43.5 -130
 2025-09-27,CFB,side,Notre Dame,-3.5 -120,-4.5 -110,10.0,6400.0,5818.18,CFB 125 Notre Dame -32.5 -120
 2025-09-27,CFB,total,Louisville/Pittsburgh,o25.5 -120,o27 -110,12.5,450.0,-450.0,CFB 135 Louisville/Pittsburgh over 69.5 -120
-2025-09-27,CFB,side,Vanderbilt,-8.5 -120,-11 -110,-59.0,11539.68,9311.68,CFB 148 Vanderbilt -18.5 -120 
-2025-09-27,CFB,total,Utah State/Vanderbilt,o23.5 -120,o27.5 -115,55.0,11539.68,9311.68,CFB 147 Utah State/Vanderbilt over 75.5 -130 
-2025-09-27,CFB,side,Central Michigan,4.5 -120,3 -115,25.0,15656.0,8154.85,CFB 142 Central Michigan -10.5 -118 
-2025-09-27,CFB,total,East mich/Central mich,o22.5 -120,o24 -110,12.5,15656.0,8154.85,CFB 142 East mich/Central mich over 49.5 -120 
+2025-09-27,CFB,side,Vanderbilt,-8.5 -120,-11 -110,-59.0,11539.68,9311.68,CFB 148 Vanderbilt -18.5 -120
+2025-09-27,CFB,total,Utah State/Vanderbilt,o23.5 -120,o27.5 -115,55.0,11539.68,9311.68,CFB 147 Utah State/Vanderbilt over 75.5 -130
+2025-09-27,CFB,side,Central Michigan,4.5 -120,3 -115,25.0,15656.0,8154.85,CFB 142 Central Michigan -10.5 -118
+2025-09-27,CFB,total,East mich/Central mich,o22.5 -120,o24 -110,12.5,15656.0,8154.85,CFB 142 East mich/Central mich over 49.5 -120
 2025-09-27,CFB,side,Georgia Southern +28.5,10.5 -115,9.5 -110,15.0,8945.0,7635.77,CFB 113 Georgia Southern +28.5 -115
-2025-09-27,CFB,side,JMU,-6.5 -120,-9.5 -110,50.0,8945.0,7635.77,CFB 113 JMU -24.5 -120 
-2025-09-27,CFB,moneyline,UConn,-140,-3 -100,,3750.0,3170.1,CFB 129 UConn -140 
-2025-09-27,CFB,total,Uconn/Buffalo,o21.5 -115,o23.5 -115,30.0,3750.0,3170.1,CFB 129 Uconn/Buffalo over 35.5 -115 
-2025-09-27,CFB,total,San Diego State/No Illinois,o17.5 +105,o20 -110,52.5,1000.0,-1000.0,CFB 123 San Diego State/No Illinois over 23.5 +105 
-2025-09-27,CFB,total,Ohio State/Washington,o24.5 -105,o24.5 -115,10.0,2816.0,-2816.0,CFB 201 Ohio State/Washington over 34.5 -105 
-2025-09-27,CFB,side,Rice +24.5,10.5 -120,7 +105,45.0,2035.0,1750.0,CFB 163 Rice +24.5 -120 
+2025-09-27,CFB,side,JMU,-6.5 -120,-9.5 -110,50.0,8945.0,7635.77,CFB 113 JMU -24.5 -120
+2025-09-27,CFB,moneyline,UConn,-140,-3 -100,,3750.0,3170.1,CFB 129 UConn -140
+2025-09-27,CFB,total,Uconn/Buffalo,o21.5 -115,o23.5 -115,30.0,3750.0,3170.1,CFB 129 Uconn/Buffalo over 35.5 -115
+2025-09-27,CFB,total,San Diego State/No Illinois,o17.5 +105,o20 -110,52.5,1000.0,-1000.0,CFB 123 San Diego State/No Illinois over 23.5 +105
+2025-09-27,CFB,total,Ohio State/Washington,o24.5 -105,o24.5 -115,10.0,2816.0,-2816.0,CFB 201 Ohio State/Washington over 34.5 -105
+2025-09-27,CFB,side,Rice +24.5,10.5 -120,7 +105,45.0,2035.0,1750.0,CFB 163 Rice +24.5 -120
 2025-09-27,CFB,side,Akron +46.5,14.5 -122,12 -110,38.0,6600.0,5800.2,CFB 115 Akron +46.5 -122
 2025-09-27,CFB,total,UCLA/Northwestern,o20.5 -130,o21.5 -110,-5.0,10802.5,-10802.5,CFB 143 UCLA/Northwestern over 40.5 -130
-2025-09-27,CFB,total,Baylor/Oklahoma State,o26.5 -118,o28.5 -110,22.0,10327.46,-10327.46,CFB 167 Baylor/Oklahoma State over 74.5 -118 
-2025-09-27,CFB,side,Hawaii,7.5 -118,6.5 ev,2.0,11585.2,9858.61,CFB 149 Hawaii -2.5 -118 
-2025-09-27,CFB,total,Hawaii/Air Force,o26.5 -120,o27 -130,17.5,11585.2,9858.61,CFB 149 Hawaii/Air Force over 50 -117 
+2025-09-27,CFB,total,Baylor/Oklahoma State,o26.5 -118,o28.5 -110,22.0,10327.46,-10327.46,CFB 167 Baylor/Oklahoma State over 74.5 -118
+2025-09-27,CFB,side,Hawaii,7.5 -118,6.5 ev,2.0,11585.2,9858.61,CFB 149 Hawaii -2.5 -118
+2025-09-27,CFB,total,Hawaii/Air Force,o26.5 -120,o27 -130,17.5,11585.2,9858.61,CFB 149 Hawaii/Air Force over 50 -117
 2025-09-27,CFB,side,LSU +9.5,2.5 -104,.5 -110,46.0,1045.0,980.77,CFB 175 LSU +9.5 -104
-2025-09-27,CFB,side,New Mexico,-7.5 -105,-10.5 -115,70.0,3045.0,2855.25,CFB 154 New Mexico -4.5 -105 
+2025-09-27,CFB,side,New Mexico,-7.5 -105,-10.5 -115,70.0,3045.0,2855.25,CFB 154 New Mexico -4.5 -105
 2025-09-27,CFB,total,Tulane/Tulsa,o23.5 -120,o26 -110,27.5,8490.9,-8490.9,CFB 177 Tulane/Tulsa over 61.5 -122
 2025-09-27,CFB,total,Tennessee/Miss State,u33.5 -120,u31.5 -115,25.0,3480.0,-1370.0,CFB 165 Tennessee/Miss State under 67.5 -120
 2025-09-27,CFB,total,Liberty/Old Dominion,u24.5 -115,u22.5 -110,25.0,1210.0,1000.0,CFB 119 Liberty/Old Dominion under 38.5 -115
-2025-09-27,CFB,side,Old Dominion,-7.5 -115,-10 -110,-55.0,1210.0,1000.0,CFB 120 Old Dominion -21.5 -115 
-2025-09-27,CFB,total,Jacksonville State/So Miss,u26.5 -115,u24 -110,32.5,10118.6,-10118.6,CFB 157 Jacksonville State/So Miss under 50.5 -115 
+2025-09-27,CFB,side,Old Dominion,-7.5 -115,-10 -110,-55.0,1210.0,1000.0,CFB 120 Old Dominion -21.5 -115
+2025-09-27,CFB,total,Jacksonville State/So Miss,u26.5 -115,u24 -110,32.5,10118.6,-10118.6,CFB 157 Jacksonville State/So Miss under 50.5 -115
 2025-09-27,CFB,total,Virginia Tech/NC State,o25.5 -125,o27.5 -110,15.0,7072.5,-7072.5,CFB 131 Virginia Tech/NC State over 45.5 -125
 2025-09-27,CFB,total,Western Kentucky/Missouri state,o23.5 -125,o27 -110,37.5,12748.880000000001,11448.28,CFB 191 Western Kentucky/Missouri state over 42.5 -125
-2025-09-27,CFB,total,San Jose State/Stanford,o23.5 -115,o25 -110,17.5,10342.0,9136.9,CFB 155 San Jose State/Stanford over 57.5 -115 
-2025-09-28,NFL,total,Browns/Lions,u21.5 -115,u20.5,15.0,5026.88,871.55,"NFL 261 Browns/Lions under 48.5 -115 for LIVE, rampage"
-2025-09-28,NFL,side,Browns +17.5,4.5 -115,4 -120,15.0,5026.88,871.55,"NFL 261 Browns +17.5 -115 for LIVE, rampage"
-2025-10-04,CFB,total,Air Force/Navy,o24.5 -110,o26.5 -110,30.0,6261.0,5734.5,CFB 317 Air Force/Navy over 51.5 -110 
-2025-10-04,CFB,total,Boston College/Pittsburgh,u26.5 -110,u24 -110,37.5,1619.44,1473.4,CFB 339 Boston College/Pittsburgh under 57.5 -110 
-2025-10-04,CFB,side,Pittsburgh,-3.5 -115,-6 -105,-59.0,1619.44,1473.4,CFB 340 Pittsburgh -34.5 -115 
-2025-10-04,CFB,side,Iowa State +14.5,-1.5 -115,3 -110,-95.0,150.0,130.43,CFB 327 Iowa State +14.5 -115 
+2025-09-27,CFB,total,San Jose State/Stanford,o23.5 -115,o25 -110,17.5,10342.0,9136.9,CFB 155 San Jose State/Stanford over 57.5 -115
+2025-09-28,NFL,total,Browns/Lions,u21.5 -115,u20.5,15.0,5026.88,871.55,"NFL 261 Browns/Lions under 48.5 -115 for LIVE,"
+2025-09-28,NFL,side,Browns +17.5,4.5 -115,4 -120,15.0,5026.88,871.55,"NFL 261 Browns +17.5 -115 for LIVE,"
+2025-10-04,CFB,total,Air Force/Navy,o24.5 -110,o26.5 -110,30.0,6261.0,5734.5,CFB 317 Air Force/Navy over 51.5 -110
+2025-10-04,CFB,total,Boston College/Pittsburgh,u26.5 -110,u24 -110,37.5,1619.44,1473.4,CFB 339 Boston College/Pittsburgh under 57.5 -110
+2025-10-04,CFB,side,Pittsburgh,-3.5 -115,-6 -105,-59.0,1619.44,1473.4,CFB 340 Pittsburgh -34.5 -115
+2025-10-04,CFB,side,Iowa State +14.5,-1.5 -115,3 -110,-95.0,150.0,130.43,CFB 327 Iowa State +14.5 -115
 2025-10-04,CFB,side,UTSA,Pk -123,-1.5 -115,-2438.0,6719.0,-6719.0,CFB 323 UTSA -11 -123
-2025-10-04,CFB,total,Wake Forest/Virginia Tech,o23.5 -125,o25.5 -115,20.0,3375.0,-3375.0,CFB 341 Wake Forest/Virginia Tech over 61.5 -125 
+2025-10-04,CFB,total,Wake Forest/Virginia Tech,o23.5 -125,o25.5 -115,20.0,3375.0,-3375.0,CFB 341 Wake Forest/Virginia Tech over 61.5 -125
 2025-10-04,CFB,total,Western Mich/Umass,o20.5 -115,o21.5 -100,0.0,25786.4,-6572.84,CFB 349 Western Mich/Umass over 30.5 -115
-2025-10-04,CFB,side,Western Mich,-5.5 -118,-6.5 -110,12.0,25786.4,-6572.84,CFB 349 Western Mich -9.5 -118 
+2025-10-04,CFB,side,Western Mich,-5.5 -118,-6.5 -110,12.0,25786.4,-6572.84,CFB 349 Western Mich -9.5 -118
 2025-10-04,CFB,total,Oklahoma State/Arizona,u27.5 -106,u27 -120,21.5,8114.99,7491.68,CFB 363 Oklahoma State/Arizona under 57.5 -106
 2025-10-04,CFB,total,JMU/Georgia State,o23.5 -110,o24 -120,17.5,2750.0,338.6,CFB 351 JMU/Georgia State over 23.5 -110
-2025-10-04,CFB,side,Georgia State +4.5,11.5 -120,10 -110,20.0,2750.0,338.6,CFB 352 Georgia State +4.5 -120 
-2025-10-04,CFB,total,Boise State/Notre Dame,o28.5 -120,o30.5 -115,25.0,2693.4,-2693.4,CFB 391 Boise State/Notre Dame over 49.5 -120 
-2025-10-04,CFB,total,Central Mich/Akron,o21.5 -120,o24 -115,32.5,6500.42,6114.6,CFB 343 Central Mich/Akron over 45.5 -120 
-2025-10-04,CFB,total,Oregon State/App State,o25.5 -125,o27 -110,7.5,5088.72,-5088.72,CFB 315 Oregon State/App State over 56.5 -125 
-2025-10-04,CFB,side,Florida,4.5 -115,3.5 -110,15.0,10745.91,6995.77,CFB 370 Florida -7.5 -115 
+2025-10-04,CFB,side,Georgia State +4.5,11.5 -120,10 -110,20.0,2750.0,338.6,CFB 352 Georgia State +4.5 -120
+2025-10-04,CFB,total,Boise State/Notre Dame,o28.5 -120,o30.5 -115,25.0,2693.4,-2693.4,CFB 391 Boise State/Notre Dame over 49.5 -120
+2025-10-04,CFB,total,Central Mich/Akron,o21.5 -120,o24 -115,32.5,6500.42,6114.6,CFB 343 Central Mich/Akron over 45.5 -120
+2025-10-04,CFB,total,Oregon State/App State,o25.5 -125,o27 -110,7.5,5088.72,-5088.72,CFB 315 Oregon State/App State over 56.5 -125
+2025-10-04,CFB,side,Florida,4.5 -115,3.5 -110,15.0,10745.91,6995.77,CFB 370 Florida -7.5 -115
 2025-10-04,CFB,total,FIU/UConn,o24 -110,o24 -115,5.0,1100.0,1000.0,CFB 389 FIU/UConn over 24 -110
-2025-10-04,CFB,side,UConn,-3.5 -110,-4 -100,-96.0,1100.0,1000.0,CFB 390 UConn -3.5 -110 
-2025-10-04,CFB,total,Vanderbilt/Alabama,o27.5 -120,o28.5 -110,5.0,6183.24,-6183.24,CFB 375 Vanderbilt/Alabama over 55.5 -120 
-2025-10-04,CFB,total,Michigan State/Nebraska,o20 -110,o20.5 -110,7.5,550.0,500.0,CFB 359 Michigan State/Nebraska over 20 -110 
+2025-10-04,CFB,side,UConn,-3.5 -110,-4 -100,-96.0,1100.0,1000.0,CFB 390 UConn -3.5 -110
+2025-10-04,CFB,total,Vanderbilt/Alabama,o27.5 -120,o28.5 -110,5.0,6183.24,-6183.24,CFB 375 Vanderbilt/Alabama over 55.5 -120
+2025-10-04,CFB,total,Michigan State/Nebraska,o20 -110,o20.5 -110,7.5,550.0,500.0,CFB 359 Michigan State/Nebraska over 20 -110
 2025-10-04,CFB,side,FAU,3.5 -108,3 -110,12.0,11055.0,-11055.0,CFB 377 FAU -6.5 -108
-2025-10-04,CFB,total,FAU/Rice,o26.5 -115,o27 -115,7.5,11055.0,-11055.0,CFB 377 FAU/Rice over 50.5 -115 
+2025-10-04,CFB,total,FAU/Rice,o26.5 -115,o27 -115,7.5,11055.0,-11055.0,CFB 377 FAU/Rice over 50.5 -115
 2025-10-04,CFB,total,Texas Tech/Houston,o23.5 -120,o24 -120,7.5,2647.0,-2647.0,CFB 379 Texas Tech/Houston over 59.5 -120
-2025-10-04,CFB,total,Kansas/UCF,o24.5 -120,o27 -105,22.5,5154.4,-5154.4,CFB 325 Kansas/UCF over 58.5 -120 
-2025-10-04,CFB,total,Colorado/TCU,o26.5 -115,o27.5 -120,20.0,3168.0,2714.96,CFB 381 Colorado/TCU over 54.5 -115 
-2025-10-11,CFB,total,Charlotte/Army,u21.5 -118,u20 -105,9.5,9521.0,4878.6,"CFB 129 Charlotte/Army under 38.5 -118 for LIVE, Rampage"
-2025-10-11,CFB,total,Charlotte/Army,o16.5 -130,o20 -115,37.5,9521.0,4878.6,"CFB 129 Charlotte/Army over 33.5 -130 for LIVE, Rampage"
-2025-10-11,CFB,side,Michigan State +13.5,-3.5 -115,-3.5 -110,-5.0,4555.0,3873.2,CFB 148 Michigan State +13.5 -115 
-2025-10-11,CFB,side,UCLA,4.5 -120,3.5 -120,20.0,4555.0,3873.2,CFB 147 UCLA -12.5 -120 
-2025-10-11,CFB,side,Cincinnati,-2.5 -130,-3 -110,-117.0,6375.0,-6375.0,CFB 126 Cincinnati -16.5 -130 
-2025-10-11,CFB,total,Toledo/Bowling Green,u21.5 -117,u21 -110,0.5,11402.9,-11402.9,CFB 153 Toledo/Bowling Green under 49.5 -117 
-2025-10-11,CFB,total,Stanford/SMU,u27.5 -120,u26 -110,12.5,9444.0,8203.01,CFB 185 Stanford/SMU under 51.5 -120 
-2025-10-11,CFB,total,UL Lafayette/JMU,o22.5 -118,o24 -110,14.5,7730.0,-7730.0,CFB 131 UL Lafayette/JMU over 43.5 -118 
-2025-10-11,CFB,side,Illinois +24.5,7.5 -121,7 -125,14.0,11589.68,9902.220000000001,CFB 184 Illinois +24.5 -121 
-2025-10-11,CFB,total,No Illinois/EMU,u23.5 -115,u23 -115,7.5,12455.0,10869.58,CFB 155 No Illinois/EMU under 32.5 -115 
-2025-10-11,CFB,side,Mass +10.5,-4.5 -115,-3 -105,-142.0,9375.0,3465.26,CFB 121 Mass +10.5 -115 
+2025-10-04,CFB,total,Kansas/UCF,o24.5 -120,o27 -105,22.5,5154.4,-5154.4,CFB 325 Kansas/UCF over 58.5 -120
+2025-10-04,CFB,total,Colorado/TCU,o26.5 -115,o27.5 -120,20.0,3168.0,2714.96,CFB 381 Colorado/TCU over 54.5 -115
+2025-10-11,CFB,total,Charlotte/Army,u21.5 -118,u20 -105,9.5,9521.0,4878.6,"CFB 129 Charlotte/Army under 38.5 -118 for LIVE,"
+2025-10-11,CFB,total,Charlotte/Army,o16.5 -130,o20 -115,37.5,9521.0,4878.6,"CFB 129 Charlotte/Army over 33.5 -130 for LIVE,"
+2025-10-11,CFB,side,Michigan State +13.5,-3.5 -115,-3.5 -110,-5.0,4555.0,3873.2,CFB 148 Michigan State +13.5 -115
+2025-10-11,CFB,side,UCLA,4.5 -120,3.5 -120,20.0,4555.0,3873.2,CFB 147 UCLA -12.5 -120
+2025-10-11,CFB,side,Cincinnati,-2.5 -130,-3 -110,-117.0,6375.0,-6375.0,CFB 126 Cincinnati -16.5 -130
+2025-10-11,CFB,total,Toledo/Bowling Green,u21.5 -117,u21 -110,0.5,11402.9,-11402.9,CFB 153 Toledo/Bowling Green under 49.5 -117
+2025-10-11,CFB,total,Stanford/SMU,u27.5 -120,u26 -110,12.5,9444.0,8203.01,CFB 185 Stanford/SMU under 51.5 -120
+2025-10-11,CFB,total,UL Lafayette/JMU,o22.5 -118,o24 -110,14.5,7730.0,-7730.0,CFB 131 UL Lafayette/JMU over 43.5 -118
+2025-10-11,CFB,side,Illinois +24.5,7.5 -121,7 -125,14.0,11589.68,9902.220000000001,CFB 184 Illinois +24.5 -121
+2025-10-11,CFB,total,No Illinois/EMU,u23.5 -115,u23 -115,7.5,12455.0,10869.58,CFB 155 No Illinois/EMU under 32.5 -115
+2025-10-11,CFB,side,Mass +10.5,-4.5 -115,-3 -105,-142.0,9375.0,3465.26,CFB 121 Mass +10.5 -115
 2025-10-11,CFB,side,Kent State,4.5 -115,3 -115,30.0,9375.0,3465.26,CFB 122 Kent State -10.5 -115
-2025-10-11,CFB,total,Mass/Kent State,u26.5 -120,u24 -115,32.5,9375.0,3465.26,CFB 121 Mass/Kent State under 53.5 -120 
+2025-10-11,CFB,total,Mass/Kent State,u26.5 -120,u24 -115,32.5,9375.0,3465.26,CFB 121 Mass/Kent State under 53.5 -120
 2025-10-11,CFB,side,Western Michigan,-3.5 -118,-4 -125,-104.0,16290.0,12087.58,CFB 160 Western Michigan -24.5 -118
 2025-10-11,CFB,total,Northwestern/Penn State,o20.5 -115,o21.5 -120,20.0,7850.0,4383.7,CFB 137 Northwestern/Penn State over 47.5 -115
-2025-10-11,CFB,total,Air Force/UNLV,o30.5 -125,o34 -110,37.5,2200.0,1760.0,CFB 203 Air Force/UNLV over 64.5 -125 
+2025-10-11,CFB,total,Air Force/UNLV,o30.5 -125,o34 -110,37.5,2200.0,1760.0,CFB 203 Air Force/UNLV over 64.5 -125
 2025-10-11,CFB,side,Northwestern +11.5,10.5 -120,10 -125,15.0,7850.0,4383.7,CFB 137 Northwestern +11.5 -120
-2025-10-11,CFB,side,Notre Dame,-9.5 -120,-13.5 -110,70.0,2050.0,1754.59,CFB 196 Notre Dame -12.5 -120 
-2025-10-11,CFB,side,Oregon +2.5,-.5 -120,-3 -110,-67.0,13875.6,-13875.6,CFB 198 Oregon +2.5 -120 
-2025-10-11,CFB,side,Colorado +6,3 -117,.5 -125,58.0,4297.5,3679.63,CFB 166 Colorado +6 -117 
-2025-10-11,CFB,total,Wake Forest/Oregon State,o23.5 -110,o23.5 -115,5.0,3100.0,2740.0,CFB 199 Wake Forest/Oregon State over 48.5 -110 
-2025-10-11,CFB,total,Iowa State/Colorado,o23.5 -115,o24 -110,2.5,4297.5,3679.63,CFB 165 Iowa State/Colorado over 40.5 -115 
-2025-10-11,CFB,total,Navy/Temple,o24.5 -118,o26.5 -115,27.0,7730.0,6898.82,"CFB 123 Navy/Temple over 48.5 -118 for LIVE, Rampage"
+2025-10-11,CFB,side,Notre Dame,-9.5 -120,-13.5 -110,70.0,2050.0,1754.59,CFB 196 Notre Dame -12.5 -120
+2025-10-11,CFB,side,Oregon +2.5,-.5 -120,-3 -110,-67.0,13875.6,-13875.6,CFB 198 Oregon +2.5 -120
+2025-10-11,CFB,side,Colorado +6,3 -117,.5 -125,58.0,4297.5,3679.63,CFB 166 Colorado +6 -117
+2025-10-11,CFB,total,Wake Forest/Oregon State,o23.5 -110,o23.5 -115,5.0,3100.0,2740.0,CFB 199 Wake Forest/Oregon State over 48.5 -110
+2025-10-11,CFB,total,Iowa State/Colorado,o23.5 -115,o24 -110,2.5,4297.5,3679.63,CFB 165 Iowa State/Colorado over 40.5 -115
+2025-10-11,CFB,total,Navy/Temple,o24.5 -118,o26.5 -115,27.0,7730.0,6898.82,"CFB 123 Navy/Temple over 48.5 -118 for LIVE,"
 2025-10-11,CFB,side,Navy +3.5,-6.5 -110,-6.5 -125,15.0,7730.0,6898.82,CFB 123 Navy +3.5 -110
-2025-10-11,CFB,side,Arkansas +7.5,7.5 -115,6.5 -100,5.0,6405.0,5546.75,CFB 177 Arkansas +7.5 -115 
+2025-10-11,CFB,side,Arkansas +7.5,7.5 -115,6.5 -100,5.0,6405.0,5546.75,CFB 177 Arkansas +7.5 -115
 2025-10-11,CFB,total,Arkansas/Tennessee,u36.5 -115,u34.5 -115,30.0,6405.0,5546.75,CFB 177 Arkansas/Tennessee under 70.5 -115
-2025-10-11,CFB,total,UAB/FAU,u37.5 -115,u33 -110,62.5,6045.0,-2025.4299999999998,CFB 127 UAB/FAU under 86.5 -115 
-2025-10-11,CFB,total,Clemson/Boston College,u27.5 -120,u26 -110,12.5,1000.0,807.3,CFB 139 Clemson/Boston College under 71.5 -120 
-2025-10-11,CFB,side,Boston College +31.5,7.5 -125,6.5 -110,5.0,1000.0,807.3,CFB 140 Boston College +31.5 -125 
+2025-10-11,CFB,total,UAB/FAU,u37.5 -115,u33 -110,62.5,6045.0,-2025.4299999999998,CFB 127 UAB/FAU under 86.5 -115
+2025-10-11,CFB,total,Clemson/Boston College,u27.5 -120,u26 -110,12.5,1000.0,807.3,CFB 139 Clemson/Boston College under 71.5 -120
+2025-10-11,CFB,side,Boston College +31.5,7.5 -125,6.5 -110,5.0,1000.0,807.3,CFB 140 Boston College +31.5 -125
 2025-10-11,CFB,side,Texas Tech,-3.5 -120,-4 -110,-106.0,4592.35,3864.26,CFB 158 Texas Tech -7.5 -120
-2025-10-11,CFB,total,Rice/UTSA,u23.5 -110,u21 -110,37.5,2900.0,-2900.0,CFB 192 Rice/UTSA under 71.5 -110 
-2025-10-18,CFB,total,Georgia Tech/Duke,o28.5 -115,o30.5 -105,20.0,3710.0,-1400.0,CFB 349 Georgia Tech/Duke over 42.5 -115 
-2025-10-18,CFB,total,Army/Tulane,o20.5 -115,o21 -115,7.5,1000.0,884.96,CFB 389 Army/Tulane over 26.5 -115 
-2025-10-18,CFB,total,Uconn/Boston College,o27.5 -115,o28.5 -115,15.0,3589.98,-3589.98,CFB 345 Uconn/Boston College over 64.5 -115 
-2025-10-18,CFB,side,Duke,-3.5 -110,-3.5 -120,10.0,3710.0,-1400.0,CFB 350 Duke -3.5 -110 
+2025-10-11,CFB,total,Rice/UTSA,u23.5 -110,u21 -110,37.5,2900.0,-2900.0,CFB 192 Rice/UTSA under 71.5 -110
+2025-10-18,CFB,total,Georgia Tech/Duke,o28.5 -115,o30.5 -105,20.0,3710.0,-1400.0,CFB 349 Georgia Tech/Duke over 42.5 -115
+2025-10-18,CFB,total,Army/Tulane,o20.5 -115,o21 -115,7.5,1000.0,884.96,CFB 389 Army/Tulane over 26.5 -115
+2025-10-18,CFB,total,Uconn/Boston College,o27.5 -115,o28.5 -115,15.0,3589.98,-3589.98,CFB 345 Uconn/Boston College over 64.5 -115
+2025-10-18,CFB,side,Duke,-3.5 -110,-3.5 -120,10.0,3710.0,-1400.0,CFB 350 Duke -3.5 -110
 2025-10-18,CFB,total,Baylor/TCU,u31.5 -115,u31 -100,-7.5,13620.0,-13620.0,CFB 385 Baylor/TCU under 62.5 -115
 2025-10-18,CFB,total,Eastern Michigan/Miami Ohio,o23.5 -110,o24 -115,12.5,5989.02,5208.09,CFB 329 Eastern Michigan/Miami Ohio over 58.5 -110
 2025-10-18,CFB,total,Buffalo/Umass,o21.5 -110,o23.5 -110,30.0,5170.0,4301.81,CFB 323 Buffalo/Umass over 45.5 -110
 2025-10-18,CFB,total,Purdue/Northwestern,u25 -118,u21 -110,52.0,13984.29,7461.83,CFB 363 Purdue/Northwestern under 38 -118
-2025-10-18,CFB,total,Michigan State/Indiana,u24.5 -110,u24.5 -120,10.0,2037.5,1852.27,"CFB 351 Michigan State/Indiana under 55.5 -110 for LIVE, rampage"
-2025-10-18,CFB,side,Coastal Carolina +14.5,7.5 -113,6.5 -110,17.0,10230.0,8906.04,CFB 325 Coastal Carolina +14.5 -113 
+2025-10-18,CFB,total,Michigan State/Indiana,u24.5 -110,u24.5 -120,10.0,2037.5,1852.27,"CFB 351 Michigan State/Indiana under 55.5 -110 for LIVE,"
+2025-10-18,CFB,side,Coastal Carolina +14.5,7.5 -113,6.5 -110,17.0,10230.0,8906.04,CFB 325 Coastal Carolina +14.5 -113
 2025-10-18,CFB,total,No Illinois/Ohio,o20 -120,20.5 -120,7.5,1200.0,1000.0,CFB 333 No Illinois/Ohio over 49 -120
-2025-10-18,CFB,total,Old Dominion/JMU,o26.5 -125,o83 -115,837.5,8051.28,4843.43,CFB 335 Old Dominion/JMU over 81.5 -125 
+2025-10-18,CFB,total,Old Dominion/JMU,o26.5 -125,o83 -115,837.5,8051.28,4843.43,CFB 335 Old Dominion/JMU over 81.5 -125
 2025-10-18,CFB,side,UTSA +14.5,4.5 -118,3 -110,22.0,8140.0,-8140.0,CFB 379 UTSA +14.5 -118
 2025-10-18,CFB,total,Texas AnM/Arkansas,o26.5 -115,o30.5 -110,55.0,14501.59,12510.48,CFB 393 Texas AnM/Arkansas over 67.5 -115
-2025-10-18,CFB,total,Texas AnM/Arkansas,o28.5 -112,o30.5 -110,28.0,14501.59,12510.48,CFB 393 Texas AnM/Arkansas over 69.5 -112 
+2025-10-18,CFB,total,Texas AnM/Arkansas,o28.5 -112,o30.5 -110,28.0,14501.59,12510.48,CFB 393 Texas AnM/Arkansas over 69.5 -112
 2025-10-18,CFB,total,Texas AnM/Arkansas,u30 -110,u30.5 -110,-7.5,14501.59,12510.48,CFB 393 Texas AnM/Arkansas under 72 -110
-2025-10-18,CFB,total,Washington State/Virginia,u28.5 -122,u28 -110,-4.5,5466.0,4487.7,CFB 411 Washington State/Virginia under 52.5 -122 
+2025-10-18,CFB,total,Washington State/Virginia,u28.5 -122,u28 -110,-4.5,5466.0,4487.7,CFB 411 Washington State/Virginia under 52.5 -122
 2025-10-25,CFB,total,Rutgers/Purdue,o26.5 -114,o28 -110,18.5,9163.99,7985.06,CFB 143 Rutgers/Purdue over 43.5 -114
-2025-10-25,CFB,total,Northwestern/Nebraska,o20.5 -115,o21.5 -110,10.0,6885.92,5960.75,CFB 159 Northwestern/Nebraska over 33.5 -115 
-2025-10-25,CFB,side,Kent State +17.5,6.5 -115,6 -115,10.0,7236.0,6581.48,CFB 154 Kent State +17.5 -115 
-2025-10-25,CFB,side,Ohio +1.5,1.5 -115,-1.5 -115,60.0,12898.05,-7540.09,CFB 151 Ohio +1.5 -115 
-2025-10-25,CFB,total,Kansas State/Kansas,u28.5 -115,u28 -115,7.5,500.0,434.78,CFB 167 Kansas State/Kansas under 63.5 -115 
-2025-10-25,CFB,total,Virginia/UNC,o23.5 -120,o24 -120,7.5,4200.0,-4200.0,CFB 139 Virginia/UNC over 43.5 -120 
+2025-10-25,CFB,total,Northwestern/Nebraska,o20.5 -115,o21.5 -110,10.0,6885.92,5960.75,CFB 159 Northwestern/Nebraska over 33.5 -115
+2025-10-25,CFB,side,Kent State +17.5,6.5 -115,6 -115,10.0,7236.0,6581.48,CFB 154 Kent State +17.5 -115
+2025-10-25,CFB,side,Ohio +1.5,1.5 -115,-1.5 -115,60.0,12898.05,-7540.09,CFB 151 Ohio +1.5 -115
+2025-10-25,CFB,total,Kansas State/Kansas,u28.5 -115,u28 -115,7.5,500.0,434.78,CFB 167 Kansas State/Kansas under 63.5 -115
+2025-10-25,CFB,total,Virginia/UNC,o23.5 -120,o24 -120,7.5,4200.0,-4200.0,CFB 139 Virginia/UNC over 43.5 -120
 2025-10-25,CFB,total,Ohio/EMU,o30.5 -113,o31 -110,4.5,12898.05,-7540.09,CFB 151 Ohio/EMU over 51.5 -113
 2025-10-25,CFB,side,UNC +6.5,6.5 -102,6 -110,18.0,4200.0,-4200.0,CFB 140 UNC +6.5 -102
 2025-10-25,CFB,total,South Florida/Memphis,o28.5 -112,o30.5 -110,28.0,7069.0,-7069.0,CFB 189 South Florida/Memphis over 66.5 -112
-2025-10-25,CFB,side,Syracuse +24.5,7.5 -125,6.5 -110,5.0,4850.0,-4850.0,CFB 129 Syracuse +24.5 -125 
+2025-10-25,CFB,side,Syracuse +24.5,7.5 -125,6.5 -110,5.0,4850.0,-4850.0,CFB 129 Syracuse +24.5 -125
 2025-10-25,CFB,side,App State +10.5,7.5 -120,6 -105,15.0,4615.97,4016.32,CFB 163 App State +10.5 -120
 2025-10-25,CFB,side,Akron +11.5,4.5 -115,3.5 -110,15.0,1910.0,-1910.0,CFB 121 Akron +11.5 -115
-2025-10-25,CFB,total,Akron/Buffalo,u21.5 -115,u21 -100,-7.5,1910.0,-1910.0,CFB 122 Akron/Buffalo under 34.5 -115 
+2025-10-25,CFB,total,Akron/Buffalo,u21.5 -115,u21 -100,-7.5,1910.0,-1910.0,CFB 122 Akron/Buffalo under 34.5 -115
 2025-10-25,CFB,total,Utah State/New Mexico,u31.5 -124,u30 -110,8.5,4922.35,4180.46,CFB 171 Utah State/New Mexico under 64.5 -124
 2025-10-25,CFB,side,Iowa,-.5 -114,-3 -110,-61.0,2363.0,2054.4,CFB 166 Iowa -31.5 -114
-2025-10-25,CFB,side,Central Michigan,-8 -115,-10 -110,42.0,1167.35,1015.37,CFB 126 Central Michigan -22 -115 
-2025-10-25,CFB,total,Temple/Tulsa,o24.5 -115,o26.5 -110,25.0,6302.67,5835.37,CFB 181 Temple/Tulsa over 55.5 -115 
-2025-10-25,CFB,total,Minnesota/Iowa,u17.5 -120,u17 -110,-2.5,2363.0,2054.4,CFB 166 Minnesota/Iowa under 48.5 -120 
-2025-10-25,CFB,side,Southern Miss,-5.5 -115,-7 -125,-78.0,7086.11,6239.46,CFB 170 Southern Miss -12.5 -114 
-2025-10-25,CFB,side,San Diego State,.5 -114,.5 -150,36.0,7942.0,6613.92,CFB 177 San Diego State -13 -115 
-2025-10-25,CFB,total,NC State/Pittsburgh,o27.5 -120,o28.5 -110,5.0,5710.12,4977.490000000001,CFB 141 NC State/Pittsburgh over 79.5 -120 
+2025-10-25,CFB,side,Central Michigan,-8 -115,-10 -110,42.0,1167.35,1015.37,CFB 126 Central Michigan -22 -115
+2025-10-25,CFB,total,Temple/Tulsa,o24.5 -115,o26.5 -110,25.0,6302.67,5835.37,CFB 181 Temple/Tulsa over 55.5 -115
+2025-10-25,CFB,total,Minnesota/Iowa,u17.5 -120,u17 -110,-2.5,2363.0,2054.4,CFB 166 Minnesota/Iowa under 48.5 -120
+2025-10-25,CFB,side,Southern Miss,-5.5 -115,-7 -125,-78.0,7086.11,6239.46,CFB 170 Southern Miss -12.5 -114
+2025-10-25,CFB,side,San Diego State,.5 -114,.5 -150,36.0,7942.0,6613.92,CFB 177 San Diego State -13 -115
+2025-10-25,CFB,total,NC State/Pittsburgh,o27.5 -120,o28.5 -110,5.0,5710.12,4977.490000000001,CFB 141 NC State/Pittsburgh over 79.5 -120
 2025-10-25,CFB,total,Alabama/South Carolina,o22.5 -115,o23 -115,7.5,5910.74,5100.43,CFB 187 Alabama/South Carolina over 42.5 -115
-2025-10-25,CFB,total,Alabama/South Carolina,o21.5 -130,o23 -115,7.5,5910.74,5100.43,CFB 187 Alabama/South Carolina over 41.5 -130 
-2025-10-25,CFB,total,Baylor/Cincinnati,u33.5 -115,u31 -120,42.5,1475.0,1318.1799999999998,"CFB 123 Baylor/Cincinnati under 63.5 -115 for LIVE, rampage"
+2025-10-25,CFB,total,Alabama/South Carolina,o21.5 -130,o23 -115,7.5,5910.74,5100.43,CFB 187 Alabama/South Carolina over 41.5 -130
+2025-10-25,CFB,total,Baylor/Cincinnati,u33.5 -115,u31 -120,42.5,1475.0,1318.1799999999998,"CFB 123 Baylor/Cincinnati under 63.5 -115 for LIVE,"
 2025-10-25,CFB,side,Mississippi State,6.5 -118,6.5 -125,7.0,11751.0,-11751.0,CFB 176 Mississippi State -3.5 -118
-2025-10-25,CFB,total,UL Lafayette/Troy,u25.5 -115,u24 -120,27.5,5468.0,4765.21,CFB 147 UL Lafayette/Troy under 63.5 -115 
+2025-10-25,CFB,total,UL Lafayette/Troy,u25.5 -115,u24 -120,27.5,5468.0,4765.21,CFB 147 UL Lafayette/Troy under 63.5 -115
 2025-10-25,CFB,total,Georgia Southern/Arkansas,o27.5 -113,o30.5 -110,42.0,3735.69,-3735.69,CFB 203 Georgia Southern/Arkansas over 65.5 -113
 2025-10-25,CFB,total,Boston College/Louisville,o24.5 -115,o27 -115,37.5,2080.0,1808.7,CFB 133 Boston College/Louisville over 55.5 -115
 2025-10-25,CFB,side,Arizona State +5.5,-4.5 -108,-6.5 -110,42.0,2000.0,2080.0,CFB 198 Arizona State +5.5 -108
 2025-10-25,CFB,side,Kentucky +16.5,2.5 -115,.5 -110,35.0,1600.0,-1600.0,CFB 206 Kentucky +16.5 -115
 2025-11-01,CBB,side,UConn,-2.5 -120,-4.5 -115,35.0,6805.0,-6805.0,CBB 358 UConn -26.5 -120
 2025-11-01,CFB,total,Navy/North Texas,o32.5 -118,o34.5 -110,22.0,3772.4700000000003,-3772.4700000000003,CFB 387 Navy/North Texas over 66.5 -118
-2025-11-01,CFB,side,Texas,.5 -118,pk -110,2202.0,18322.72,-18322.72,CFB 350 Texas -13.5 -118 
-2025-11-01,CFB,total,Duke/Clemson,o27.5 -115,o28.5 -110,10.0,18533.94,16192.76,CFB 329 Duke/Clemson over 83.5 -115 
+2025-11-01,CFB,side,Texas,.5 -118,pk -110,2202.0,18322.72,-18322.72,CFB 350 Texas -13.5 -118
+2025-11-01,CFB,total,Duke/Clemson,o27.5 -115,o28.5 -110,10.0,18533.94,16192.76,CFB 329 Duke/Clemson over 83.5 -115
 2025-11-01,CFB,total,New Mexico/UNLV,o30.5 -120,o33.5 -120,45.0,7098.43,-7098.43,CFB 371 New Mexico/UNLV over 82.5 -120
-2025-11-01,CFB,side,UL Lafayette,3.5 -125,.5 -100,35.0,5760.0,-5760.0,"CFB 321 UL Lafayette -13.5 -125 for LIVE, rampage"
-2025-11-01,CFB,total,Old D/UL Monroe,u27.5 -118,u24.5 -120,47.0,17230.11,-3425.79,CFB 389 Old D/UL Monroe under 51.5 -118 
-2025-11-01,CFB,side,Old Dominion,-4.5 -114,-6.5 -115,41.0,17230.11,-3425.79,CFB 389 Old Dominion -28.5 -114 
+2025-11-01,CFB,side,UL Lafayette,3.5 -125,.5 -100,35.0,5760.0,-5760.0,"CFB 321 UL Lafayette -13.5 -125 for LIVE,"
+2025-11-01,CFB,total,Old D/UL Monroe,u27.5 -118,u24.5 -120,47.0,17230.11,-3425.79,CFB 389 Old D/UL Monroe under 51.5 -118
+2025-11-01,CFB,side,Old Dominion,-4.5 -114,-6.5 -115,41.0,17230.11,-3425.79,CFB 389 Old Dominion -28.5 -114
 2025-11-01,CFB,total,Indiana/Maryland,o21.5 -115,o23 -115,22.5,4010.0,3567.88,CFB 333 Indiana/Maryland over 44.5 -115
 2025-11-01,CFB,total,New Mexico State/Western Kentucky,u26.5 -115,u24.5 -110,25.0,342.0,-342.0,CFB 399 New Mexico State/Western Kentucky under 46.5 -115
-2025-11-01,CFB,total,Fresno State/Boise State,u21.5 -115,u20 -110,17.5,900.0,782.61,CFB 361 Fresno State/Boise State under 38.5 -115 
-2025-11-01,CFB,side,Liberty,1.5 -120,-.5 -115,35.0,14112.48,12029.0,CFB 398 Liberty -17.5 -120 
-2025-11-01,CFB,side,Virginia,-.5 -115,-2.5 -120,45.0,1410.0,-1410.0,CFB 369 Virginia -10.5 -115 
+2025-11-01,CFB,total,Fresno State/Boise State,u21.5 -115,u20 -110,17.5,900.0,782.61,CFB 361 Fresno State/Boise State under 38.5 -115
+2025-11-01,CFB,side,Liberty,1.5 -120,-.5 -115,35.0,14112.48,12029.0,CFB 398 Liberty -17.5 -120
+2025-11-01,CFB,side,Virginia,-.5 -115,-2.5 -120,45.0,1410.0,-1410.0,CFB 369 Virginia -10.5 -115
 2025-11-01,CFB,side,Western Michigan +6,-1 -122,-3 -110,42.0,12460.87,10724.57,CFB 346 Western Michigan +6 -122
-2025-11-01,CFB,total,South Carolina/Ole Miss,u27.5 -115,u27 -120,12.5,2974.8,2577.67,CFB 395 South Carolina/Ole Miss under 51.5 -115 
+2025-11-01,CFB,total,South Carolina/Ole Miss,u27.5 -115,u27 -120,12.5,2974.8,2577.67,CFB 395 South Carolina/Ole Miss under 51.5 -115
 2025-11-01,CFB,side,South Carolina +16.5,6.5 -110,4.5 -100,30.0,2974.8,2577.67,CFB 396 South Carolina +16.5 -110
-2025-11-01,CFB,side,San Diego State,-4.5 -115,-6.5 -120,45.0,1585.0,1367.4,CFB 404 San Diego State -14.5 -115 
+2025-11-01,CFB,side,San Diego State,-4.5 -115,-6.5 -120,45.0,1585.0,1367.4,CFB 404 San Diego State -14.5 -115
 2025-11-01,CFB,total,Arkansas State/Troy,u28.5 -122,u27 -135,35.5,7262.860000000001,6528.24,CFB 377 Arkansas State/Troy under 48.5 -122
 2025-11-01,CFB,total,USC/Nebraska,o27.5 -115,o28 -125,17.5,4120.0,-4120.0,CFB 393 USC/Nebraska over 47.5 -115
 2025-11-03,CBB,total,Southern Miss/Buffalo,u81.5 -114,u79 -110,33.5,9559.68,-9559.68,CBB 777 Southern Miss/Buffalo under 155.5 -114
 2025-11-03,CBB,total,Georgia State/EMU,u79.5 -114,u77.5 -110,26.0,5867.5,5122.46,CBB 779 Georgia State/EMU under 134.5 -114
 2025-11-03,CBB,total,IU Indy/Ohio State,o91.5 -121,o93.5 -110,19.0,11826.48,10406.69,CBB 785 IU Indy/Ohio State over 207.5 -121
 2025-11-03,CBB,total,Quinnipiac/St Johns,o80.5 -120,o84.5 -110,50.0,14777.05,13248.35,CBB 781 Quinnipiac/St Johns over 168.5 -120
-2025-11-03,CBB,total,Niagara/Duquesne,o71.5 -118,o74 -110,29.5,7348.0,6212.16,CBB 793 Niagara/Duquesne over 132.5 -118 
+2025-11-03,CBB,total,Niagara/Duquesne,o71.5 -118,o74 -110,29.5,7348.0,6212.16,CBB 793 Niagara/Duquesne over 132.5 -118
 2025-11-03,CBB,side,Niagara +28.5,7.5 -115,6 -110,25.0,7348.0,6212.16,CBB 793 Niagara +28.5 -118
 2025-11-03,CBB,side,Penn State,-7.5 -117,-9 -110,-78.0,801.1800000000001,670.76,CBB 812 Penn State -7.5 -117
 2025-11-03,CBB,total,Texas State/Bowling Green,o75.5 -115,o77.5 -110,25.0,5774.0,-5774.0,CBB 789 Texas State/Bowling Green over 144.5 -115
 2025-11-03,CBB,total,Wofford/GMU,u74.5 -114,u71 -110,48.5,1576.87,1450.8899999999999,CBB 823 Wofford/GMU under 125.5 -114
 2025-11-03,CBB,total,Troy/Kent State,o76.5 -114,o79 -110,33.5,8959.43,7929.56,CBB 799 Troy/Kent State over 152.5 -114
-2025-11-03,CBB,total,Canisius/Dayton,u75.5 -115,u73.5 -110,25.0,500.0,454.55,CBB 787 Canisius/Dayton under 153.5 -115 
+2025-11-03,CBB,total,Canisius/Dayton,u75.5 -115,u73.5 -110,25.0,500.0,454.55,CBB 787 Canisius/Dayton under 153.5 -115
 2025-11-03,CBB,total,WC/Cincinnati,o75.5 -118,o77.5 -110,22.0,6121.17,1958.65,CBB 821 WC/Cincinnati over 152.5 -118
-2025-11-03,CBB,total,Marshall/Umass,o81.5 -115,o84 -115,37.5,11673.99,-11673.99,CBB 795 Marshall/Umass over 156.5 -115 
+2025-11-03,CBB,total,Marshall/Umass,o81.5 -115,o84 -115,37.5,11673.99,-11673.99,CBB 795 Marshall/Umass over 156.5 -115
 2025-11-03,CBB,side,Kent State +8.5,.5 -115,-3.5 -110 ,75.0,8959.43,7929.56,CBB 800 Kent State +8.5 -115
-2025-11-03,CBB,total,Marist/Xavier,u71.5 -115,u69 -110,32.5,9969.08,-9969.08,CBB 885 Marist/Xavier under 119.5 -115 
-2025-11-03,CBB,side,North Dakota +35.5,18.5 -114,17 -100,16.0,16053.83,14660.57,CBB 853 North Dakota +35.5 -114 
-2025-11-03,CBB,total,North Dakota/Alabama,u89.5 -115,u87.5 -115,30.0,16053.83,14660.57,CBB 853 North Dakota/Alabama under 169.5 -115 
-2025-11-03,CBB,total,Detroit/Illinois Chicago,o76.5 -115,o78 -115,22.5,4760.24,4067.0600000000004,CBB 841 Detroit/Illinois Chicago over 145.5 -115 
-2025-11-03,CBB,total,SE Missouri State/St Louis,o82.5 -115,o83.5 -110,10.0,6052.24,-2501.93,CBB 843 SE Missouri State/St Louis over 161.5 -115 
-2025-11-03,CBB,side,Baylor,-7.5 -106,-13 -115,17.0,2037.85,-2037.85,CBB 848 Baylor -16.5 -106 
+2025-11-03,CBB,total,Marist/Xavier,u71.5 -115,u69 -110,32.5,9969.08,-9969.08,CBB 885 Marist/Xavier under 119.5 -115
+2025-11-03,CBB,side,North Dakota +35.5,18.5 -114,17 -100,16.0,16053.83,14660.57,CBB 853 North Dakota +35.5 -114
+2025-11-03,CBB,total,North Dakota/Alabama,u89.5 -115,u87.5 -115,30.0,16053.83,14660.57,CBB 853 North Dakota/Alabama under 169.5 -115
+2025-11-03,CBB,total,Detroit/Illinois Chicago,o76.5 -115,o78 -115,22.5,4760.24,4067.0600000000004,CBB 841 Detroit/Illinois Chicago over 145.5 -115
+2025-11-03,CBB,total,SE Missouri State/St Louis,o82.5 -115,o83.5 -110,10.0,6052.24,-2501.93,CBB 843 SE Missouri State/St Louis over 161.5 -115
+2025-11-03,CBB,side,Baylor,-7.5 -106,-13 -115,17.0,2037.85,-2037.85,CBB 848 Baylor -16.5 -106
 2025-11-03,CBB,total,UL Monroe/No Illinois,o78.5 -115,o80.5 -110,25.0,6033.0,-2482.69,CBB 845 UL Monroe/No Illinois over 161.5 -115
-2025-11-03,CBB,side,UL Monroe +11.5,4.5 -115,2.5 -110,35.0,6033.0,-2482.69,CBB 845 UL Monroe +11.5 -115 
+2025-11-03,CBB,side,UL Monroe +11.5,4.5 -115,2.5 -110,35.0,6033.0,-2482.69,CBB 845 UL Monroe +11.5 -115
 2025-11-03,CBB,total,Tarleton State/SMU,u80.5 -115,u78.5 -120,35.0,794.0,-794.0,CBB 833 Tarleton State/SMU under 166.5 -115
-2025-11-03,CBB,total,WGB/Kansas,u80.5 -110,u78.5 -115,35.0,3250.0,2954.54,CBB 855 WGB/Kansas under 155.5 -110 
+2025-11-03,CBB,total,WGB/Kansas,u80.5 -110,u78.5 -115,35.0,3250.0,2954.54,CBB 855 WGB/Kansas under 155.5 -110
 2025-11-04,CBB,total,Mt St Mary's/WVU,o70.5 -115,o71 -105,-2.5,2304.95,-2304.95,CBB 603 Mt St Mary's/WVU over 134.5 -115
-2025-11-04,CBB,total,Georgia Southern/ECU,o80.5 -115,o83.5 -110,40.0,396.0,344.35,CBB 605 Georgia Southern/ECU over 166.5 -115 
-2025-11-04,CBB,total,Eastern Illinois/Valparaiso,o75.5 -109,o76 -105,3.5,2649.0,-2649.0,CBB 609 Eastern Illinois/Valparaiso over 131.5 -109 
+2025-11-04,CBB,total,Georgia Southern/ECU,o80.5 -115,o83.5 -110,40.0,396.0,344.35,CBB 605 Georgia Southern/ECU over 166.5 -115
+2025-11-04,CBB,total,Eastern Illinois/Valparaiso,o75.5 -109,o76 -105,3.5,2649.0,-2649.0,CBB 609 Eastern Illinois/Valparaiso over 131.5 -109
 2025-11-04,CBB,total,Lindenwood/Texas Tech,o77.5 -110,o80.5 -110,45.0,4931.85,-4931.85,CBB 615 Lindenwood/Texas Tech over 165.5 -110
-2025-11-04,CBB,total,Oral Roberts/Oklahoma State,o87.5 -120,o94 -110,87.5,6305.0,-6305.0,CBB 611 Oral Roberts/Oklahoma State over 183.5 -120 
-2025-11-04,CBB,total,Oral Roberts/Oklahoma State,o89.5 -108,o94 -110,69.5,6305.0,-6305.0,CBB 611 Oral Roberts/Oklahoma State over 185.5 -108 
-2025-11-04,CBB,total,Texas/Duke,o78.5 -115,o80.5 -110,25.0,999.0,-999.0,CBB 619 Texas/Duke over 143.5 -115 
-2025-11-04,CBB,total,Portland State/Stanford,o75.5 -115,o77.5 -105,20.0,999.0,868.7,"CBB 623 Portland State/Stanford over 142.5 -115 for LIVE, rampage"
-2025-11-07,CBB,side,UTSA +1.5,-3.5 -122,-5.5 -110,28.0,2413.66,-593.98,CBB 675 UTSA +1.5 -122 
-2025-11-07,CBB,total,COC/Liberty,u78.5 -117,u78 -110,0.5,966.5,-966.5,CBB 682 COC/Liberty under 151.5 -117 
+2025-11-04,CBB,total,Oral Roberts/Oklahoma State,o87.5 -120,o94 -110,87.5,6305.0,-6305.0,CBB 611 Oral Roberts/Oklahoma State over 183.5 -120
+2025-11-04,CBB,total,Oral Roberts/Oklahoma State,o89.5 -108,o94 -110,69.5,6305.0,-6305.0,CBB 611 Oral Roberts/Oklahoma State over 185.5 -108
+2025-11-04,CBB,total,Texas/Duke,o78.5 -115,o80.5 -110,25.0,999.0,-999.0,CBB 619 Texas/Duke over 143.5 -115
+2025-11-04,CBB,total,Portland State/Stanford,o75.5 -115,o77.5 -105,20.0,999.0,868.7,"CBB 623 Portland State/Stanford over 142.5 -115 for LIVE,"
+2025-11-07,CBB,side,UTSA +1.5,-3.5 -122,-5.5 -110,28.0,2413.66,-593.98,CBB 675 UTSA +1.5 -122
+2025-11-07,CBB,total,COC/Liberty,u78.5 -117,u78 -110,0.5,966.5,-966.5,CBB 682 COC/Liberty under 151.5 -117
 2025-11-07,CBB,total,Tulsa/Rhode Island,u80.5 -121,u77 -105,36.5,10398.03,-10398.03,CBB 677 Tulsa/Rhode Island under 145.5 -121
 2025-11-07,CBB,total,IPFW/Ohio State,u84.5 -125,u82.5 -110,15.0,3917.0,-3917.0,CBB 683 IPFW/Ohio State under 159.5 -125
-2025-11-07,CBB,total,WGB/Buffalo,u76.5 -108,u74 -105,34.5,3956.6,-3956.6,CBB 687 WGB/Buffalo under 136.5 -108 
+2025-11-07,CBB,total,WGB/Buffalo,u76.5 -108,u74 -105,34.5,3956.6,-3956.6,CBB 687 WGB/Buffalo under 136.5 -108
 2025-11-07,CBB,total,Morehead State/Wake Forest,o80.5 -110,o83 -110,37.5,5950.3,-5950.3,CBB 705 Morehead State/Wake Forest over 155.5 -110
 2025-11-07,CBB,total,Tenn Tech/Charlotte,u76.5 -120,u75 -110,12.5,2050.0,-2050.0,CBB 694 Tenn Tech/Charlotte under 131.5 -120
-2025-11-07,CBB,total,Cornell/Kent State,o87.5 -121,o91.5 -110,49.0,765.9300000000001,633.74,CBB 711 Cornell/Kent State over 200.5 -121 
-2025-11-07,CBB,side,Hofstra +15.5,-1.5 -115,-3 -110,-82.0,500.0,434.78,CBB 689 Hofstra +15.5 -115 
+2025-11-07,CBB,total,Cornell/Kent State,o87.5 -121,o91.5 -110,49.0,765.9300000000001,633.74,CBB 711 Cornell/Kent State over 200.5 -121
+2025-11-07,CBB,side,Hofstra +15.5,-1.5 -115,-3 -110,-82.0,500.0,434.78,CBB 689 Hofstra +15.5 -115
 2025-11-07,CBB,total,Troy/Furman,u80.5 -120,u79 -110,12.5,3622.6,3137.04,CBB 685 Troy/Furman under 139.5 -120
 2025-11-07,CBB,total,Utah State/VCU,,,,8091.35,7183.32,CBB 721 Utah State/VCU under 168.5 -115
-2025-11-07,CBB,total,SE Missouri State/Missouri,,,,1650.0,1452.38,CBB 719 SE Missouri State/Missouri under 182.5 -115 
-2025-11-07,CBB,side,UMKC +19.5,,,,3398.0,201.66999999999996,CBB 717 UMKC +19.5 -110 
+2025-11-07,CBB,total,SE Missouri State/Missouri,,,,1650.0,1452.38,CBB 719 SE Missouri State/Missouri under 182.5 -115
+2025-11-07,CBB,side,UMKC +19.5,,,,3398.0,201.66999999999996,CBB 717 UMKC +19.5 -110
 2025-11-07,CBB,total,UMKC/So Illinois,,,,3398.0,201.66999999999996,CBB 717 UMKC/So Illinois over 154.5 -110
-2025-11-08,CBB,total,Princeton/Akron,o80.5 -115,o83 -115,37.5,1718.06,1552.91,CBB 603 Princeton/Akron over 154.5 -115 
-2025-11-08,CBB,total,Alabama/St Johns,u93.5 -115,u92.5 -105,5.0,2994.0,-1778.78,CBB 601 Alabama/St Johns under 190.5 -115 
-2025-11-08,CFB,total,Temple/Army,o20.5 -120,o21.5 -110,5.0,14090.82,-10363.14,CFB 127 Temple/Army over 37.5 -120 
-2025-11-08,CFB,side,Temple +3,6 -117,4.5 -110,23.0,14090.82,-10363.14,CFB 127 Temple +3 -117 
+2025-11-08,CBB,total,Princeton/Akron,o80.5 -115,o83 -115,37.5,1718.06,1552.91,CBB 603 Princeton/Akron over 154.5 -115
+2025-11-08,CBB,total,Alabama/St Johns,u93.5 -115,u92.5 -105,5.0,2994.0,-1778.78,CBB 601 Alabama/St Johns under 190.5 -115
+2025-11-08,CFB,total,Temple/Army,o20.5 -120,o21.5 -110,5.0,14090.82,-10363.14,CFB 127 Temple/Army over 37.5 -120
+2025-11-08,CFB,side,Temple +3,6 -117,4.5 -110,23.0,14090.82,-10363.14,CFB 127 Temple +3 -117
 2025-11-08,CFB,moneyline,Temple +135,,,,14090.82,-10363.14,CFB 127 Temple +135
-2025-11-08,CFB,side,WVU,-2.5 -118,-3.5 -110,12.0,1900.0,-1900.0,CFB 134 WVU -12.5 -118 
-2025-11-08,CFB,side,Penn State +17.5,7.5 -125,6 -100,5.0,4249.0,3379.2,CFB 146 Penn State +17.5 -125 
+2025-11-08,CFB,side,WVU,-2.5 -118,-3.5 -110,12.0,1900.0,-1900.0,CFB 134 WVU -12.5 -118
+2025-11-08,CFB,side,Penn State +17.5,7.5 -125,6 -100,5.0,4249.0,3379.2,CFB 146 Penn State +17.5 -125
 2025-11-08,CFB,side,Miss State +24.5,7.5 -115,6.5 -110,15.0,2492.63,-2492.63,CFB 156 Miss State +24.5 -115
-2025-11-08,CFB,side,So Miss,-2.5 -115,-3.5 -115,20.0,6320.5,-5998.93,CFB 193 So Miss -12.5 -115 
-2025-11-08,CFB,total,Georgia/Miss State,,,,2492.63,-2492.63,CFB 155 Georgia/Miss State under 58.5 -115 
+2025-11-08,CFB,side,So Miss,-2.5 -115,-3.5 -115,20.0,6320.5,-5998.93,CFB 193 So Miss -12.5 -115
+2025-11-08,CFB,total,Georgia/Miss State,,,,2492.63,-2492.63,CFB 155 Georgia/Miss State under 58.5 -115
 2025-11-08,CFB,moneyline,Bowling Green,,,,9735.83,-7872.13,CFB 153 Bowling Green -122
-2025-11-08,CFB,total,Bowling Green/EMU,u25 -115,u22.5 -115,37.5,9735.83,-7872.13,CFB 153 Bowling Green/EMU under 49 -115 
-2025-11-08,CBB,total,Wisc Milwaukee/Wofford,o79.5 -115,o81 -110,17.5,1162.5900000000001,1010.9499999999999,CBB 615 Wisc Milwaukee/Wofford over 159.5 -115 
+2025-11-08,CFB,total,Bowling Green/EMU,u25 -115,u22.5 -115,37.5,9735.83,-7872.13,CFB 153 Bowling Green/EMU under 49 -115
+2025-11-08,CBB,total,Wisc Milwaukee/Wofford,o79.5 -115,o81 -110,17.5,1162.5900000000001,1010.9499999999999,CBB 615 Wisc Milwaukee/Wofford over 159.5 -115
 2025-11-08,CBB,total,SF/Memphis,o80.5 -120,o83 -110,27.5,4891.33,4273.9800000000005,CBB 621 SF/Memphis over 138.5 -120
-2025-11-08,CFB,side,Rutgers,.5 -110,-.5 -110,20.0,3009.0,2778.69,"CFB 150 Rutgers -3.5 -110 for LIVE, rampage"
-2025-11-08,CFB,total,Louisiana Tech/Delaware,u28.5 -120,u27 -110,12.5,12349.0,-12349.0,CFB 181 Louisiana Tech/Delaware under 44.5 -120 
+2025-11-08,CFB,side,Rutgers,.5 -110,-.5 -110,20.0,3009.0,2778.69,"CFB 150 Rutgers -3.5 -110 for LIVE,"
+2025-11-08,CFB,total,Louisiana Tech/Delaware,u28.5 -120,u27 -110,12.5,12349.0,-12349.0,CFB 181 Louisiana Tech/Delaware under 44.5 -120
 2025-11-08,CFB,total,FIU/MTS,u26.5 -120,u24.5 -115,25.0,10839.63,-10197.63,CFB 183 FIU/MTS under 64.5 -120
-2025-11-08,CBB,total,San Jose State/Cal Santa Barbara,u77.5 -122,u75 -110,25.5,3111.48,-3111.48,CBB 629 San Jose State/Cal Santa Barbara under 150.5 -122 
-2025-11-08,CBB,total,Canisus/ST bonny,u74.5 -115,u72.5 -105,20.0,6315.5,5519.32,CBB 635 Canisus/ST bonny under 159.5 -115 
-2025-11-08,CFB,total,Charlotte/ECU,,,,2207.5,-2207.5,CFB 121 Charlotte/ECU over 72.5 -120 
-2025-11-08,CBB,total,Vanderbilt/UCF,,,,7431.0,-7431.0,CBB 639 Vanderbilt/UCF under 174.5 -114 
+2025-11-08,CBB,total,San Jose State/Cal Santa Barbara,u77.5 -122,u75 -110,25.5,3111.48,-3111.48,CBB 629 San Jose State/Cal Santa Barbara under 150.5 -122
+2025-11-08,CBB,total,Canisus/ST bonny,u74.5 -115,u72.5 -105,20.0,6315.5,5519.32,CBB 635 Canisus/ST bonny under 159.5 -115
+2025-11-08,CFB,total,Charlotte/ECU,,,,2207.5,-2207.5,CFB 121 Charlotte/ECU over 72.5 -120
+2025-11-08,CBB,total,Vanderbilt/UCF,,,,7431.0,-7431.0,CBB 639 Vanderbilt/UCF under 174.5 -114
 2025-11-08,CBB,side,Colorado,,,,7169.0,-7169.0,CBB 646 Colorado -9.5 -106
 2025-11-08,CBB,total,CS Fullerton/Wyoming,,,,4273.0,3822.3199999999997,CBB 627 CS Fullerton/Wyoming over 156.5 -115
 2025-11-08,CBB,total,UT Arlington/New Mexico,,,,3300.0,2967.92,CBB 637 UT Arlington/New Mexico over 126 -115
-2025-11-08,CBB,side,CS Fullerton +10.5,8.5 -110,7.5 -110,20.0,4273.0,3822.3199999999997,CBB 627 CS Fullerton +10.5 -110 
-2025-11-08,CFB,total,Auburn/Vanderbilt,,,,8115.09,7200.64,CFB 167 Auburn/Vanderbilt over 52.5 -106 
+2025-11-08,CBB,side,CS Fullerton +10.5,8.5 -110,7.5 -110,20.0,4273.0,3822.3199999999997,CBB 627 CS Fullerton +10.5 -110
+2025-11-08,CFB,total,Auburn/Vanderbilt,,,,8115.09,7200.64,CFB 167 Auburn/Vanderbilt over 52.5 -106
 2025-11-08,CFB,total,Kennesaw State/New Mexico State,,,,4516.0,3837.61,CFB 195 Kennesaw State/New Mexico State under 58.5 -122
-2025-11-08,CFB,total,Kennesaw State/New Mexico State,,,,4516.0,3837.61,CFB 195 Kennesaw State/New Mexico State over 55.5 -110 
-2025-11-08,CFB,total,Georgia State/Coastal Carolina,,,,2698.0,-927.0,CFB 131 Georgia State/Coastal Carolina under 67 -118 
+2025-11-08,CFB,total,Kennesaw State/New Mexico State,,,,4516.0,3837.61,CFB 195 Kennesaw State/New Mexico State over 55.5 -110
+2025-11-08,CFB,total,Georgia State/Coastal Carolina,,,,2698.0,-927.0,CFB 131 Georgia State/Coastal Carolina under 67 -118
 2025-11-08,CBB,total,LBS/Fresno state,,,,2397.99,2085.35,CBB 649 LBS/Fresno state over 121.5 -115
 2025-11-08,CBB,total,COC/Florida Atlantic,o81.5 -105,,,2150.0,1952.38,CBB 653 COC/Florida Atlantic over 161.5 -105
-2025-11-08,CBB,total,ECU/Richmond,o73.5 -115,o76 -110,32.5,1050.0,913.04,CBB 651 ECU/Richmond over 145.5 -115 
+2025-11-08,CBB,total,ECU/Richmond,o73.5 -115,o76 -110,32.5,1050.0,913.04,CBB 651 ECU/Richmond over 145.5 -115
 2025-11-08,CFB,side,San Jose State +6.5,-6.5 -130,-7 -120,-113.0,707.0,-707.0,CFB 188 San Jose State +6.5 -130
 2025-11-08,CBB,total,Arkansas/Michigan State,o80.5 -120,o83 -110,27.5,1677.98,-1677.98,CBB 657 Arkansas/Michigan State over 155.5 -120
 2025-11-08,CFB,total,Cali/Louisville,o24.5 -115,o26.5 -115,30.0,6624.11,5757.37,CFB 139 Cali/Louisville over 54.5 -115
-2025-11-08,CBB,total,Tenn State/Belmont,o81.5 -120,o84.5 -110,35.0,3700.0,3254.63,CBB 661 Tenn State/Belmont over 147.5 -120 
+2025-11-08,CBB,total,Tenn State/Belmont,o81.5 -120,o84.5 -110,35.0,3700.0,3254.63,CBB 661 Tenn State/Belmont over 147.5 -120
 2025-11-08,CBB,side,Belmont,-6.5 -113,-7.5 -110,17.0,3700.0,3254.63,CBB 662 Belmont -8.5 -113
 2025-11-08,CBB,side,Central Michigan +14.5,4.5 -120,3 -110,20.0,1699.0,-415.66999999999996,CBB 659 Central Michigan +14.5 -120
 2025-11-08,CBB,total,Central Michigan/Bradley,u78.5 -120,u76.5 -110,20.0,1699.0,-415.66999999999996,CBB 660 Central Michigan/Bradley under 138.5 -120
 2025-11-08,CFB,side,Utah State,-1.5 -114,-3 -120,-81.0,19675.02,8522.19,CFB 198 Utah State -42.5 -114
-2025-11-08,CFB,total,Nevada/Utah State,u26.5 -102,u24.5 -125,53.0,19675.02,8522.19,CFB 197 Nevada/Utah State under 67.5 -102 
+2025-11-08,CFB,total,Nevada/Utah State,u26.5 -102,u24.5 -125,53.0,19675.02,8522.19,CFB 197 Nevada/Utah State under 67.5 -102
 2025-11-08,CFB,total,Nevada/Utah State,o24 -130,o24.5 +105,-27.5,19675.02,8522.19,CFB 197 Nevada/Utah State over 65 -130
-2025-11-08,CBB,total,UT Rio/Southern Utah,o83.5 -110,o85 -110,22.5,2049.0,1852.84,CBB 663 UT Rio/Southern Utah over 158.5 -110 
+2025-11-08,CBB,total,UT Rio/Southern Utah,o83.5 -110,o85 -110,22.5,2049.0,1852.84,CBB 663 UT Rio/Southern Utah over 158.5 -110
 2025-11-11,CBB,total,Iona/UMKC,o83.5 -114,o85.5 -110,26.0,1500.0,1231.71,CBB 601 Iona/UMKC over 182.5 -114
 2025-11-11,CBB,side,Ohio State,-10.5 -120,-12.5 -110,30.0,2500.0,-2500.0,CBB 606 Ohio State -15.5 -120
-2025-11-11,CBB,total,App State/Ohio State,o74.5 -115,o76.5 -110,25.0,2500.0,-2500.0,CBB 605 App State/Ohio State over 129.5 -115 
+2025-11-11,CBB,total,App State/Ohio State,o74.5 -115,o76.5 -110,25.0,2500.0,-2500.0,CBB 605 App State/Ohio State over 129.5 -115
 2025-11-11,CBB,side,Wake Forest +20.5,7.5 -118,6 -110,22.0,2990.0,2533.9,CBB 603 Wake Forest +20.5 -118
-2025-11-11,CBB,total,Toledo/Wright State u158.5,u85.5 -120,u82 -110,42.5,3147.0,2422.73,CBB 607 Toledo/Wright State u158.5 -120 
-2025-11-11,CBB,total,SHU/Villanova,u83.5 -115,u82.5 -110,10.0,6822.78,5853.75,CBB 615 SHU/Villanova under 161.5 -115 
-2025-11-11,CBB,total,Davidson/Charlotte,u74.5 -120,u72 -110,27.5,2700.0,2219.25,CBB 621 Davidson/Charlotte under 122.5 -120 
-2025-11-11,CBB,total,La Salle/Temple,u78.5 -115,u76.5 -110,25.0,2000.0,-2000.0,CBB 625 La Salle/Temple under 149.5 -115 
-2025-11-11,CBB,total,Northeastern/Harvard,o72.5 -115,o75 -110,32.5,1000.0,869.57,CBB 613 Northeastern/Harvard over 133.5 -115 
-2025-11-11,CBB,side,Clemson,-10.5 -115,-13 -110,-52.0,7856.0,-7856.0,CBB 620 Clemson -29.5 -115 
+2025-11-11,CBB,total,Toledo/Wright State u158.5,u85.5 -120,u82 -110,42.5,3147.0,2422.73,CBB 607 Toledo/Wright State u158.5 -120
+2025-11-11,CBB,total,SHU/Villanova,u83.5 -115,u82.5 -110,10.0,6822.78,5853.75,CBB 615 SHU/Villanova under 161.5 -115
+2025-11-11,CBB,total,Davidson/Charlotte,u74.5 -120,u72 -110,27.5,2700.0,2219.25,CBB 621 Davidson/Charlotte under 122.5 -120
+2025-11-11,CBB,total,La Salle/Temple,u78.5 -115,u76.5 -110,25.0,2000.0,-2000.0,CBB 625 La Salle/Temple under 149.5 -115
+2025-11-11,CBB,total,Northeastern/Harvard,o72.5 -115,o75 -110,32.5,1000.0,869.57,CBB 613 Northeastern/Harvard over 133.5 -115
+2025-11-11,CBB,side,Clemson,-10.5 -115,-13 -110,-52.0,7856.0,-7856.0,CBB 620 Clemson -29.5 -115
 2025-11-11,CBB,total,Florida State/Florida,o91.5 -120,o93.5 -120,30.0,6076.08,-6076.08,CBB 623 Florida State/Florida over 168.5 -120
 2025-11-11,CBB,total,Eastern Illinois/Notre Dame,o72.5 -115,o74 -110,17.5,2700.0,1335.5500000000002,CBB 627 Eastern Illinois/Notre Dame over 131.5 -115
-2025-11-11,CBB,side,Quinnipiac +23.5 +110,-.5 +110,-.5 -110,20.0,1904.0,-1904.0,CBB 630 Quinnipiac +23.5 +110 
+2025-11-11,CBB,side,Quinnipiac +23.5 +110,-.5 +110,-.5 -110,20.0,1904.0,-1904.0,CBB 630 Quinnipiac +23.5 +110
 2025-11-11,CBB,total,SFA/Rice,u79.5 -115,u77 -110,32.5,2595.0,-2595.0,CBB 633 SFA/Rice under 146.5 -115
-2025-11-11,CBB,total,Buffalo/Depaul,u80.5 -108,u78.5 -110,32.0,3178.0,2750.92,CBB 639 Buffalo/Depaul under 134.5 -108 
-2025-11-11,CBB,total,Tulane/UL Lafayette,u74.5 -113,u72.5 -105,22.0,8023.82,7113.46,CBB 637 Tulane/UL Lafayette under 133.5 -113 
-2025-11-11,CBB,side,Depaul +6.5,-11.5 -115,-13 -110,-72.0,3178.0,2750.92,CBB 640 Depaul +6.5 -115 
+2025-11-11,CBB,total,Buffalo/Depaul,u80.5 -108,u78.5 -110,32.0,3178.0,2750.92,CBB 639 Buffalo/Depaul under 134.5 -108
+2025-11-11,CBB,total,Tulane/UL Lafayette,u74.5 -113,u72.5 -105,22.0,8023.82,7113.46,CBB 637 Tulane/UL Lafayette under 133.5 -113
+2025-11-11,CBB,side,Depaul +6.5,-11.5 -115,-13 -110,-72.0,3178.0,2750.92,CBB 640 Depaul +6.5 -115
 2025-11-11,CBB,total,CS Northridge/NDS,o81.5 -110,o83.5 -105,25.0,2200.0,1869.0900000000001,CBB 631 CS Northridge/NDS over 144.5 -110
-2025-11-11,CBB,side,North Dakota State +1.5,-2.5 -115,-4 -115,-81.0,2200.0,1869.0900000000001,CBB 632 North Dakota State +1.5 -115 
-2025-11-11,CBB,side,SMU,-2.5 -118,-4.5 -115,37.0,5370.0,4671.57,CBB 642 SMU -9.5 -118 
+2025-11-11,CBB,side,North Dakota State +1.5,-2.5 -115,-4 -115,-81.0,2200.0,1869.0900000000001,CBB 632 North Dakota State +1.5 -115
+2025-11-11,CBB,side,SMU,-2.5 -118,-4.5 -115,37.0,5370.0,4671.57,CBB 642 SMU -9.5 -118
 2025-11-11,CBB,side,Arkansas State +13.5,.5 -115,-1.5 -110,35.0,1300.0,1130.44,CBB 635 Arkansas State +13.5 -115
-2025-11-11,CFB,side,Akron,-4 -112,-4.5 -105,111.0,3214.0,-3214.0,CFB 304 Akron -7 -112 
+2025-11-11,CFB,side,Akron,-4 -112,-4.5 -105,111.0,3214.0,-3214.0,CFB 304 Akron -7 -112
 2025-11-11,CBB,total,Wofford/Auburn,u79.5 -115,u77.5 -110,25.0,317.6,-317.6,CBB 645 Wofford/Auburn under 141.5 -115
-2025-11-11,CFB,total,Ohio/Western Michigan,o21.5 -118,o22.5 -115,12.0,10237.0,1080.0800000000002,CFB 301 Ohio/Western Michigan over 31.5 -118 
-2025-11-11,CFB,total,Ohio/Western Michigan,u23.5 -120,u22.5 -105,0.0,10237.0,1080.0800000000002,CFB 301 Ohio/Western Michigan under 33.5 -120 
+2025-11-11,CFB,total,Ohio/Western Michigan,o21.5 -118,o22.5 -115,12.0,10237.0,1080.0800000000002,CFB 301 Ohio/Western Michigan over 31.5 -118
+2025-11-11,CFB,total,Ohio/Western Michigan,u23.5 -120,u22.5 -105,0.0,10237.0,1080.0800000000002,CFB 301 Ohio/Western Michigan under 33.5 -120
 2025-11-11,CBB,total,Cal River/New Mexico,u75.5 -115,u75.5 -115,0.0,5752.5,-2141.77,CBB 661 Cal River/New Mexico under 143.5 -115
-2025-11-11,CBB,total,Cal River/New Mexico,o72.5 -115,o75.5 -105,35.0,5752.5,-2141.77,CBB 661 Cal River/New Mexico over 140.5 -115 
+2025-11-11,CBB,total,Cal River/New Mexico,o72.5 -115,o75.5 -105,35.0,5752.5,-2141.77,CBB 661 Cal River/New Mexico over 140.5 -115
 2025-11-11,CBB,total,Loyola Marymount/UTEP,,,,5059.6900000000005,4303.4800000000005,CBB 659 Loyola Marymount/UTEP under 149.5 -115
-2025-11-11,CBB,side,New Mexico,,,,5752.5,-2141.77,CBB 662 New Mexico -12.5 -115 
-2025-11-11,CBB,total,UT Rio/Boise State,,,,250.0,-250.0,CBB 663 UT Rio/Boise State over 167.5 -115 
-2025-11-11,CBB,total,No Arizona/Arizona,,,,3177.04,-730.5000000000001,CBB 655 No Arizona/Arizona under 147.5 -115 
-2025-11-11,CBB,total,No Arizona/Arizona,,,,3177.04,-730.5000000000001,CBB 655 No Arizona/Arizona over 144.5 -115 
-2025-11-11,CBB,total,Memphis/Ole Miss,,,,3402.0,2777.25,CBB 657 Memphis/Ole Miss over 152.5 -120 
-2025-11-12,CBB,total,St Joes/Virginia Tech,,,,2903.42,400.18,CBB 693 St Joes/Virginia Tech under 159.5 -120 
-2025-11-12,CBB,side,St Joes +24.5,4.5 -120,2.5 -110,30.0,2903.42,400.18,CBB 693 St Joes +24.5 -120 
-2025-11-12,CBB,side,St Bonnys,-3.5 -120,-5 -110,-85.0,3200.0,2666.67,CBB 684 St Bonnys -6.5 -120 
-2025-11-12,CBB,total,Elon/Marshall,o81.5 -103,o85 -110,59.5,3761.9,-548.45,CBB 685 Elon/Marshall over 169.5 -103 
-2025-11-12,CBB,total,Elon/Marshall,u84.5 -110,u85 -110,-7.5,3761.9,-548.45,CBB 685 Elon/Marshall under 172.5 -110 
-2025-11-12,CBBExtra,total,Coppin State/South Florida,u89.5 -115,u86.5 -110,40.0,1850.0,1551.1799999999998,CBBExtra 306579 Coppin State/South Florida under 161.5 -115 
+2025-11-11,CBB,side,New Mexico,,,,5752.5,-2141.77,CBB 662 New Mexico -12.5 -115
+2025-11-11,CBB,total,UT Rio/Boise State,,,,250.0,-250.0,CBB 663 UT Rio/Boise State over 167.5 -115
+2025-11-11,CBB,total,No Arizona/Arizona,,,,3177.04,-730.5000000000001,CBB 655 No Arizona/Arizona under 147.5 -115
+2025-11-11,CBB,total,No Arizona/Arizona,,,,3177.04,-730.5000000000001,CBB 655 No Arizona/Arizona over 144.5 -115
+2025-11-11,CBB,total,Memphis/Ole Miss,,,,3402.0,2777.25,CBB 657 Memphis/Ole Miss over 152.5 -120
+2025-11-12,CBB,total,St Joes/Virginia Tech,,,,2903.42,400.18,CBB 693 St Joes/Virginia Tech under 159.5 -120
+2025-11-12,CBB,side,St Joes +24.5,4.5 -120,2.5 -110,30.0,2903.42,400.18,CBB 693 St Joes +24.5 -120
+2025-11-12,CBB,side,St Bonnys,-3.5 -120,-5 -110,-85.0,3200.0,2666.67,CBB 684 St Bonnys -6.5 -120
+2025-11-12,CBB,total,Elon/Marshall,o81.5 -103,o85 -110,59.5,3761.9,-548.45,CBB 685 Elon/Marshall over 169.5 -103
+2025-11-12,CBB,total,Elon/Marshall,u84.5 -110,u85 -110,-7.5,3761.9,-548.45,CBB 685 Elon/Marshall under 172.5 -110
+2025-11-12,CBBExtra,total,Coppin State/South Florida,u89.5 -115,u86.5 -110,40.0,1850.0,1551.1799999999998,CBBExtra 306579 Coppin State/South Florida under 161.5 -115
 2025-11-12,CBB,total,St Peters/VCU,u78.5 -115,u76 -115,37.5,1750.0,1451.8899999999999,CBB 691 St Peters/VCU under 151.5 -115
-2025-11-12,CFB,side,No Illinois,-4.5 -11,-7 -110,46.0,19498.0,16217.55,CFB 305 No Illinois -35.5 -111 
-2025-11-12,CBB,total,No Illinois/Mass,u20.5 -120,u19.5 -110,5.0,19498.0,16217.55,CBB 305 No Illinois/Mass under 51.5 -120 
-2025-11-12,CBB,total,MTS/Evansville,,,,1000.0,869.57,CBB 707 MTS/Evansville over 135.5 -115 
-2025-11-12,CBB,total,Minnesota/Missouri,,,,3150.0,2704.21,CBB 709 Minnesota/Missouri over 142.5 -115 
-2025-11-12,CBB,total,So Indiana/South Dakota,,,,15773.0,13514.18,CBB 703 So Indiana/South Dakota over 160.5 -115 
-2025-11-12,CBB,side,So Indiana +16.5,,,,15773.0,13514.18,CBB 703 So Indiana +16.5 -120 
-2025-11-12,CBB,side,TSAO +12.5,,,,2444.42,2246.88,CBB 695 TSAO +12.5 -120 
-2025-11-12,CBB,side,NC State,,,,1700.0,-616.13,CBB 700 NC State -22.5 -120 
-2025-11-12,CBB,total,NC Greensboro/NC State,,,,1700.0,-616.13,CBB 699 NC Greensboro/NC State over 162.5 -115 
-2025-11-12,CBB,total,NC Greensboro/NC State,,,,1700.0,-616.13,CBB 699 NC Greensboro/NC State under 166.5 -110 
-2025-11-12,CBB,side,Fresno +9.5,,,,3510.0,2916.66,CBB 716 Fresno +9.5 -120 
-2025-11-12,CBB,side,Idaho +9.5,,,,7755.72,6709.13,CBB 733 Idaho +9.5 -115 
-2025-11-12,CBB,side,Utah State,,,,10364.0,6395.33,CBB 718 Utah State -9.5 -125 
-2025-11-12,CBB,total,Utah Tech/Manhattan,,,,3675.0,2408.25,CBB 723 Utah Tech/Manhattan over 151.5 -115 
+2025-11-12,CFB,side,No Illinois,-4.5 -11,-7 -110,46.0,19498.0,16217.55,CFB 305 No Illinois -35.5 -111
+2025-11-12,CBB,total,No Illinois/Mass,u20.5 -120,u19.5 -110,5.0,19498.0,16217.55,CBB 305 No Illinois/Mass under 51.5 -120
+2025-11-12,CBB,total,MTS/Evansville,,,,1000.0,869.57,CBB 707 MTS/Evansville over 135.5 -115
+2025-11-12,CBB,total,Minnesota/Missouri,,,,3150.0,2704.21,CBB 709 Minnesota/Missouri over 142.5 -115
+2025-11-12,CBB,total,So Indiana/South Dakota,,,,15773.0,13514.18,CBB 703 So Indiana/South Dakota over 160.5 -115
+2025-11-12,CBB,side,So Indiana +16.5,,,,15773.0,13514.18,CBB 703 So Indiana +16.5 -120
+2025-11-12,CBB,side,TSAO +12.5,,,,2444.42,2246.88,CBB 695 TSAO +12.5 -120
+2025-11-12,CBB,side,NC State,,,,1700.0,-616.13,CBB 700 NC State -22.5 -120
+2025-11-12,CBB,total,NC Greensboro/NC State,,,,1700.0,-616.13,CBB 699 NC Greensboro/NC State over 162.5 -115
+2025-11-12,CBB,total,NC Greensboro/NC State,,,,1700.0,-616.13,CBB 699 NC Greensboro/NC State under 166.5 -110
+2025-11-12,CBB,side,Fresno +9.5,,,,3510.0,2916.66,CBB 716 Fresno +9.5 -120
+2025-11-12,CBB,side,Idaho +9.5,,,,7755.72,6709.13,CBB 733 Idaho +9.5 -115
+2025-11-12,CBB,side,Utah State,,,,10364.0,6395.33,CBB 718 Utah State -9.5 -125
+2025-11-12,CBB,total,Utah Tech/Manhattan,,,,3675.0,2408.25,CBB 723 Utah Tech/Manhattan over 151.5 -115
 2025-11-12,CBB,total,North Texas/Oregon State,u71.5 -125,u69 -105,17.5,2900.0,-2900.0,CBB 719 North Texas/Oregon State under 121.5 -125
-2025-11-12,CBB,total,Montana state/Stanford,,,,8333.6,7255.82,CBB 729 Montana state/Stanford under 145.5 -115 
-2025-11-15,CBB,total,Marshall/UVA,u85.5 -122,u84 -110,10.5,3764.0,452.66999999999996,CBB 621 Marshall/UVA under 179.5 -122 
+2025-11-12,CBB,total,Montana state/Stanford,,,,8333.6,7255.82,CBB 729 Montana state/Stanford under 145.5 -115
+2025-11-15,CBB,total,Marshall/UVA,u85.5 -122,u84 -110,10.5,3764.0,452.66999999999996,CBB 621 Marshall/UVA under 179.5 -122
 2025-11-15,CBB,side,Marshall +37.5,9.5 -120,7.5 -110,30.0,3764.0,452.66999999999996,CBB 621 Marshall +37.5 -120
-2025-11-15,CFB,total,EMU/Ball State,u23.5 -120,u21.5 -110,20.0,9364.0,7868.46,CFB 355 EMU/Ball State under 43.5 -120 
-2025-11-15,CFB,total,Wisconsin/Indiana,o20.5 -120,o21 -115,2.5,3426.0,2855.0,CFB 343 Wisconsin/Indiana over 37.5 -120 
+2025-11-15,CFB,total,EMU/Ball State,u23.5 -120,u21.5 -110,20.0,9364.0,7868.46,CFB 355 EMU/Ball State under 43.5 -120
+2025-11-15,CFB,total,Wisconsin/Indiana,o20.5 -120,o21 -115,2.5,3426.0,2855.0,CFB 343 Wisconsin/Indiana over 37.5 -120
 2025-11-15,CFB,side,Arizona +6.5,2.5 -110,.5 -110,40.0,2910.0,2581.34,CFB 329 Arizona +6.5 -110
-2025-11-15,CFB,total,South Florida/Navy,o29.5 -115,o31.5 -115,30.0,3876.0,3288.31,CFB 335 South Florida/Navy over 62.5 -114 
-2025-11-15,CFB,side,Oklahoma State +10.5,9.5 -115,7.5 -110,35.0,3640.0,3163.9900000000002,CFB 368 Oklahoma State +10.5 -115 
+2025-11-15,CFB,total,South Florida/Navy,o29.5 -115,o31.5 -115,30.0,3876.0,3288.31,CFB 335 South Florida/Navy over 62.5 -114
+2025-11-15,CFB,side,Oklahoma State +10.5,9.5 -115,7.5 -110,35.0,3640.0,3163.9900000000002,CFB 368 Oklahoma State +10.5 -115
 2025-11-15,CFB,total,Notre Dame/Pittsburgh,o24.5 -100,o24.5 -110,10.0,5554.21,5210.6,CFB 351 Notre Dame/Pittsburgh over 48.5 -100
 2025-11-15,CBB,total,Kent State/Cleveland State,o85.5 -117,o88 -110,30.5,3054.74,2817.3399999999997,CBB 613 Kent State/Cleveland State over 170.5 -117
 2025-11-15,CFB,total,WVU/Arizona State,o21.5 -115,o23 -110,17.5,9327.18,-9327.18,CFB 395 WVU/Arizona State over 53.5 -115
 2025-11-15,CBB,side,Air Force +18.5,4.5 -111,3 -110,29.0,4744.99,4009.77,CBB 620 Air Force +18.5 -111
 2025-11-15,CFB,total,Oregon State/Tulsa,,,,2175.0,1833.33,CFB 361 Oregon State/Tulsa over 39.5 -118
-2025-11-15,CFB,side,Tulsa,,,,2175.0,1833.33,CFB 362 Tulsa -18.5 -115 
-2025-11-15,CBB,total,Miami Ohio/Air Force,,,,4744.99,4009.77,CBB 619 Miami Ohio/Air Force under 142.5 -115 
-2025-11-15,CBB,total,Boston College/Temple,,,,10723.6,9073.67,CBB 627 Boston College/Temple over 141.5 -122 
-2025-11-15,CBB,total,St Thomas/SE Missouri State,o78.5 -120,,,10295.84,9018.48,CBB 629 St Thomas/SE Missouri State over 148.5 -120 
+2025-11-15,CFB,side,Tulsa,,,,2175.0,1833.33,CFB 362 Tulsa -18.5 -115
+2025-11-15,CBB,total,Miami Ohio/Air Force,,,,4744.99,4009.77,CBB 619 Miami Ohio/Air Force under 142.5 -115
+2025-11-15,CBB,total,Boston College/Temple,,,,10723.6,9073.67,CBB 627 Boston College/Temple over 141.5 -122
+2025-11-15,CBB,total,St Thomas/SE Missouri State,o78.5 -120,,,10295.84,9018.48,CBB 629 St Thomas/SE Missouri State over 148.5 -120
 2025-11-15,CBB,total,Cuse/Drexel,u75.5 -118,u74 -105,9.5,8253.32,6769.01,CBB 631 Cuse/Drexel under 144.5 -118
 2025-11-15,CFB,total,Colorado State/New Mexico,u26 -100,u24 -110,40.0,8410.0,-7760.0,CFB 391 Colorado State/New Mexico under 36 -100
 2025-11-15,CFB,side,Missouri State,,,,3390.0,-3390.0,CFB 398 Missouri State -18.5 -115
-2025-11-15,CBB,total,Youngstown State/St Bonnies,,,,3483.0,2890.94,CBB 639 Youngstown State/St Bonnies over 144.5 -118 
-2025-11-15,CBB,side,St Bonnies,,,,3483.0,2890.94,CBB 640 St Bonnies -5.5 -108 
-2025-11-15,CBB,total,Montana State/Boise State,,,,1200.0,-1200.0,CBB 633 Montana State/Boise State over 140.5 -115 
-2025-11-15,CBB,side,Boise State,,,,1200.0,-1200.0,CBB 634 Boise State -11.5 -120 
-2025-11-15,CFB,total,Virginia/Duke,,,,2415.01,-2415.01,"CFB 339 Virginia/Duke under 49.5 -110 for LIVE, rampage"
+2025-11-15,CBB,total,Youngstown State/St Bonnies,,,,3483.0,2890.94,CBB 639 Youngstown State/St Bonnies over 144.5 -118
+2025-11-15,CBB,side,St Bonnies,,,,3483.0,2890.94,CBB 640 St Bonnies -5.5 -108
+2025-11-15,CBB,total,Montana State/Boise State,,,,1200.0,-1200.0,CBB 633 Montana State/Boise State over 140.5 -115
+2025-11-15,CBB,side,Boise State,,,,1200.0,-1200.0,CBB 634 Boise State -11.5 -120
+2025-11-15,CFB,total,Virginia/Duke,,,,2415.01,-2415.01,"CFB 339 Virginia/Duke under 49.5 -110 for LIVE,"
 2025-11-15,CFB,total,Texas State/Southern Miss,,,,7844.01,6745.22,CFB 363 Texas State/Southern Miss under 60.5 -120
-2025-11-15,CFB,side,Texas State,,,,7844.01,6745.22,CFB 363 Texas State -19.5 -125 
-2025-11-15,CBB,total,UTEP/Utah State,u75.5 -115,u76 -110,-12.5,5372.0,4883.99,CBB 637 UTEP/Utah State under 129.5 -115 
-2025-11-15,CFB,total,Georgia Tech/Boston College,,,,377.46,290.35,CFB 337 Georgia Tech/Boston College over 56.5 -130 
-2025-11-15,CFB,side,Western Kentucky,,,,5647.0,4774.37,CFB 406 Western Kentucky -13.5 -125 
+2025-11-15,CFB,side,Texas State,,,,7844.01,6745.22,CFB 363 Texas State -19.5 -125
+2025-11-15,CBB,total,UTEP/Utah State,u75.5 -115,u76 -110,-12.5,5372.0,4883.99,CBB 637 UTEP/Utah State under 129.5 -115
+2025-11-15,CFB,total,Georgia Tech/Boston College,,,,377.46,290.35,CFB 337 Georgia Tech/Boston College over 56.5 -130
+2025-11-15,CFB,side,Western Kentucky,,,,5647.0,4774.37,CFB 406 Western Kentucky -13.5 -125
 2025-11-15,CFB,side,Iowa,,,,5505.91,-5505.91,CFB 401 Iowa -4.5 -128
-2025-11-15,CFB,side,JMU,-7.5 -115,-9.5 -110,35.0,2941.0,2633.04,CFB 328 JMU -34 -112 
+2025-11-15,CFB,side,JMU,-7.5 -115,-9.5 -110,35.0,2941.0,2633.04,CFB 328 JMU -34 -112
 2025-11-15,CFB,total,FAU/Tulane,o27.5 -130,o30 -110,17.5,8179.46,6470.1,CFB 375 FAU/Tulane over 58.5 -130
-2025-11-15,CFB,total,Memphis/Illinois,o24.5 -115,o27.5 -110,40.0,2731.32,-1497.27,CFB 331 Memphis/Illinois over 51.5 -115 
+2025-11-15,CFB,total,Memphis/Illinois,o24.5 -115,o27.5 -110,40.0,2731.32,-1497.27,CFB 331 Memphis/Illinois over 51.5 -115
 2025-11-15,CFB,total,New Mexico State/Tennessee,u30.5 -115,u27 -105,42.5,3443.7,2942.16,CFB 409 New Mexico State/Tennessee under 54.5 -115
-2025-11-15,CBB,total,Pacific/CS Fullerton,,,,1725.0,1500.0,CBB 641 Pacific/CS Fullerton over 149.5 -115 
+2025-11-15,CBB,total,Pacific/CS Fullerton,,,,1725.0,1500.0,CBB 641 Pacific/CS Fullerton over 149.5 -115
 2025-11-15,CBBExtra,side,Murray State,,,,3797.92,-566.24,CBBExtra 306545 Murray State -14.5 -125
 2025-11-15,CBBExtra,total,Nicholls State/Murray State,,,,3797.92,-566.24,CBBExtra 306545 Nicholls State/Murray State under 173.5 -125
-2025-11-15,CFB,total,Liberty/FIU,,,,11252.8,789.3899999999999,CFB 411 Liberty/FIU over 60.5 -118 
+2025-11-15,CFB,total,Liberty/FIU,,,,11252.8,789.3899999999999,CFB 411 Liberty/FIU over 60.5 -118
 2025-11-15,CFB,side,Liberty,,,,11252.8,789.3899999999999,CFB 411 Liberty -3.5 -125
 2025-11-15,CBB,total,Bowling Green/Davidson,,,,1250.0,1086.96,CBB 645 Bowling Green/Davidson over 157.5 -115
-2025-11-15,CBB,total,WnM/St Johns,,,,2288.0,-2288.0,CBB 649 WnM/St Johns over 161.5 -120 
+2025-11-15,CBB,total,WnM/St Johns,,,,2288.0,-2288.0,CBB 649 WnM/St Johns over 161.5 -120
 2025-11-15,CBB,total,Missouri State/UT Arlington,,,,4786.77,-4786.77,CBB 651 Missouri State/UT Arlington over 132.5 -115
-2025-11-15,CFB,total,Coastal Carolina/Georgia Southern,,,,1592.0,-1592.0,CFB 319 Coastal Carolina/Georgia Southern over 90.5 -120 
+2025-11-15,CFB,total,Coastal Carolina/Georgia Southern,,,,1592.0,-1592.0,CFB 319 Coastal Carolina/Georgia Southern over 90.5 -120
 2025-11-15,CBB,total,Oklahoma/Nebraska,,,,1242.0,-1242.0,CBB 657 Oklahoma/Nebraska under 181.5 -115
 2025-11-15,CBB,total,BYU/Uconn,,,,2196.0,1800.0,CBB 653 BYU/Uconn over 155.5 -122
 2025-11-15,CBBExtra,total,USC Upstate/NC Wilmington,,,,4675.0,-4675.0,CBBExtra 306551 USC Upstate/NC Wilmington over 144.5 -115
-2025-11-15,CFB,total,Delaware/Sam Houston,,,,623.36,579.9300000000001,CFB 359 Delaware/Sam Houston over 42.5 -115 
-2025-11-15,CFB,side,Sam Houston +7,,,,623.36,579.9300000000001,CFB 360 Sam Houston +7 -122 
-2025-11-15,CFB,total,Utah/Baylor,,,,1576.53,-101.12,CFB 369 Utah/Baylor over 73.5 -115 
+2025-11-15,CFB,total,Delaware/Sam Houston,,,,623.36,579.9300000000001,CFB 359 Delaware/Sam Houston over 42.5 -115
+2025-11-15,CFB,side,Sam Houston +7,,,,623.36,579.9300000000001,CFB 360 Sam Houston +7 -122
+2025-11-15,CFB,total,Utah/Baylor,,,,1576.53,-101.12,CFB 369 Utah/Baylor over 73.5 -115
 2025-11-15,CFB,total,Florida/Ole Miss,,,,1500.0,-1500.0,CFB 371 Florida/Ole Miss over 71.5 -120
-2025-11-15,CBB,total,Grand Canyon/Saint Louis,,,,4345.0,3666.67,CBB 665 Grand Canyon/Saint Louis under 154.5 -122 
-2025-11-15,CFB,total,UCLA/Ohio State,,,,842.01,-842.01,CFB 349 UCLA/Ohio State under 49 -121 
+2025-11-15,CBB,total,Grand Canyon/Saint Louis,,,,4345.0,3666.67,CBB 665 Grand Canyon/Saint Louis under 154.5 -122
+2025-11-15,CFB,total,UCLA/Ohio State,,,,842.01,-842.01,CFB 349 UCLA/Ohio State under 49 -121
 2025-11-15,CBB,total,Duquesne/Villanova,,,,2400.0,2000.0,CBB 663 Duquesne/Villanova over 157.5 -115
-2025-11-15,CFB,side,Kennesaw +9.5,-2.5 -112,-3 -120,-99.0,2941.0,2633.04,CFB 389 Kennesaw +9.5 -112 
-2025-11-15,CBB,total,New mexico/NMS,,,,2196.0,1800.0,CBB 669 New mexico/NMS over 126.5 -122 
+2025-11-15,CFB,side,Kennesaw +9.5,-2.5 -112,-3 -120,-99.0,2941.0,2633.04,CFB 389 Kennesaw +9.5 -112
+2025-11-15,CBB,total,New mexico/NMS,,,,2196.0,1800.0,CBB 669 New mexico/NMS over 126.5 -122
 2025-11-15,CBB,total,Portland/Wyoming,,,,5399.13,-5399.13,CBB 675 Portland/Wyoming over 153.5 -110
-2025-11-15,CBB,total,WGB/Minnesota,,,,3188.84,-3188.84,CBB 671 WGB/Minnesota under 124.5 -122 
-2025-11-18,CBBExtra,total,American/Rutgers,u75.5 -122,u75 -110,-4.5,1172.0,-1172.0,CBBExtra 306501 American/Rutgers under 143.5 -122 
-2025-11-18,CBBExtra,total,Boston/Columbia,u75.5 -115,u72 -110,47.5,3518.8199999999997,3096.74,CBBExtra 306505 Boston/Columbia under 132.5 -115 
+2025-11-15,CBB,total,WGB/Minnesota,,,,3188.84,-3188.84,CBB 671 WGB/Minnesota under 124.5 -122
+2025-11-18,CBBExtra,total,American/Rutgers,u75.5 -122,u75 -110,-4.5,1172.0,-1172.0,CBBExtra 306501 American/Rutgers under 143.5 -122
+2025-11-18,CBBExtra,total,Boston/Columbia,u75.5 -115,u72 -110,47.5,3518.8199999999997,3096.74,CBBExtra 306505 Boston/Columbia under 132.5 -115
 2025-11-18,CBB,total,Towson/JMU,u75.5 -120,u72 -115,47.5,2310.0,-2310.0,CBB 615 Towson/JMU under 147.5 -120
-2025-11-18,CBB,total,St Peters/Delaware,u73.5 -120,u71 -105,22.5,12419.11,-1030.72,CBB 605 St Peters/Delaware under 148.5 -120 
-2025-11-18,CBB,side,ST Peters +21.5,-1.5 -115,-3.5 -110,35.0,12419.11,-1030.72,CBB 605 ST Peters +21.5 -115 
+2025-11-18,CBB,total,St Peters/Delaware,u73.5 -120,u71 -105,22.5,12419.11,-1030.72,CBB 605 St Peters/Delaware under 148.5 -120
+2025-11-18,CBB,side,ST Peters +21.5,-1.5 -115,-3.5 -110,35.0,12419.11,-1030.72,CBB 605 ST Peters +21.5 -115
 2025-11-18,CBB,total,UT Martin/Florida State,o85.5 -118,o86.5 -110,7.0,12831.65,-12831.65,CBB 611 UT Martin/Florida State over 168.5 -118
-2025-11-18,CBB,side,Florida State,-7.5 -115,-10 -110,-55.0,12831.65,-12831.65,CBB 612 Florida State -10.5 -115 
+2025-11-18,CBB,side,Florida State,-7.5 -115,-10 -110,-55.0,12831.65,-12831.65,CBB 612 Florida State -10.5 -115
 2025-11-18,CBB,total,Old D/Xavier,o77.5 -115,o80 -115,37.5,5286.8,4796.8099999999995,CBB 607 Old D/Xavier over 157.5 -115
-2025-11-18,CBB,total,Georgia Southern/Georgia Tech,,,,3188.16,-3188.16,CBB 619 Georgia Southern/Georgia Tech over 155.5 -124 
+2025-11-18,CBB,total,Georgia Southern/Georgia Tech,,,,3188.16,-3188.16,CBB 619 Georgia Southern/Georgia Tech over 155.5 -124
 2025-11-19,CBB,total,Middle Tenn State/Michigan,o81.5 -121,o83 -115,16.5,6383.99,-5283.99,CBB 663 Middle Tenn State/Michigan over 147 -126
 2025-11-19,CBBExtra,total,FGC/Samford,u82.5 -120,u81 -110,12.5,6083.3,5066.91,CBBExtra 306567 FGC/Samford under 156.5 -120
-2025-11-19,CBB,total,Youngstown State/Toledo,u85.5 -120,u83.5 -110,20.0,2900.0,-2900.0,CBB 683 Youngstown State/Toledo under 161.5 -120 
-2025-11-19,CBB,total,Valpar/Cleveland State,u86.5 -115,u83.5 -110,40.0,6016.0,-6016.0,CBB 669 Valpar/Cleveland State under 152.5 -115 
-2025-11-19,CBB,side,Cleveland State +9.5,-2.5 -115,-4 -110,-81.0,6016.0,-6016.0,CBB 670 Cleveland State +9.5 -115 
+2025-11-19,CBB,total,Youngstown State/Toledo,u85.5 -120,u83.5 -110,20.0,2900.0,-2900.0,CBB 683 Youngstown State/Toledo under 161.5 -120
+2025-11-19,CBB,total,Valpar/Cleveland State,u86.5 -115,u83.5 -110,40.0,6016.0,-6016.0,CBB 669 Valpar/Cleveland State under 152.5 -115
+2025-11-19,CBB,side,Cleveland State +9.5,-2.5 -115,-4 -110,-81.0,6016.0,-6016.0,CBB 670 Cleveland State +9.5 -115
 2025-11-19,CBB,total,VMI/Richmond,u80.5 -122,u77 -115,45.5,3210.0,847.46,CBB 681 VMI/Richmond under 155.5 -122
-2025-11-19,CBB,total,Mt St Marys/Maryland,o75.5 -120,o78 -110,27.5,707.04,604.31,CBB 685 Mt St Marys/Maryland over 147.5 -120 
+2025-11-19,CBB,total,Mt St Marys/Maryland,o75.5 -120,o78 -110,27.5,707.04,604.31,CBB 685 Mt St Marys/Maryland over 147.5 -120
 2025-11-19,CBB,total,Wyoming/Sam Houston,u85.5 -120,u82.5 -110,35.0,2500.0,2118.64,CBB 687 Wyoming/Sam Houston under 154.5 -120
-2025-11-19,CBB,total,Arizona/UConn,o80.5 -115,o81 -110,2.5,1810.25,-1810.25,CBB 673 Arizona/UConn over 148.5 -115 
-2025-11-19,CBB,total,Louisiana Tech/Indiana State,u79.5 -110,u77.5 -105,25.0,690.0,600.0,CBB 679 Louisiana Tech/Indiana State under 134.5 -110 
-2025-11-19,CBB,side,VMI +28.5,5.5 -120,4 -110,20.0,3210.0,847.46,CBB 681 VMI +28.5 -120 
+2025-11-19,CBB,total,Arizona/UConn,o80.5 -115,o81 -110,2.5,1810.25,-1810.25,CBB 673 Arizona/UConn over 148.5 -115
+2025-11-19,CBB,total,Louisiana Tech/Indiana State,u79.5 -110,u77.5 -105,25.0,690.0,600.0,CBB 679 Louisiana Tech/Indiana State under 134.5 -110
+2025-11-19,CBB,side,VMI +28.5,5.5 -120,4 -110,20.0,3210.0,847.46,CBB 681 VMI +28.5 -120
 2025-11-19,CBB,side,Sam Houston,1.5 -115,.5 -110,15.0,2500.0,2118.64,CBB 688 Sam Houston -3.5 -115
-2025-11-19,CFB,total,UCM/Kent State,u23.5 -114,u23 -125,18.5,7786.75,-7786.75,CFB 109 UCM/Kent State under 40.5 -114 
-2025-11-19,CBB,total,Dayton/Marquette,u82.5 -120,u82.5 -105,-15.0,4750.0,4000.0,CBB 689 Dayton/Marquette under 155.5 -120 
-2025-11-19,CBB,total,Cal Irvine/Utah Valley,o77.5 -115,o78.5 -110,10.0,5923.6,5067.01,CBB 697 Cal Irvine/Utah Valley over 135.5 -115 
+2025-11-19,CFB,total,UCM/Kent State,u23.5 -114,u23 -125,18.5,7786.75,-7786.75,CFB 109 UCM/Kent State under 40.5 -114
+2025-11-19,CBB,total,Dayton/Marquette,u82.5 -120,u82.5 -105,-15.0,4750.0,4000.0,CBB 689 Dayton/Marquette under 155.5 -120
+2025-11-19,CBB,total,Cal Irvine/Utah Valley,o77.5 -115,o78.5 -110,10.0,5923.6,5067.01,CBB 697 Cal Irvine/Utah Valley over 135.5 -115
 2025-11-19,CBB,total,North Dakota/Creighton,u82.5 -115,u80 -110,32.5,1035.0,900.0,CBB 695 North Dakota/Creighton under 165.5 -115
 2025-11-19,CBB,side,UMKC +34.5,11.5 -115,9 -110,45.0,2766.3,-2766.3,CBB 693 UMKC +34.5 -115
-2025-11-20,CBB,total,Lindenwood/Indiana,o76.5 -115,o78.5 -105,20.0,3000.0,-3000.0,CBB 713 Lindenwood/Indiana over 128.5 -115 
-2025-11-20,CBB,total,Robert Morris/St Bonnies,o77.5 -115,o79.5 -115,30.0,9220.78,-9220.78,CBB 723 Robert Morris/St Bonnies over 147.5 -115 
-2025-11-20,CBB,total,Northeastern/Princeton,u76.5 -124,u73.5 -110,31.0,4198.39,3438.46,CBB 717 Northeastern/Princeton under 129.5 -124 
-2025-11-20,CBB,side,Pittsburgh +1.5,-.5 -110,-.5 -110,0.0,8685.04,1977.98,CBB 731 Pittsburgh +1.5 -110 
+2025-11-20,CBB,total,Lindenwood/Indiana,o76.5 -115,o78.5 -105,20.0,3000.0,-3000.0,CBB 713 Lindenwood/Indiana over 128.5 -115
+2025-11-20,CBB,total,Robert Morris/St Bonnies,o77.5 -115,o79.5 -115,30.0,9220.78,-9220.78,CBB 723 Robert Morris/St Bonnies over 147.5 -115
+2025-11-20,CBB,total,Northeastern/Princeton,u76.5 -124,u73.5 -110,31.0,4198.39,3438.46,CBB 717 Northeastern/Princeton under 129.5 -124
+2025-11-20,CBB,side,Pittsburgh +1.5,-.5 -110,-.5 -110,0.0,8685.04,1977.98,CBB 731 Pittsburgh +1.5 -110
 2025-11-20,CBB,total,Northern Kentucky/Central Michigan,o76.5 -115,o77 -110,2.5,301.23,259.06,CBB 719 Northern Kentucky/Central Michigan over 150.5 -115
 2025-11-20,CBB,total,Oral Roberts/Oklahoma,o84.5 -120,o83.5 -110,-25.0,7205.78,-648.6299999999999,CBB 733 Oral Roberts/Oklahoma over 150.5 -120
 2025-11-20,CBB,total,Oral Roberts/Oklahoma,u86.5 -120,u83.5 -110,35.0,7205.78,-648.6299999999999,CBB 733 Oral Roberts/Oklahoma under 152.5 -120
-2025-11-20,CBB,side,Missouri,-9.5 -110,-11 -110,-69.0,8685.04,1977.98,CBB 732 Missouri -20.5 -110 
+2025-11-20,CBB,side,Missouri,-9.5 -110,-11 -110,-69.0,8685.04,1977.98,CBB 732 Missouri -20.5 -110
 2025-11-20,CBB,total,South Dakota/Missouri,u90 -120,u88.5 -110,12.5,8685.04,1977.98,CBB 731 South Dakota/Missouri under 185.5 -120
-2025-11-20,CBB,side,Western Michigan +36.5,11.5 -120,10.5 -110,10.0,3000.0,2542.37,CBB 737 Western Michigan +36.5 -120 
-2025-11-20,CBB,total,Texas Tech/Wake forest,o81.5 -120,o84 -120,37.5,11233.6,9331.09,CBB 751 Texas Tech/Wake forest over 150.5 -120 
+2025-11-20,CBB,side,Western Michigan +36.5,11.5 -120,10.5 -110,10.0,3000.0,2542.37,CBB 737 Western Michigan +36.5 -120
+2025-11-20,CBB,total,Texas Tech/Wake forest,o81.5 -120,o84 -120,37.5,11233.6,9331.09,CBB 751 Texas Tech/Wake forest over 150.5 -120
 2025-11-20,CBB,total,Cal Poly/Utah,u89.5 -115,u88 -110,17.5,9204.33,7930.360000000001,CBB 739 Cal Poly/Utah under 178.5 -113
-2025-11-20,CBB,moneyline,Cal Poly,-110,-130,,9204.33,7930.360000000001,CBB 739 Cal Poly -110 
-2025-11-20,CBB,total,Rider/Houston,o69.5 -120,o70.5 -105,0.0,4533.33,-4533.33,CBB 741 Rider/Houston over 141.5 -120 
+2025-11-20,CBB,moneyline,Cal Poly,-110,-130,,9204.33,7930.360000000001,CBB 739 Cal Poly -110
+2025-11-20,CBB,total,Rider/Houston,o69.5 -120,o70.5 -105,0.0,4533.33,-4533.33,CBB 741 Rider/Houston over 141.5 -120
 2025-11-20,CBB,total,Miss State/Kansas State,o85.5 -115,o87.5 -110,25.0,2500.0,2173.91,CBB 755 Miss State/Kansas State over 165.5 -115
 2025-11-20,CBB,total,Troy/USC,o77.5 -115,o81 -110,47.5,5315.93,4606.89,CBB 743 Troy/USC over o135.5 -115
 2025-11-20,CBB,total,ST Joes/UNLV,o85.5 -120,o88.5 -110,35.0,7401.23,5750.860000000001,CBB 745 ST Joes/UNLV over 170.5 -120
-2025-11-21,CBB,total,Alabama State/IU Indy,u96.5 -118,u95.5 -110,7.0,8381.0,7442.7699999999995,CBB 306501 Alabama State/IU Indy under 200.5 -118 
-2025-11-21,CBB,total,Butler/South Carolina,o77.5 -112,o79 -115,25.5,8260.0,7404.65,CBB 801 Butler/South Carolina over 146.5 -112 
+2025-11-21,CBB,total,Alabama State/IU Indy,u96.5 -118,u95.5 -110,7.0,8381.0,7442.7699999999995,CBB 306501 Alabama State/IU Indy under 200.5 -118
+2025-11-21,CBB,total,Butler/South Carolina,o77.5 -112,o79 -115,25.5,8260.0,7404.65,CBB 801 Butler/South Carolina over 146.5 -112
 2025-11-21,CBB,total,Campbell/UT Arlington,o78.5 -115,o78.5 -110,-5.0,250.0,217.39,CBB 803 Campbell/UT Arlington over 137.5 -115
 2025-11-21,CBB,total,Umass/COC,u82.5 -110,u80.5 -115,35.0,550.0,500.0,CBB 865 Umass/COC under 139.5 -110
-2025-11-21,CBB,total,Davidson/BC,u74.5 -112,u73.5 -105,8.0,2091.83,1801.0,CBB 873 Davidson/BC under 138.5 -112 
-2025-11-21,CBB,total,Wisconsin/BYU,o83.5 -105,o86 -105,37.5,9520.0,241.89999999999964,CBB 805 Wisconsin/BYU over 161.5 -105 
-2025-11-21,CBB,total,Wisconsin/BYU,u87.5 -120,u86 -115,17.5,9520.0,241.89999999999964,CBB 805 Wisconsin/BYU under 165.5 -120 
-2025-11-21,CBB,total,Northwestern/Virginia,o76.5 -113,o79 -115,39.5,7931.23,6901.63,CBB 807 Northwestern/Virginia over 152.5 -113 
+2025-11-21,CBB,total,Davidson/BC,u74.5 -112,u73.5 -105,8.0,2091.83,1801.0,CBB 873 Davidson/BC under 138.5 -112
+2025-11-21,CBB,total,Wisconsin/BYU,o83.5 -105,o86 -105,37.5,9520.0,241.89999999999964,CBB 805 Wisconsin/BYU over 161.5 -105
+2025-11-21,CBB,total,Wisconsin/BYU,u87.5 -120,u86 -115,17.5,9520.0,241.89999999999964,CBB 805 Wisconsin/BYU under 165.5 -120
+2025-11-21,CBB,total,Northwestern/Virginia,o76.5 -113,o79 -115,39.5,7931.23,6901.63,CBB 807 Northwestern/Virginia over 152.5 -113
 2025-11-21,CBBExtra,total,Columbia/Lehigh,o75.5 -115,o78 -110,32.5,3450.0,3000.0,CBBExtra 306503 Columbia/Lehigh over 145.5 -115
 2025-11-21,CBB,side,Florida State,-6.5 -100,-8 -110,-62.0,6280.0,-6280.0,CBB 810 Florida State -17.5 -100
-2025-11-21,CBB,total,Georgia Southern/Florida State,u90.5 -120,u88.5 -110,20.0,6280.0,-6280.0,CBB 809 Georgia Southern/Florida State under 159.5 -120 
+2025-11-21,CBB,total,Georgia Southern/Florida State,u90.5 -120,u88.5 -110,20.0,6280.0,-6280.0,CBB 809 Georgia Southern/Florida State under 159.5 -120
 2025-11-21,CBB,total,Oakland/EMU,u83.5 -115,u82 -115,22.5,6707.0,-6707.0,CBB 815 Oakland/EMU under 170.5 -115
-2025-11-21,CBB,total,Charlotte/App State,u71.5 -115,u70 -110,17.5,6988.0,5579.860000000001,CBB 819 Charlotte/App State under 138.5 -115 
+2025-11-21,CBB,total,Charlotte/App State,u71.5 -115,u70 -110,17.5,6988.0,5579.860000000001,CBB 819 Charlotte/App State under 138.5 -115
 2025-11-21,CBBExtra,side,Rutgers,-7.5 -120,-9.5 -110,30.0,6260.0,-6260.0,CBBExtra 306508 Rutgers -3.5 -120
-2025-11-21,CBB,total,WVU/Clemson,u72.5 -121,u70 -110,26.5,1457.5700000000002,-1457.5700000000002,CBB 875 WVU/Clemson under 129.5 -121 
-2025-11-21,CBB,total,Detroit/Mich State,o78.5 -115,o79.5 -110,10.0,15536.0,-15536.0,CBB 817 Detroit/Mich State over 144.5 -115 
-2025-11-21,CBB,total,Louisville/Cincinnati,u85 -115,u82 -115,45.0,9246.0,7546.61,CBB 813 Louisville/Cincinnati under 145 -115 
+2025-11-21,CBB,total,WVU/Clemson,u72.5 -121,u70 -110,26.5,1457.5700000000002,-1457.5700000000002,CBB 875 WVU/Clemson under 129.5 -121
+2025-11-21,CBB,total,Detroit/Mich State,o78.5 -115,o79.5 -110,10.0,15536.0,-15536.0,CBB 817 Detroit/Mich State over 144.5 -115
+2025-11-21,CBB,total,Louisville/Cincinnati,u85 -115,u82 -115,45.0,9246.0,7546.61,CBB 813 Louisville/Cincinnati under 145 -115
 2025-11-21,CBB,side,Cinci +3.5,7.5 -110,6.5 -110,20.0,9246.0,7546.61,CBB 813 Cinci +3.5 -110
 2025-11-21,CBB,side,Morehead State +13.5,6.5 -124,4.5 -110,26.0,1173.0,-1173.0,CBB 825 Morehead State +13.5 -124
-2025-11-21,CBB,total,Wake Forest/Memphis,u82.5 -115,u79.5 -110,40.0,6250.0,5484.19,CBB 879 Wake Forest/Memphis under 142.5 -115 
-2025-11-21,CBB,total,Niagara/Duke,u76.5 -115,u74.5 -110,25.0,4528.54,3946.16,CBB 887 Niagara/Duke under 142.5 -115 
-2025-11-21,CBB,total,South Alabama/UAB,u77.5 -115,u74.5 -115,45.0,13557.0,-13557.0,CBB 829 South Alabama/UAB under 139.5 -115 
+2025-11-21,CBB,total,Wake Forest/Memphis,u82.5 -115,u79.5 -110,40.0,6250.0,5484.19,CBB 879 Wake Forest/Memphis under 142.5 -115
+2025-11-21,CBB,total,Niagara/Duke,u76.5 -115,u74.5 -110,25.0,4528.54,3946.16,CBB 887 Niagara/Duke under 142.5 -115
+2025-11-21,CBB,total,South Alabama/UAB,u77.5 -115,u74.5 -115,45.0,13557.0,-13557.0,CBB 829 South Alabama/UAB under 139.5 -115
 2025-11-21,CBB,total,St Thomas/No Colorado,u82.5 -115,u82.5 -110,-5.0,13665.0,11875.15,CBB 827 St Thomas/No Colorado under 147.5 -115
 2025-11-21,CBB,total,St Thomas/No Colorado,o79.5 -120,o82.5 -110,35.0,13665.0,11875.15,CBB 827 St Thomas/No Colorado over 144.5 -120
 2025-11-21,CBB,total,Coastal Carolina/Western Illinois,o74.5 -115,o76.5 -110,25.0,5376.0,-5376.0,CBB 821 Coastal Carolina/Western Illinois over 154.5 -115
 2025-11-21,CBB,total,ALR/Texas State,o67.5 -115,o71 -110,47.5,3000.0,-3000.0,CBB 839 ALR/Texas State over 121.5 -115
-2025-11-21,CBB,total,IPFW/ST Louis,u86.5 -115,u85.5 -110,10.0,7872.12,6783.3,CBB 837 IPFW/ST Louis under 159.5 -115 
-2025-11-21,CBB,total,Manhattan/Texas AnM,u86.5 -115,u84.5 -110,25.0,648.0,600.0,CBB 841 Manhattan/Texas AnM under 168.5 -115 
-2025-11-21,CFB,total,Florida State/NC State,u28.5 -118,u27.5 -130,27.0,4831.389999999999,3052.05,CFB 115 Florida State/NC State under 38.5 -118 
-2025-11-21,CFB,moneyline,Florida state,-110,-135,,4831.389999999999,3052.05,CFB 115 Florida state -110 
-2025-11-21,CBB,total,Samford/NMS,u77.5 -115,u75 -115,37.5,13098.35,-12670.35,CBB 849 Samford/NMS under 149.5 -115 
+2025-11-21,CBB,total,IPFW/ST Louis,u86.5 -115,u85.5 -110,10.0,7872.12,6783.3,CBB 837 IPFW/ST Louis under 159.5 -115
+2025-11-21,CBB,total,Manhattan/Texas AnM,u86.5 -115,u84.5 -110,25.0,648.0,600.0,CBB 841 Manhattan/Texas AnM under 168.5 -115
+2025-11-21,CFB,total,Florida State/NC State,u28.5 -118,u27.5 -130,27.0,4831.389999999999,3052.05,CFB 115 Florida State/NC State under 38.5 -118
+2025-11-21,CFB,moneyline,Florida state,-110,-135,,4831.389999999999,3052.05,CFB 115 Florida state -110
+2025-11-21,CBB,total,Samford/NMS,u77.5 -115,u75 -115,37.5,13098.35,-12670.35,CBB 849 Samford/NMS under 149.5 -115
 2025-11-21,CBB,total,Cal Riverside/San Diego,u81.5 -120,u78 -110,42.5,5000.0,-5000.0,CBB 857 Cal Riverside/San Diego under 149.5 -120
-2025-11-21,CBB,side,SMU,-4.5 -115,-4.5 -110,-5.0,1500.0,1304.35,CBB 846 SMU -24.5 -115 
+2025-11-21,CBB,side,SMU,-4.5 -115,-4.5 -110,-5.0,1500.0,1304.35,CBB 846 SMU -24.5 -115
 2025-11-21,CBB,total,Georgia/Xavier,o86.5 -115,o87.5 -110,10.0,5312.28,-5312.28,CBB 877 Georgia/Xavier over 180.5 -115
 2025-11-21,CBB,total,Denver/Colorado State,u79.5 -124,u77.5 -110,16.0,3575.0,-3575.0,CBB 847 Denver/Colorado State under 153.5 -124
 2025-11-21,CBBExtra,total,New Orleans/Fresno State,o79.5 -115,o82 -110,32.5,7700.0,6818.0,CBBExtra 306539 New Orleans/Fresno State over 157.5 -115
-2025-11-21,CBB,total,Kansas State/Nebraska,u89.5 -125,u88 -110,7.5,1755.71,-1755.71,CBB 885 Kansas State/Nebraska under 169.5 -125 
+2025-11-21,CBB,total,Kansas State/Nebraska,u89.5 -125,u88 -110,7.5,1755.71,-1755.71,CBB 885 Kansas State/Nebraska under 169.5 -125
 2025-11-21,CBB,total,Texas Tech/Purdue,u82.5 -115,u80 -110,32.5,7355.0,5883.6900000000005,CBB 881 Texas Tech/Purdue under 157.5 -115
-2025-11-21,CBB,side,Purdue,5.5 -110,2.5 -110,60.0,7355.0,5883.6900000000005,CBB 882 Purdue -17.5 -110 
+2025-11-21,CBB,side,Purdue,5.5 -110,2.5 -110,60.0,7355.0,5883.6900000000005,CBB 882 Purdue -17.5 -110
 2025-11-21,CBB,side,Sac State +24.5,10.5 -125,8.5 -110,25.0,9000.0,6685.71,CBB 861 Sac State +24.5 -125
-2025-11-21,CBB,total,Montana State/LBS,o75.5 -115,o77.5 -120,35.0,5699.23,4939.92,CBB 851 Montana State/LBS over 147.5 -115 
-2025-11-21,CBB,total,Sac State/California,u83.5 -120,u82 -110,12.5,9000.0,6685.71,CBB 861 Sac State/California under 163.5 -120 
-2025-11-22,CBBExtra,total,NJIT/Navy,o74.5 -118,o76.5 -110,22.0,5992.0,-5992.0,"CBBExtra 306553 NJIT/Navy over 161.5 -118 for LIVE, rampage"
+2025-11-21,CBB,total,Montana State/LBS,o75.5 -115,o77.5 -120,35.0,5699.23,4939.92,CBB 851 Montana State/LBS over 147.5 -115
+2025-11-21,CBB,total,Sac State/California,u83.5 -120,u82 -110,12.5,9000.0,6685.71,CBB 861 Sac State/California under 163.5 -120
+2025-11-22,CBBExtra,total,NJIT/Navy,o74.5 -118,o76.5 -110,22.0,5992.0,-5992.0,"CBBExtra 306553 NJIT/Navy over 161.5 -118 for LIVE,"
 2025-11-22,CFB,total,Louisville/SMU,u25.5 -115,u23.5 -110,25.0,4871.99,4140.91,CFB 187 Louisville/SMU under 52.5 -115
 2025-11-22,CFB,total,Tulsa/Army,o19.5 -130,o21.5 -105,5.0,11356.72,-11356.72,CFB 127 Tulsa/Army over 55.5 -130
 2025-11-22,CFB,side,SMU,PK -115,-125,,4871.99,4140.91,CFB 188 SMU -15 -115
-2025-11-22,CFB,side,Northwestern +5.5,-2.5 -115,-3.5 -110,15.0,400.0,338.98,CFB 202 Northwestern +5.5 -115 
-2025-11-22,CBBExtra,total,Fairfield/Le Moyne,o77.5 -115,o79.5 -110,25.0,7052.0,6012.83,CBBExtra 306557 Fairfield/Le Moyne over 171.5 -115 
+2025-11-22,CFB,side,Northwestern +5.5,-2.5 -115,-3.5 -110,15.0,400.0,338.98,CFB 202 Northwestern +5.5 -115
+2025-11-22,CBBExtra,total,Fairfield/Le Moyne,o77.5 -115,o79.5 -110,25.0,7052.0,6012.83,CBBExtra 306557 Fairfield/Le Moyne over 171.5 -115
 2025-11-22,CFB,side,Charlotte +45.5 +105,20.5 +105,17 -110,85.0,9024.56,8595.69,CFB 157 Charlotte +45.5 +105
-2025-11-22,CFB,total,Charlotte/Georgia,u23.5 -110,u20.5 -100,35.0,9024.56,8595.69,CFB 157 Charlotte/Georgia under 54.5 -110 
-2025-11-22,CBBExtra,total,Boston/Harvard,u72.5 -118,u72.5 -110,-8.0,14279.93,-14279.93,CBBExtra 306559 Boston/Harvard under 139.5 -118 
-2025-11-22,CFB,total,Baylor/Arizona,u32 -113,u29.5 -110,34.5,1570.62,1378.6200000000001,CFB 170 Baylor/Arizona under 63 -113 
-2025-11-22,CFB,total,Old D/Georgia Southern,u29.5 -120,u27.5 -110,20.0,25347.92,22651.56,CFB 131 Old D/Georgia Southern under 60.5 -120 
+2025-11-22,CFB,total,Charlotte/Georgia,u23.5 -110,u20.5 -100,35.0,9024.56,8595.69,CFB 157 Charlotte/Georgia under 54.5 -110
+2025-11-22,CBBExtra,total,Boston/Harvard,u72.5 -118,u72.5 -110,-8.0,14279.93,-14279.93,CBBExtra 306559 Boston/Harvard under 139.5 -118
+2025-11-22,CFB,total,Baylor/Arizona,u32 -113,u29.5 -110,34.5,1570.62,1378.6200000000001,CFB 170 Baylor/Arizona under 63 -113
+2025-11-22,CFB,total,Old D/Georgia Southern,u29.5 -120,u27.5 -110,20.0,25347.92,22651.56,CFB 131 Old D/Georgia Southern under 60.5 -120
 2025-11-22,CFB,side,Old D/Georgia Southern,-3.5 -115,-6.5 -110,55.0,25347.92,22651.56,CFB 131 Old D/Georgia Southern -34.5 -115
 2025-11-22,CBBExtra,total,NCC/Dayton,u76.5 -115,u75.5 -115,15.0,10192.93,8442.74,CBBExtra 306562 NCC/Dayton under 140.5 -115
 2025-11-22,CBBExtra,total,Nicholls/Oklahoma,o80.5 -118,o82 -110,14.5,6317.9400000000005,5736.05,CBBExtra 306565 Nicholls/Oklahoma over 159.5 -118
 2025-11-22,CBB,total,Cleveland State/Kent State,u89.5 -115,u86.5 -115,45.0,3000.0,-3000.0,CBB 603 Cleveland State/Kent State under 156.5 -115
 2025-11-22,CBB,side,Marquette,-9.5 -125,-12 -105,-63.0,10130.0,-10130.0,CBB 602 Marquette -14.5 -125
 2025-11-22,CBBExtra,total,Umass/St Peters,,,,3540.0,3000.0,CBBExtra 306564 Umass/St Peters under 145.5 -120
-2025-11-22,CFB,total,Missouri State/Kennesaw State,,,,4000.0,3078.67,CFB 189 Missouri State/Kennesaw State over 52.5 -122 
+2025-11-22,CFB,total,Missouri State/Kennesaw State,,,,4000.0,3078.67,CFB 189 Missouri State/Kennesaw State over 52.5 -122
 2025-11-22,CFB,moneyline,Liberty,-286,-350,,4030.0,-3302.13,CFB 185 Liberty -286
-2025-11-22,CFB,total,Liberty/Louisiana Tech,,,,4030.0,-3302.13,CFB 185 Liberty/Louisiana Tech over 41.5 -122 
+2025-11-22,CFB,total,Liberty/Louisiana Tech,,,,4030.0,-3302.13,CFB 185 Liberty/Louisiana Tech over 41.5 -122
 2025-11-22,CFB,total,Ball State/Toledo,o15.5 -120,o20 -110,57.5,12016.6,10655.93,CFB 147 Ball State/Toledo over 43.5 -120
-2025-11-22,CFB,total,New Mexico State/Utep,o21.5 -115,o23.5 -110,25.0,11372.0,8497.39,CFB 179 New Mexico State/Utep over 63.5 -115 
-2025-11-22,CFB,total,UConn/FAU,,,,3526.0,3273.12,CFB 121 UConn/FAU over 72.5 -115 
+2025-11-22,CFB,total,New Mexico State/Utep,o21.5 -115,o23.5 -110,25.0,11372.0,8497.39,CFB 179 New Mexico State/Utep over 63.5 -115
+2025-11-22,CFB,total,UConn/FAU,,,,3526.0,3273.12,CFB 121 UConn/FAU over 72.5 -115
 2025-11-22,CFB,side,South Florida,-9.5 -118,-10.5 -110,12.0,11695.0,10211.62,CFB 197 South Florida -16.5 -118
-2025-11-22,CBBExtra,total,Niagara/Howard,,,,1114.0,969.56,CBBExtra 306575 Niagara/Howard over 138.5 -115 
-2025-11-22,CBB,total,Northeastern/Duquesne,,,,1250.0,1086.96,CBB 607 Northeastern/Duquesne over 156.5 -115 
+2025-11-22,CBBExtra,total,Niagara/Howard,,,,1114.0,969.56,CBBExtra 306575 Niagara/Howard over 138.5 -115
+2025-11-22,CBB,total,Northeastern/Duquesne,,,,1250.0,1086.96,CBB 607 Northeastern/Duquesne over 156.5 -115
 2025-11-22,CFB,total,Duke/UNC,,,,1680.0,1400.0,CFB 145 Duke/UNC over 48.5 -120
-2025-11-22,CFB,side,Jacksonville State,,,,6841.6900000000005,-6841.6900000000005,CFB 215 Jacksonville State -4.5 -120 
-2025-11-22,CFB,total,Cuse/Notre Dame,,,,6239.28,5247.43,CFB 217 Cuse/Notre Dame over 66.5 -130 
-2025-11-22,CBB,total,Penn State/Providence,,,,7755.47,6764.3,CBB 605 Penn State/Providence under 148.5 -110 
+2025-11-22,CFB,side,Jacksonville State,,,,6841.6900000000005,-6841.6900000000005,CFB 215 Jacksonville State -4.5 -120
+2025-11-22,CFB,total,Cuse/Notre Dame,,,,6239.28,5247.43,CFB 217 Cuse/Notre Dame over 66.5 -130
+2025-11-22,CBB,total,Penn State/Providence,,,,7755.47,6764.3,CBB 605 Penn State/Providence under 148.5 -110
 2025-11-22,CFB,total,ECU/UTSA,,,,4180.0,-4180.0,CFB 205 ECU/UTSA under 67.5 -117
-2025-11-22,CFB,total,Oklahoma State/UCF,,,,10048.5,8698.29,"CFB 129 Oklahoma State/UCF under 39.5 -121 for LIVE, rampage"
-2025-11-22,CFB,total,Arkansas/Texas,,,,8408.48,7569.3099999999995,"CFB 173 Arkansas/Texas over 72.5 -115 for LIVE, rampage"
+2025-11-22,CFB,total,Oklahoma State/UCF,,,,10048.5,8698.29,"CFB 129 Oklahoma State/UCF under 39.5 -121 for LIVE,"
+2025-11-22,CFB,total,Arkansas/Texas,,,,8408.48,7569.3099999999995,"CFB 173 Arkansas/Texas over 72.5 -115 for LIVE,"
 2025-11-22,CFB,total,Michigan/Maryland,u23.5 -125,u21.5 -110,15.0,4866.5,-1786.5,CFB 143 Michigan/Maryland under 54.5 -125
 2025-11-22,CFB,total,Michigan/Maryland o52.5,o21.5 -115,o21.5 -110,-5.0,4866.5,-1786.5,CFB 143 Michigan/Maryland o52.5 -115
 2025-11-22,CBBExtra,total,UT Rio/Missouri State,u78.5 -120,u75 -115,47.5,8380.62,-8380.62,CBBExtra 611 UT Rio/Missouri State under 136.5 -120
-2025-11-22,CBBExtra,total,Western Carolina/Lipscomb,u79.5 -120,u77 -110,27.5,9151.93,-9151.93,CBBExtra 306579 Western Carolina/Lipscomb under 136.5 -120 
-2025-11-22,CBBExtra,total,Prairie View/UT Martin,u82.5 -125,u80 -110,22.5,3275.0,2700.0,CBBExtra 306591 Prairie View/UT Martin under 149.5 -125 
-2025-11-22,CFB,total,Kansas State/Utah,o27.5 -125,o30.5 -110,30.0,6542.0,6114.38,CFB 163 Kansas State/Utah over 79.5 -125 
+2025-11-22,CBBExtra,total,Western Carolina/Lipscomb,u79.5 -120,u77 -110,27.5,9151.93,-9151.93,CBBExtra 306579 Western Carolina/Lipscomb under 136.5 -120
+2025-11-22,CBBExtra,total,Prairie View/UT Martin,u82.5 -125,u80 -110,22.5,3275.0,2700.0,CBBExtra 306591 Prairie View/UT Martin under 149.5 -125
+2025-11-22,CFB,total,Kansas State/Utah,o27.5 -125,o30.5 -110,30.0,6542.0,6114.38,CFB 163 Kansas State/Utah over 79.5 -125
 2025-11-22,CBB,total,ST Thomas/CS Fullerton,u85.5 -110,u83.5 -110,30.0,10127.0,-10127.0,CBB 613 ST Thomas/CS Fullerton under 155.5 -110
 2025-11-22,CBB,total,San francisco/Minnesota,u75.5 -120,u72 -115,47.5,9488.45,-9488.45,CBB 615 San francisco/Minnesota under 136.5 -120
-2025-11-22,CFB,side,Texas State,-5.5 -115,-10.5 -110,95.0,19375.0,17062.54,CFB 200 Texas State -8.5 -115 
+2025-11-22,CFB,side,Texas State,-5.5 -115,-10.5 -110,95.0,19375.0,17062.54,CFB 200 Texas State -8.5 -115
 2025-11-22,CBB,total,Iona/Oregon State,u81.5 -110,u82.5 -110,-15.0,7587.0,-5487.0,CBB 633 Iona/Oregon State under 146.5 -110
 2025-11-22,CBB,total,Coastal Carolina/North Dakota,o77.5 -118,o80 -110,29.5,6543.02,-6543.02,CBB 617 Coastal Carolina/North Dakota over 148.5 -118
-2025-11-22,CFB,total,New Mexico/Air Force,u26.5 -115,u24 -110,32.5,7801.0,6660.85,CFB 219 New Mexico/Air Force under 43.5 -115 
+2025-11-22,CFB,total,New Mexico/Air Force,u26.5 -115,u24 -110,32.5,7801.0,6660.85,CFB 219 New Mexico/Air Force under 43.5 -115
 2025-11-22,CBBExtra,total,Coppin state/VCU,o78.5 -115,o80 -110,17.5,8421.28,-6513.28,CBBExtra 306585 Coppin state/VCU over 160.5 -115
 2025-11-22,CFB,side,New Mexico,.5 -120,-.5 -110,10.0,7801.0,6660.85,CFB 219 New Mexico -16.5 -120
-2025-11-22,CBBExtra,total,High Point/Incarnate word,u85.5 -120,u85.5 -110,-10.0,3100.0,2622.0299999999997,CBBExtra 306589 High Point/Incarnate word under 171.5 -120 
+2025-11-22,CBBExtra,total,High Point/Incarnate word,u85.5 -120,u85.5 -110,-10.0,3100.0,2622.0299999999997,CBBExtra 306589 High Point/Incarnate word under 171.5 -120
 2025-11-22,CBBExtra,total,Southern Miss/North Florida,u82.5 -120,u81.5 -110,5.0,6891.39,-6891.39,CBBExtra 306593 Southern Miss/North Florida under 163.5 -120
 2025-11-22,CFB,side,Colorado State +30.5,10.5 -120,,,17861.0,14789.03,CFB 161 Colorado State +30.5 -120
-2025-11-22,CFB,side,Pittsburgh,4.5 -115,,,4375.0,3970.44,CFB 141 Pittsburgh -9.5 -115 
-2025-11-22,CFB,total,Illinois/Wisconsin,u21.5 -121,u20.5 -120,14.0,1382.77,1191.2,CFB 192 Illinois/Wisconsin under 38.5 -121 
+2025-11-22,CFB,side,Pittsburgh,4.5 -115,,,4375.0,3970.44,CFB 141 Pittsburgh -9.5 -115
+2025-11-22,CFB,total,Illinois/Wisconsin,u21.5 -121,u20.5 -120,14.0,1382.77,1191.2,CFB 192 Illinois/Wisconsin under 38.5 -121
 2025-11-22,CBB,total,UT Arlington/Weber State,u79.5 -110,u78 -115,27.5,6305.36,-6305.36,CBB 627 UT Arlington/Weber State under 139.5 -110
-2025-11-22,CFB,total,Tennessee/Florida,u26.5 -122,u24.5 -120,28.0,7929.0,6875.01,CFB 137 Tennessee/Florida under 57.5 -122 
-2025-11-25,CBB,total,Towson/Liberty,u72.5 -115,u70 -110,32.5,2467.01,2105.88,"CBB 653 Towson/Liberty under 145.5 -113 for LIVE, rampage"
-2025-11-25,CBB,side,Towson +4.5,3.5 -120,2 -110,20.0,2467.01,2105.88,"CBB 653 Towson +4.5 -120 for LIVE, rampage"
-2025-11-25,CBB,side,Rutgers +15.5,3.5 -125,1.5 -110,25.0,4174.87,3436.09,"CBB 661 Rutgers +15.5 -125 for LIVE, rampage"
+2025-11-22,CFB,total,Tennessee/Florida,u26.5 -122,u24.5 -120,28.0,7929.0,6875.01,CFB 137 Tennessee/Florida under 57.5 -122
+2025-11-25,CBB,total,Towson/Liberty,u72.5 -115,u70 -110,32.5,2467.01,2105.88,"CBB 653 Towson/Liberty under 145.5 -113 for LIVE,"
+2025-11-25,CBB,side,Towson +4.5,3.5 -120,2 -110,20.0,2467.01,2105.88,"CBB 653 Towson +4.5 -120 for LIVE,"
+2025-11-25,CBB,side,Rutgers +15.5,3.5 -125,1.5 -110,25.0,4174.87,3436.09,"CBB 661 Rutgers +15.5 -125 for LIVE,"
 2025-11-25,CBB,total,Rutgers/Notre Dame,u74.5 -120,u73.5 -110,5.0,4174.87,3436.09,CBB 661 Rutgers/Notre Dame under 134.5 -120
 2025-11-25,CBB,side,ECU +31.5,8.5 -114,6 -110,46.0,1300.0,984.85,CBB 602 ECU +31.5 -114
-2025-11-25,CBB,total,Pacific/Jacksonville,u70.5 -120,u68 -110,27.5,5292.5,-5292.5,CBB 651 Pacific/Jacksonville under 118.5 -120 
-2025-11-25,CBBExtra,total,East Texas/Army,o74.5 -118,o78 -110,44.5,792.01,-792.01,CBBExtra 306539 East Texas/Army over 156.5 -118 
-2025-11-25,CBB,total,San Jose State/Tulsa,u79.5 -110,u76.5 -110,45.0,1495.0,1400.0,CBB 679 San Jose State/Tulsa under 79.5 -110 
-2025-11-25,CBB,total,Rhode Island/Vermont,u79.5 -120,u75 -110,57.5,860.0,-860.0,CBB 655 Rhode Island/Vermont under 144.5 -120 
-2025-11-25,CBB,total,NC State/Boise State,u80.5 -120,u78.5 -110,20.0,10944.08,-10944.08,CBB 683 NC State/Boise State under 142.5 -120 
+2025-11-25,CBB,total,Pacific/Jacksonville,u70.5 -120,u68 -110,27.5,5292.5,-5292.5,CBB 651 Pacific/Jacksonville under 118.5 -120
+2025-11-25,CBBExtra,total,East Texas/Army,o74.5 -118,o78 -110,44.5,792.01,-792.01,CBBExtra 306539 East Texas/Army over 156.5 -118
+2025-11-25,CBB,total,San Jose State/Tulsa,u79.5 -110,u76.5 -110,45.0,1495.0,1400.0,CBB 679 San Jose State/Tulsa under 79.5 -110
+2025-11-25,CBB,total,Rhode Island/Vermont,u79.5 -120,u75 -110,57.5,860.0,-860.0,CBB 655 Rhode Island/Vermont under 144.5 -120
+2025-11-25,CBB,total,NC State/Boise State,u80.5 -120,u78.5 -110,20.0,10944.08,-10944.08,CBB 683 NC State/Boise State under 142.5 -120
 2025-11-25,CBB,total,Samford/Georgia State,u78.5 -115,u76.5 -110,25.0,7112.0,6155.95,CBB 605 Samford/Georgia State under 147.5 -115
-2025-11-25,CBB,side,Georgia State +9.5,4.5 -115,1.5 -110,55.0,7112.0,6155.95,CBB 606 Georgia State +9.5 -115 
-2025-11-25,CBB,total,Kansas/Syracuse,u75.5 -115,u74.5 -110,10.0,5575.0,4148.83,CBB 665 Kansas/Syracuse under 134.5 -115 
+2025-11-25,CBB,side,Georgia State +9.5,4.5 -115,1.5 -110,55.0,7112.0,6155.95,CBB 606 Georgia State +9.5 -115
+2025-11-25,CBB,total,Kansas/Syracuse,u75.5 -115,u74.5 -110,10.0,5575.0,4148.83,CBB 665 Kansas/Syracuse under 134.5 -115
 2025-11-25,CBB,total,UTEP/UAB,u78.5 -115,u77.5 -115,15.0,3436.87,2947.86,CBB 607 UTEP/UAB under 149.5 -115
 2025-11-25,CBB,total,Kennesaw St/Oral Roberts,u87.5 -114,u86 -115,23.5,7138.68,-7138.68,CBB 609 Kennesaw St/Oral Roberts under 158.5 -115
 2025-11-25,CFB,total,Bowling Green/Mass,o20.5 -135,o22.5 -110,5.0,4508.0,-2408.0,CFB 303 Bowling Green/Mass over 62.5 -135
 2025-11-25,CFB,total,Bowling Green/Mass,u23.5 -110,u22.5 -110,15.0,4508.0,-2408.0,CFB 303 Bowling Green/Mass under 65.5 -110
 2025-11-25,CBB,total,Utah Velly/South Dakota,u79.5 -118,u78.5 -110,7.0,6248.0,5316.87,CBB 611 Utah Velly/South Dakota under 132.5 -118
 2025-11-25,CBBextra,total,MTS/Mcneese State,u78.5 -115,u74.5 -110,55.0,6001.5,5023.67,CBBextra 306541 MTS/Mcneese State under 140.5 -115
-2025-11-25,CBB,total,Ohio/Loyola Marymont,o74.5 -120,o78 -110,42.5,1800.0,-1800.0,CBB 691 Ohio/Loyola Marymont over 137.5 -120 
+2025-11-25,CBB,total,Ohio/Loyola Marymont,o74.5 -120,o78 -110,42.5,1800.0,-1800.0,CBB 691 Ohio/Loyola Marymont over 137.5 -120
 2025-11-25,CBB,total,Seton Hall/USC,o75.5 -115,o80 -110,62.5,2435.0,2106.8599999999997,CBB 685 Seton Hall/USC over 155.5 -115
 2025-11-25,CBB,total,St Bonnies/UNC,u81.5 -115,u80.5 -110,10.0,1500.0,-1500.0,CBB 614 St Bonnies/UNC under 149.5 -115
-2025-11-25,CBB,side,St Bonnies +8.5,6.5 -115,5.5 -110,15.0,1500.0,-1500.0,CBB 613 St Bonnies +8.5 -115 
-2025-11-25,CBB,side,UNC,-4.5 -115,-5.5 -110,15.0,1500.0,-1500.0,CBB 614 UNC -6.5 -115 
+2025-11-25,CBB,side,St Bonnies +8.5,6.5 -115,5.5 -110,15.0,1500.0,-1500.0,CBB 613 St Bonnies +8.5 -115
+2025-11-25,CBB,side,UNC,-4.5 -115,-5.5 -110,15.0,1500.0,-1500.0,CBB 614 UNC -6.5 -115
 2025-11-25,CBB,total,Cali Baptist/San Diego,u80.5 -120,u79 -110,12.5,360.0,300.0,CBB 617 Cali Baptist/San Diego under 159.5 -120
-2025-11-25,CBB,total,St Marys/Ohio State,u80.5 -110,u78 -110,37.5,6675.0,-6675.0,CBB 615 St Marys/Ohio State under 158.5 -110 
-2025-11-25,CBBextra,total,Tennessee State/NC Asheville,u87.5 -121,u84.5 -110,34.0,313.12,258.78,CBBextra 306545 Tennessee State/NC Asheville under 161.5 -121 
+2025-11-25,CBB,total,St Marys/Ohio State,u80.5 -110,u78 -110,37.5,6675.0,-6675.0,CBB 615 St Marys/Ohio State under 158.5 -110
+2025-11-25,CBBextra,total,Tennessee State/NC Asheville,u87.5 -121,u84.5 -110,34.0,313.12,258.78,CBBextra 306545 Tennessee State/NC Asheville under 161.5 -121
 2025-11-25,CBBExtra,total,HC/Bellarmine,u77.5 -115,u76.5 -110,10.0,6486.37,5603.82,CBBExtra 306559 HC/Bellarmine under 150.5 -115
-2025-11-25,CBB,total,Old Dominion/Villanova,u79.5 -124,u77 -110,23.5,738.86,-738.86,CBB 629 Old Dominion/Villanova under 155.5 -124 
-2025-11-25,CBB,total,Campbell/Wake Forest,u85.5 -120,u82 -110,42.5,413.0,344.17,CBB 623 Campbell/Wake Forest under 158.5 -120 
-2025-11-25,CBB,total,Quinnipiac/UCF,o83.5 -120,o87.5 -110,50.0,4030.2,3488.09,CBB 625 Quinnipiac/UCF over 182.5 -120 
+2025-11-25,CBB,total,Old Dominion/Villanova,u79.5 -124,u77 -110,23.5,738.86,-738.86,CBB 629 Old Dominion/Villanova under 155.5 -124
+2025-11-25,CBB,total,Campbell/Wake Forest,u85.5 -120,u82 -110,42.5,413.0,344.17,CBB 623 Campbell/Wake Forest under 158.5 -120
+2025-11-25,CBB,total,Quinnipiac/UCF,o83.5 -120,o87.5 -110,50.0,4030.2,3488.09,CBB 625 Quinnipiac/UCF over 182.5 -120
 2025-11-25,CBB,total,CS Bakersfield/Florida State,o82.5 -115,o83.5 -110,10.0,345.0,300.0,CBB 627 CS Bakersfield/Florida State over 141.5 -115
-2025-11-25,CBB,total,GMU/FAU,u76.5 -120,u74 -110,27.5,360.0,300.0,CBB 693 GMU/FAU under 141.5 -120 
+2025-11-25,CBB,total,GMU/FAU,u76.5 -120,u74 -110,27.5,360.0,300.0,CBB 693 GMU/FAU under 141.5 -120
 2025-11-25,CBB,total,Temple/Princeton,u78.5 -120,u76 -110,27.5,2400.0,-2400.0,CBB 659 Temple/Princeton under 146.5 -120
 2025-11-25,CBB,total,Murray State/GWU,o86.5 -115,o89 -110,32.5,1300.0,1048.39,CBB 631 Murray State/GWU over 174.5 -115
 2025-11-25,CBBExtra,total,South Carolina State/Missouri,o78.5 -115,o85.5 -110,100.0,8998.37,7168.51,CBBExtra 306569 South Carolina State/Missouri over 163.5 -115
-2025-11-25,CBB,total,Eastern Washington/North Texas,o72.5 -115,o75.5 -110,40.0,1700.0,1436.52,CBB 633 Eastern Washington/North Texas over 135.5 -115 
+2025-11-25,CBB,total,Eastern Washington/North Texas,o72.5 -115,o75.5 -110,40.0,1700.0,1436.52,CBB 633 Eastern Washington/North Texas over 135.5 -115
 2025-11-25,CBBExtra,total,MVS/Texas AnM,o79.5 -115,o82.5 -110,40.0,1900.0,1570.13,CBBExtra 306571 MVS/Texas AnM over 166.5 -115
-2025-11-25,CBBExtra,total,Winthrop/Nebraska,u86.5 -120,u86 -110,-2.5,1765.0,1508.15,CBBExtra 306573 Winthrop/Nebraska under 154.5 -120 
+2025-11-25,CBBExtra,total,Winthrop/Nebraska,u86.5 -120,u86 -110,-2.5,1765.0,1508.15,CBBExtra 306573 Winthrop/Nebraska under 154.5 -120
 2025-11-25,CBB,total,Washington State/Arizona State,u83.5 -115,u81.5 -110,25.0,3875.37,-3875.37,CBB 687 Washington State/Arizona State under 173.5 -115
-2025-11-26,CBB,side,Vanderbilt,-7.5 -120,-9 -110,-81.0,7979.0,-7979.0,"CBB 758 Vanderbilt -12.5 -120 for LIVE, rampage"
+2025-11-26,CBB,side,Vanderbilt,-7.5 -120,-9 -110,-81.0,7979.0,-7979.0,"CBB 758 Vanderbilt -12.5 -120 for LIVE,"
 2025-11-26,CBB,total,Toledo/Belmont,u87.5 -115,u85.5 -110,25.0,6642.37,-6642.37,CBB 779 Toledo/Belmont under 156.5 -115
 2025-11-26,CBB,total,App State/Mercer,u74.5 -120,u73.5 -110,5.0,3783.73,-3783.73,CBB 713 App State/Mercer under 129.5 -120
 2025-11-26,CBB,total,Illinois Chicago/Robert Morris,u81.5 -125,u78.5 -110,30.0,4550.0,-4550.0,CBB 709 Illinois Chicago/Robert Morris under 160.5 -125
 2025-11-26,CBB,total,Wofford/No Kentucky,o80.5 -108,o82 -110,24.5,3970.04,3584.17,CBB 717 Wofford/No Kentucky over 168.5 -108
-2025-11-26,CBB,total,San Jose State/Loyola Chicago,u72.5 -115,u70.5 -115,30.0,2849.4,2470.82,CBB 789 San Jose State/Loyola Chicago under 132.5 -115 
+2025-11-26,CBB,total,San Jose State/Loyola Chicago,u72.5 -115,u70.5 -115,30.0,2849.4,2470.82,CBB 789 San Jose State/Loyola Chicago under 132.5 -115
 2025-11-26,CBB,total,Neb omaha/FIU,u85.5 -115,u83 -100,22.5,1000.0,869.57,CBB 715 Neb omaha/FIU under 154.5 -115
-2025-11-26,CBB,total,USC/Arizona State,u85.5 -110,u85.5 -110,0.0,1250.0,1136.3600000000001,CBB 793 USC/Arizona State under 171.5 -110 
+2025-11-26,CBB,total,USC/Arizona State,u85.5 -110,u85.5 -110,0.0,1250.0,1136.3600000000001,CBB 793 USC/Arizona State under 171.5 -110
 2025-11-26,CBB,total,North Dakota State/Jacksonville State,u75.5 -114,u72.5 -110,41.0,2394.0,2100.0,CBB 719 North Dakota State/Jacksonville State under 131.5 -114
 2025-11-26,CBB,side,Jacksonville State +14.5,.5 -110,-1.5 -110,40.0,2394.0,2100.0,CBB 720 Jacksonville State +14.5 -110
 2025-11-26,CBB,total,Georgia State/New Mexico State,o71.5 -115,o73.5 -110,25.0,3495.0,-3495.0,CBB 721 Georgia State/New Mexico State over 136.5 -115
-2025-11-26,CBB,total,VCU/South Florida,u89.5 -115,u89 -110,2.5,2344.0,2069.57,CBB 759 VCU/South Florida under 158.5 -115 
+2025-11-26,CBB,total,VCU/South Florida,u89.5 -115,u89 -110,2.5,2344.0,2069.57,CBB 759 VCU/South Florida under 158.5 -115
 2025-11-26,CBB,total,Notre Dame/Houston,u71.5 -125,u69 -105,17.5,750.0,600.0,CBB 767 Notre Dame/Houston under 135.5 -125
 2025-11-26,CBB,total,Samford/Utah Valley,u77.5 -120,u75.5 -110,20.0,3000.0,-3000.0,CBB 729 Samford/Utah Valley under 133.5 -120
 2025-11-26,CBB,side,Utah Valley,1.5 -122,.5 -110,8.0,3000.0,-3000.0,CBB 730 Utah Valley -26.5 -122
-2025-11-26,CBB,total,Sam Houston/Idaho State,o75.5 -120,o78 -115,32.5,2207.0,1859.96,CBB 733 Sam Houston/Idaho State over 147.5 -120 
-2025-11-26,CBBExtra,total,Houston Christian/The Citadel,u74.5 -120,o73 -110,12.5,206.73,172.28,CBBExtra 306601 Houston Christian/The Citadel under 141.5 -120 
+2025-11-26,CBB,total,Sam Houston/Idaho State,o75.5 -120,o78 -115,32.5,2207.0,1859.96,CBB 733 Sam Houston/Idaho State over 147.5 -120
+2025-11-26,CBBExtra,total,Houston Christian/The Citadel,u74.5 -120,o73 -110,12.5,206.73,172.28,CBBExtra 306601 Houston Christian/The Citadel under 141.5 -120
 2025-11-26,CBB,total,East Michigan,u78.5 -115,u75 -105,42.5,1666.0,1459.12,CBB 741 East Michigan under 137.5 -115
 2025-11-26,CBB,total,Pepperdine/Fresno State,u80.5 -110,u78 -110,37.5,3900.0,3427.27,CBB 739 Pepperdine/Fresno State under 142.5 -110
-2025-11-26,CBB,total,Kansas/Tennesee,o73.5 -120,o74.5 -110,5.0,4225.0,3589.26,CBB 773 Kansas/Tennesee over 148.5 -120 
+2025-11-26,CBB,total,Kansas/Tennesee,o73.5 -120,o74.5 -110,5.0,4225.0,3589.26,CBB 773 Kansas/Tennesee over 148.5 -120
